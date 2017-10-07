@@ -1,6 +1,6 @@
  <!-- Portfolio Modals -->
- {% for work in site.works %}
-    <div class="portfolio-modal modal fade" id="portfolioModal-{{ work.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+ {% for post in site.posts %}
+    <div class="portfolio-modal modal fade" id="blogsModal-{{ post.modal-id }}" id="stack2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -12,21 +12,21 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ work.title }}</h2>
+                            <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ work.img2 }}" class="img-responsive img-centered" alt="{{ work.alt }}">
-                            <p>{{ work.description }}</p>
+                            <img src="img/portfolio/{{ work.img }}" class="img-responsive img-centered" alt="{{ work.alt }}">
+                            <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ work.client }}</a>
+                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ work.project-date }}</a>
+                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
                                     </strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ work.category }}</a>
+                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
                                     </strong>
                                 </li>
                             </ul>

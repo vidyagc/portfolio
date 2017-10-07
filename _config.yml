@@ -1,4 +1,7 @@
 # Site settings
+
+# https://jekyllrb.com/docs/pagination/
+
 title: Freelancer
 email: your-email@domain.com
 url: https://example.github.io
@@ -6,6 +9,10 @@ description: "Write an awesome description for your new site here. You can edit 
 keywords: "your keywords, separated by commas"
 skills: "Web Developer - Graphic Artist - User Experience Designer"
 meta_author: LastName FirstName
+
+collections:
+  works:
+    # output: true
 
 # Google webmaster tools
 google_verify:
@@ -25,10 +32,10 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 0da5a5 #80B3FF
+  primary-rgb: "13, 165, 165" #"24,288,156" #"128,179,255"
+  secondary: 07335e #2c3e50
+  secondary-dark: 052646 #233140
 
 # Footer settings
 footer:
@@ -43,8 +50,8 @@ social:
     url: http://twitter.com/jekyllrb
   - title: facebook
     url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+  # - title: stack-overflow
+  #   url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github

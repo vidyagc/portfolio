@@ -1,0 +1,29 @@
+   <div class="portfolio-modal modal fade" id="blogsArchive" id="stack1" tabindex="-1" role="dialog" aria-hidden="true">
+
+<!-- taking out portfolio-modal makes it shorter vertically -->
+
+<div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+            <div class="rl">
+            </div>
+        </div>
+    </div>
+
+    <div class="container" data-backdrop="false">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+
+                  {% for post in site.posts %}
+                    <a href="#blogsModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal"> <h2>{{ post.title }}</h2></a>
+                {% endfor %}
+
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
