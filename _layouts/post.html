@@ -1,0 +1,44 @@
+{% include head.html %}
+    <body id="page-top" class="index">
+    {% include nav-page.html %}
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                      <div class="post-header">
+                        <h4>{{ page.title }}</h4>
+                        <hr>
+                        <p>{{ page.introduction }}</p>
+                        <hr>
+                      </div>
+                      
+                      <div class="post-content">
+                      {{ content }}
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+
+<!--<section class="post--content">-->
+<!--  {% if page.date %}-->
+<!--  <p class="post--date">{{ page.date | date_to_string }}</p>-->
+
+<!--  <h1>{{ page.title }}</h1>-->
+<!--  <p>{{ page.introduction }}</p>-->
+<!--{% endif %}-->
+
+<!--  {{ content }}-->
+<!--</section>-->
+
+
+
+<!-- Disqus -->
+{% if site.theme_settings.disqus_shortname %}
+<div class="comments">
+  {% include disqus.html %}
+</div>
+{% endif %}
+
+    {% include footer.html %}
+    {% include js.html %}

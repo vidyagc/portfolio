@@ -1,29 +1,40 @@
-   <div class="portfolio-modal modal fade" id="blogsArchive" id="stack1" tabindex="-1" role="dialog" aria-hidden="true">
+<section id="blog">
 
-<!-- taking out portfolio-modal makes it shorter vertically -->
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2>Blog</h2>
+              <hr class="star-primary">
+          </div>
+      </div>
+      <div class="row">
 
-<div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-            <div class="rl">
-            </div>
-        </div>
-    </div>
+        {% for post in site.posts %} <!--limit:2-->
+          {% if post.featured == true %}
+        <a href="{{site.baseurl}}{{ post.url }}">
+        
+              <div class="caption">
+                  <div class="caption-content">
+              </div>
+              <h3>{{ post.title }}</h3>
+          </a>
+          {% endif %}
+        {% endfor %}
 
-    <div class="container" data-backdrop="false">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <div class="modal-body">
+      <!--<a href="{{site.baseurl}}/archive/">-->
+      <!--<a href="#blogsArchive" data-toggle="modal">-->
+      <!--    <h2>Archive</h2>-->
+      <!--</a>-->
 
-                  {% for post in site.posts %}
-                    <a href="#blogsModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal"> <h2>{{ post.title }}</h2></a>
-                {% endfor %}
+        <!-- {% assign post = site.postvs.first %}
+        <h2>{{post.title}}</h2> -->
 
-                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+          <!-- {% for post in site.posts %}
+            {% if post.featured == true %}
+              <h2>{{post.title}}</h2>
+            {% endif %}
+          {% endfor %} -->
+      </div>
+  </div>
 
-</div>
+</section>

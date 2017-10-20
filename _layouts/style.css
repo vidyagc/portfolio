@@ -1,2 +1,85 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+
+.btn-success{color:#0da5a5;background-color:#ffffff;border-color:#ffffff}.btn-success:hover,.btn-success:focus,.btn-success:active,.btn-success.active,.open>.dropdown-toggle.btn-success{color:#098383;background-color:#cfeded;border-color:#bad5d5}.btn-success:active,.btn-success.active,.open>.dropdown-toggle.btn-success{background-image:none}.btn-success.disabled,.btn-success[disabled],fieldset[disabled] .btn-success,.btn-success.disabled:hover,.btn-success[disabled]:hover,fieldset[disabled] .btn-success:hover,.btn-success.disabled:focus,.btn-success[disabled]:focus,fieldset[disabled] .btn-success:focus,.btn-success.disabled:active,.btn-success[disabled]:active,fieldset[disabled] .btn-success:active,.btn-success.disabled.active,.btn-success[disabled].active,fieldset[disabled] .btn-success.active{background-color:#0da5a5;border-color:#0da5a5}.btn-success .badge{color:#0da5a5;background-color:#ffffff}
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Read more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Read less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #fff;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+.about-font {
+    color: #f5e013;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: .5em;
+}
+
+.img-padded {
+   padding: 4.25cm 0 38px 0;
+}
+
+.work-header {
+  text-align: center;
+  padding-bottom: 42px;
+}
+
+.work-header h4 {
+  color: #ec8013
+}
+
+.post-header h4 {
+  padding-top: 4.25cm;
+  color: #ec8013;
+  margin-top: 0;
+}
+
+.post-header hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.post-header p {
+  font-size: 18px;
+}
+
+.post-content {
+  margin-top: 1cm;
+}

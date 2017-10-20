@@ -2,17 +2,22 @@
 
 # https://jekyllrb.com/docs/pagination/
 
-title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+title: Dragonfly D&D
+heading: Dragonfly
+email: vidyagc16@gmail.com
+url: http://portfolio-vrc17.c9users.io:8080/
+description: "Web design and development by Vidya Neni. Offering services small and large businesses - commercial entities, nonprofits, artists, musicians, and more."
+keywords: "web design, development, vidya neni, twin cities, minnesota, nonprofit, wordpress"
+skills: "Design & Development - sites that are beautiful, agile, and fast - by Vidya Neni" # <strong>D</strong>esign & <strong>D</strong>
+meta_author: Neni Vidya
 
 collections:
   works:
-    # output: true
+    output: true
+    permalink: /:collection/:name
+
+work_order:
+  - '/id'
 
 # Google webmaster tools
 google_verify:
@@ -39,8 +44,8 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: Vidya Neni
+  location: Twin Cities Minnesota
   social: Around the Web
   credits: Credits
 

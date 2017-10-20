@@ -9,12 +9,12 @@
                 </div>
             </div>
             <div class="row">
-                {% for work in site.works limit:3 %}
+                 {% for work in site.works %}
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-{{ work.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <a href="{{site.baseurl}}{{ work.url }}">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
                                 </div>
                             </div>
                             <img src="img/portfolio/{{ work.img }}" class="img-responsive" alt="{{ work.alt }}">

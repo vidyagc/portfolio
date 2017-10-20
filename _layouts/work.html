@@ -1,0 +1,23 @@
+{% include head.html %}
+    <body id="page-top" class="index">
+    {% include nav-page.html %}
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                            <img src="../img/portfolio/{{ page.img2 }}" class="img-responsive img-centered img-padded" alt="{{ page.alt }}">
+                            <div class="work-header">
+                                <h4>{{ page.project-name }}</h4><h5>{{ page.description }}</h5>
+                                <ul class="list-inline item-details">
+                                    <li>Project Date:
+                                        <strong>{{ page.project-date }}</strong>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+  {{ content }}
+            
+{% include footer.html %}
