@@ -1,6 +1,6 @@
 ---
 layout: work
-url: libertyhawk
+title: Liberty Hawk
 permalink: libertyhawk
 id: 3
 img: libertyhawk-400.png
@@ -11,5 +11,4 @@ project-name: Liberty Hawk
 client: Start Bootstrap
 category: Web Development
 description: 
-
 ---

@@ -5,11 +5,13 @@
 title: Dragonfly D&D
 heading: Dragonfly
 email: vidyagc16@gmail.com
-url: http://portfolio-vrc17.c9users.io:8080/
+url: http://www.dragonflydnd.com/
 description: "Web design and development by Vidya Neni. Offering services small and large businesses - commercial entities, nonprofits, artists, musicians, and more."
 keywords: "web design, development, vidya neni, twin cities, minnesota, nonprofit, wordpress"
 skills: "Design & Development - sites that are beautiful, agile, and fast - by Vidya Neni" # <strong>D</strong>esign & <strong>D</strong>
 meta_author: Neni Vidya
+
+# site.pages.title: page.title '| DragonflyD&D'
 
 collections:
   works:
