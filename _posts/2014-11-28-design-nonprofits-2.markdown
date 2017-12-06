@@ -65,7 +65,8 @@ This topic was presented by Scott Anderson from Room 34. His handout laid out Th
 <h5><span class="sub-point">5.</span> Cost</h5>
 <div class="page-content-text">
 <span class="highlight-line">Plan integrations finacially and think about the future.</span> You might not be able to get all of the functionality you want at once. In that case, do the MVP (minimum viable product) up front, and plan the rest of the features in phases - three, six, or nine months out. As discussed in the Room 34 presentation link above, MVP is "absolute essential elements you would need for your website to accomplish its goals".  When considering the future of your site, plan for its maintenance. It should be easy to update for non-techies, so it can stay fresh between overhauls. As pointed out by Scott Anderson during Q&A, as part of a project, a developer should have training sessions, documentation, and make as much as possible on the site editable. 
-
+</div>
+<div class="page-content-text">
 <span class="highlight-line">Have a strategic technology plan.</span> You can make site overhauls part of a work plan, based on your tech budget, but a typical schedule is every three years. To this end, have a technology reserve fund to which you make monthly contributions. You can also seek grants to redesign your site. Having a techonolgy plan as part of a strategic plan will reinforce the importance of your technology.     
 </div>
 
