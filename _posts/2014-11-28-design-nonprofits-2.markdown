@@ -69,7 +69,7 @@ This topic was presented by Scott Anderson from Room 34. His handout laid out Th
 <span class="highlight-line">Have a strategic technology plan.</span> You can make site overhauls part of a work plan, based on your tech budget, but a typical schedule is every three years. To this end, have a technology reserve fund to which you make monthly contributions. You can also seek grants to redesign your site. Having a techonolgy plan as part of a strategic plan will reinforce the importance of your technology.     
 </div>
 
-<h5>I hope you found part 1 and 2 of this post useful. If you have any questions, feel free to contact me. Check back in January for another post on useful local (Twin Cities) resources for learning web development and maintenance technology. Cheers!</h5> 
+<h5>I hope you found parts 1 and 2 of this post useful. If you have any questions, feel free to contact me. Check back in January for another post on local (Twin Cities) resources for learning web development and maintenance technology. Cheers!</h5> 
 
 
 
