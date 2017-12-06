@@ -1,0 +1,14 @@
+---
+layout: post
+url: 2014-07-13-project-6
+date: 2014-07-13
+img: 
+alt: image-alt
+project-date: month 4-dig-year
+client: 
+category: 
+title: 
+#featured: true
+description: blog summary
+---
+

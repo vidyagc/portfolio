@@ -1,0 +1,79 @@
+# Site settings
+
+# https://jekyllrb.com/docs/pagination/
+
+title: Dragonfly D&D
+heading: Dragonfly
+email: vidyagc16@gmail.com
+url: https://vidyagc.github.io
+description: "Web design and development by Vidya Neni. Offering services to small and large organizations - commercial entities, nonprofits, artists, musicians, and more."
+keywords: "web design, development, vidya neni, twin cities, minnesota, nonprofit, wordpress"
+skills: "Design <span style='color: #f5e013; font-weight: bold'>&</span> Development - sites that are beautiful, agile, and fast - <span style='color: #f5e013; font-weight: bold'>by</span> Vidya Neni" # <strong>D</strong>esign & <strong>D</strong>
+meta_author: Neni Vidya
+
+# site.pages.title: page.title '| DragonflyD&D'
+
+highlighter: rouge
+
+collections:
+  works:
+    output: true
+    permalink: /:collection/:name
+
+work_order:
+  - '/id'
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 0da5a5 #80B3FF
+  primary-rgb: "13, 165, 165" #"24,288,156" #"128,179,255"
+  secondary: 07335e #2c3e50
+  secondary-dark: 052646 #233140
+
+# Footer settings
+footer:
+  copyright: Vidya Neni
+  location: Twin Cities Minnesota
+  social: Around the Web
+  copyright: Copyright
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 
+  - line: 
+
+# Copyright content
+copyright: '2017 Vidya Neni'
+
+# Build settings
+markdown: kramdown
+permalink: pretty

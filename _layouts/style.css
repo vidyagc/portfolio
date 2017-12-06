@@ -1,0 +1,207 @@
+{% include css/bootstrap.min.css %}
+{% include css/main.css %}
+
+.btn-success{color:#0da5a5;background-color:#ffffff;border-color:#ffffff}.btn-success:hover,.btn-success:focus,.btn-success:active,.btn-success.active,.open>.dropdown-toggle.btn-success{color:#098383;background-color:#cfeded;border-color:#bad5d5}.btn-success:active,.btn-success.active,.open>.dropdown-toggle.btn-success{background-image:none}.btn-success.disabled,.btn-success[disabled],fieldset[disabled] .btn-success,.btn-success.disabled:hover,.btn-success[disabled]:hover,fieldset[disabled] .btn-success:hover,.btn-success.disabled:focus,.btn-success[disabled]:focus,fieldset[disabled] .btn-success:focus,.btn-success.disabled:active,.btn-success[disabled]:active,fieldset[disabled] .btn-success:active,.btn-success.disabled.active,.btn-success[disabled].active,fieldset[disabled] .btn-success.active{background-color:#0da5a5;border-color:#0da5a5}.btn-success .badge{color:#0da5a5;background-color:#ffffff}
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Read more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Read less';
+}
+
+/*.read-task-state ~ .read-more-trigger:before {*/
+/*  content: 'Read more';*/
+/*}*/
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #fff;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+.read-task-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #fff;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+  content: test;
+}
+
+.about-font {
+    color: #f5e013;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: .5em;
+}
+
+.img-padded {
+   padding: 4.25cm 0 38px 0;
+}
+
+@media screen and (max-width: 414px) {
+  .img-padded {
+    padding: 2.25cm 0 38px 0;
+  }
+}
+
+#post-intro {
+  font-size: 1em;
+}
+
+.highlight-line {
+  font-style: italic;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.work-header {
+  text-align: center;
+  padding-bottom: 42px;
+}
+
+.work-header h3 {
+  color: #ec8013;
+  text-transform: capitalize !important;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.page-content h4 {
+  color: #ec8013;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.li-col {
+  color: 07335e;
+}
+
+.page-content-text {
+  font-size: large !important;
+  margin-bottom: .75cm;
+}
+
+.page-content-text ul li {
+  list-style-position: outside;
+}
+
+.thing {
+  color: #ec8013;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 5px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.terms {
+  border-radius: 3px;
+  padding: 1.5px 3px 1.5px 3px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border: 1px solid	#E0E0E0;
+  font-family: "Courier New", Courier, monospace !important;
+  font-size: medium;
+  background-color: #F5F5F5;
+  
+}
+
+.work-header hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.post-header h4 {
+  padding-top: 4.25cm;
+  color: #ec8013;
+  margin-top: 0;
+}
+
+.post-header hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.post-header p {
+  font-size: 18px;
+}
+
+.post-content {
+  margin-top: 1cm;
+  margin-bottom: 1.5cm;
+}
+
+.page-content {
+  margin-bottom: 1.5cm;
+}
+
+.task-btn {
+  background-color: #fff;
+  color: #333;
+  border-color: #ccc;
+}
+
+.hide-btn {
+  color: #fff;
+  background-color: #33b5e5;
+  border-color: darken(#33b5e5, 5%);
+}
+
+.sub-head {
+  color: #0da5a5;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.sub-point {
+  color: #ec8013;
+  padding-right: 5px;
+}
+
+ol li { padding-left: 10px  }
+
+.file-path {
+  width: 100%; 
+  background-color:#F8F8F8; 
+  border: 1px solid #C0C0C0; 
+  border-bottom: none; 
+  padding: 3px 0 3px 9px;
+}

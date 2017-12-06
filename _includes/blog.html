@@ -1,0 +1,27 @@
+<section id="blog">
+
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2>Blog</h2>
+              <hr class="star-primary">
+          </div>
+      </div>
+      <div class="row">
+<div class="col-lg-6">
+        {% for post in site.posts %} <!--limit:2-->
+          {% if post.featured == true %}
+        <a href="{{site.baseurl}}{{ post.url }}">
+        
+              <div class="caption">
+                  <div class="caption-content">
+              </div>
+              <h3>{{ post.title }}</h3>
+          </a>
+          {% endif %}
+        {% endfor %}
+
+      </div>
+  </div>
+
+</section>

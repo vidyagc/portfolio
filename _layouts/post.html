@@ -1,0 +1,25 @@
+{% include head.html %}
+<body>
+    {% include nav-page.html %}
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                      <div class="post-header">
+                        <h4>{{ page.title }}</h4>
+                        <hr>
+                        <p id="post-intro">{{ page.introduction }}</p>
+                        <hr>
+                      </div>
+                      
+                      <div class="post-content page-content">
+                      {{ content }}
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+    {% include footer.html %}
+    {% include js.html %}
+    
+</body>
