@@ -2,7 +2,7 @@
 url: 2017-11-28-design-nonprofits-2
 layout: post
 date: 2017-11-28
-img: 
+<!--img: wikit-400.png-->
 alt: image-alt
 client: 
 category: 
