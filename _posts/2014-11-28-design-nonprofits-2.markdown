@@ -20,7 +20,7 @@ introduction: On November 28th, the Minnesota Council of Nonprofits and Internat
 <li><span class="li-col">The MVP - Minimum Viable Product, Phases, and Other Ways to Keep Your Budget on Track</span></li> 
 <li><span class="li-col">The “Goldilocks” Way - This Developer Is Just Right</span></li>
 </ol>
-
+<div style="margin-bottom:.75cm"></div>
 This topic was presented by Scott Anderson from Room 34. His handout laid out Things one through five really well, and copying the material here would be repetitive. Instead, you can look it over on <a href="https://do4.room34.com/transfer/mcn/Room34_MCN_Presentation_20171128_single.pdf" target="_blank"><u>Room 34</u></a>. I highly encourge reading through it. It covers key points of choosing and engaging with a developer.  
 </div>
 <div class="page-content-text">
