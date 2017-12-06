@@ -150,6 +150,12 @@
   margin-top: 0;
 }
 
+@media screen and (max-width: 414px) {
+  .post-header h4 {
+    padding-top: 2.25cm;
+  }
+}
+
 .post-header hr {
     display: block;
     margin-top: 0.5em;
