@@ -30,7 +30,7 @@ introduction: On November 28th, the Minnesota Council of Nonprofits and Internat
 
 <h5><span class="sub-point">2.</span> Balancing Goals</h5>
 <div class="page-content-text">
-<span class="highlight-line">What do visitors want, and what do you want?</span> Vistors may want contact information or services, and you want people to self-serve on the site or make donations. Some other common organizational wants include making the site easy to find, friendly across devices, and discoverable by search engines. When assessing audience wants, keep in mind that your staff is (generally) not your target audience. Seek direct feedback from your audience, and/or use Google analytics to see what people are doing on your current site. Direct feedback can come in several forms. 
+<span class="highlight-line">What do visitors want, and what do you want?</span> Vistors may want contact information or services, and you want people to self-serve on the site or make donations. Some other common organizational goals include making the site easy to find, friendly across devices, and discoverable by search engines. When assessing audience wants, keep in mind that your staff is (generally) not your target audience. Seek direct feedback from your audience, and/or use Google analytics to see what people are doing on your current site. Direct feedback can come in several forms. 
 </div>
 
 <div class="page-content-text">
