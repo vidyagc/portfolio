@@ -42,11 +42,11 @@ From my own experience, I work with a performing arts nonprofit that does an aud
 <span class="highlight-line">Have a simple, mobile friendly design that conveys your brand.</span> A key principle is to <b>not</b> try to show the audience everything at once. Instead, consider what you want people to see first, and then what you want to guide them towards. Consider how user flow will encourage donations or event attendance. The following are five starting points for your redesign. 
 <div style="margin-bottom:.25cm"></div>
 <ul>
-<li>Photos are important. And you can find them for free! A few sources are Unsplash, Creative Commons, and Getty Images.</li> 
-<li>Decide navigation. Do you want a lot of categories visible up front, or is deeper navigation more suitable to your goals and audience.</li> 
-<li>Maximize usability. Use analytics to determine how people are using your site and what their demographics are (where are referrals coming from).</li>
-<li>Plan for mobile. You can tell how many people are viewing your site on mobile via analytics.</li> 
-<li>Make it disability accessible. Use descriptive links or high contrast text for the visually impaired. Consider the colorblind or people who have trouble using their hands. You can also make it more useable for the deaf or non-English speakers.</li> 
+<li><i>Photos are important</i>. And you can find them for free! A few sources are Unsplash, Creative Commons, and Getty Images.</li> 
+<li><i>Decide navigation</i>. Do you want a lot of categories visible up front, or is deeper navigation more suitable to your goals and audience.</li> 
+<li><i>Maximize usability.</i> Use analytics to determine how people are using your site and what their demographics are (where are referrals coming from).</li>
+<li><i>Plan for mobile.</i> You can tell how many people are viewing your site on mobile via analytics.</li> 
+<li><i>Make it disability accessible.</i> Use descriptive links or high contrast text for the visually impaired. Consider the colorblind or people who have trouble using their hands. You can also make it more useable for the deaf or non-English speakers.</li> 
 </ul>
 </div>
 

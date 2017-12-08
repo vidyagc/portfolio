@@ -269,7 +269,7 @@ validates_attachment_content_type :image, content_type: /\Aimage\/.*\z/
 <div>&nbsp;</div>
 
 <div class="page-content-text">
-The image is attached (new or updated) and removed on the wiki edit view. A couple removal methods were tried, and the one that was kept allows the user to select removal in conjunction with updating the other wiki attributes. This implementation uses a checkbox in the wiki update form. <span class="terms">:remove_image</span> is a non-persistent field, and is used to flag removal of the attachment. 
+The image is attached (new or updated) and removed on the wiki edit view. A couple removal methods were tried, and the one that was kept allows the user to select removal in conjunction with updating the other wiki attributes. This implementation uses a checkbox in the wiki update form. <span class="terms">remove_image</span> is a non-persistent field, and is used to flag removal of the attachment. 
 </div>
 
 <div class="file-path">app/views/wikis/edit.html.erb</div>
@@ -286,7 +286,7 @@ The image is attached (new or updated) and removed on the wiki edit view. A coup
 <div>&nbsp;</div>
 
 <div class="page-content-text">
-<span class="terms">attr_accessor</span> is used in the <span class="terms">Wiki</span> model class to make this instance variable editable and readable. Then a method reference callback is used to update the wiki’s <span class="terms">image</span> attribute based on the value (checkbox checked or not checked) of <span class="terms">:remove_image</span>. <span class="terms">!image_updated_at_changed?</span> is used to determine if the user is trying to upload a new image while also checking <span class="terms">Remove Image</span>. In that case, <span class="terms">image</span> is not updated to <span class="terms">nil</span>.
+<span class="terms">attr_accessor</span> is used in the <span class="terms">Wiki</span> model class to make this instance variable editable and readable. Then a method reference callback is used to update the wiki’s <span class="terms">image</span> attribute based on the value (checkbox checked or not checked) of <span class="terms">remove_image</span>. <span class="terms">!image_updated_at_changed?</span> is used to determine if the user is trying to upload a new image while also checking <span class="terms">Remove Image</span>. In that case, <span class="terms">image</span> is not updated to <span class="terms">nil</span>.
 </div>
 
 <div class="file-path">app/models/wiki.rb</div>
@@ -355,7 +355,7 @@ end
 <div>&nbsp;</div>
 
 <div class="page-content-text">
-Finally, resource routing is used for the charges controller with the <span class="terms">:only</span> option to specify creating only the <span class="terms">:new</span> and <span class="terms">:create</span> routes. I then use the <span class="terms">:as</span> option to declare two custom routes for charges. 
+Finally, resource routing is used for the charges controller with the <span class="terms">only</span> option to specify creating only the <span class="terms">new</span> and <span class="terms">create</span> routes. I then use the <span class="terms">as</span> option to declare two custom routes for charges. 
 </div>
 
 <div class="file-path">config/routes.rb</div>
