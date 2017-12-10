@@ -103,6 +103,13 @@
 
 .li-col {
   color: 07335e;
+  font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:15px;line-height:1.42857143;
+  font-size: 1em;
+}
+
+.ol-blog {
+  color: #ec8013; 
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .page-content-text {

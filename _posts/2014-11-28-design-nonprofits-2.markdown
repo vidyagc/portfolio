@@ -13,16 +13,18 @@ introduction: On November 28th, the Minnesota Council of Nonprofits and Internat
 
 <h5><u>WORKING WITH A WEB DEVELOPER - 5 THINGS TO CONSIDER</u></h5>
 <div class="page-content-text">
-<ol style="color: #ec8013;">
+<ol class="ol-blog">
 <li><span class="li-col">Your Mission Comes First - Find a Developer Who Gets It</span></li>
 <li><span class="li-col">Consulting - Refine and Focus the Project</span></li> 
 <li><span class="li-col">Leverage - Don’t Reinvent the Wheel (or Any Other Tools)</span></li>
 <li><span class="li-col">The MVP - Minimum Viable Product, Phases, and Other Ways to Keep Your Budget on Track</span></li> 
 <li><span class="li-col">The “Goldilocks” Way - This Developer Is Just Right</span></li>
 </ol>
+
 <div style="margin-bottom:.75cm"></div>
 This topic was presented by Scott Anderson from Room 34. His handout laid out Things one through five really well, and copying the material here would be repetitive. Instead, you can look it over on <a href="https://do4.room34.com/transfer/mcn/Room34_MCN_Presentation_20171128_single.pdf" target="_blank"><u>Room 34</u></a>. I highly encourge reading through it. It covers key points of choosing and engaging with a developer.  
 </div>
+
 <div class="page-content-text">
 <span class="highlight-line">Thing 1 should be emphasized: a mission-driven developer can be key to success</span>. It is especially the case for organizations that will have trouble paying the industry standard minimum for a redesign ($2,000 for a barebones site using a prebuilt template). If you are seeking services for below standard rates, find someone who values what you do, and is willing to adjust their pricing because they support your mission, or because they consider your project good experience for them. Several of the nonprofits I work with pay contract staff less than market rates, or rely heavily on volunteers to complete their projects. The most reliable work comes from participants who share your desire for the organization to succeed, and value its work in the community. 
 </div>
@@ -30,7 +32,7 @@ This topic was presented by Scott Anderson from Room 34. His handout laid out Th
 <h5><u>REDESIGN - 5 THINGS I'VE LEARNED</u>
 <br>(Brooke Thomson at Annex Teen Clinic)</h5>
 <div class="page-content-text">
-<ol style="color: #ec8013;">
+<ol class="ol-blog">
 <li><span class="li-col">Audiences</span></li>
 <li><span class="li-col">Managing Expectations</span></li> 
 <li><span class="li-col">Approval / decision matrix / hierarchy</span></li>
