@@ -25,7 +25,7 @@ This topic was presented by Scott Anderson from Room 34. His handout laid out Th
 </div>
 
 <div class="page-content-text">
-<span class="highlight-line">Thing 1 should be emphasized: a mission-driven developer can be key to success</span>. It is especially the case for organizations that will have trouble paying the industry standard minimum for a redesign ($2,000 for a barebones site using a prebuilt template). If you are seeking services for below standard rates, find someone who values what you do, and is willing to adjust their pricing because they support your mission, or because they consider your project good experience for them. Several of the nonprofits I work with pay contract staff less than market rates, or rely heavily on volunteers to complete their projects. The most reliable work comes from participants who share your desire for the organization to succeed, and value its work in the community. 
+<span class="highlight-line">Thing 1 should be emphasized: a mission-driven developer can be key to success</span>. It is especially the case for organizations that will have trouble paying the industry standard minimum for a redesign ($2,000 for a barebones site using a prebuilt template). If you are seeking services for below standard rates, find someone who values what you do, and is willing to adjust their pricing because they support your mission, or because they consider your project good experience for them. Several of the nonprofits I work with pay contract staff less than market rates, or rely heavily on volunteers to complete their projects. The most reliable work comes from participants who share your desire for the organization to succeed, and value its role in the community. 
 </div>
 
 <h5><u>REDESIGN - 5 THINGS I'VE LEARNED</u>
@@ -48,7 +48,7 @@ This topic was presented by Scott Anderson from Room 34. His handout laid out Th
 
 <h5><span class="sub-point">2.</span> Managing Expectations</h5>
 <div class="page-content-text">
-<span class="highlight-line">What needs to be negotiated and how to negotiate?</span> After you have gotten you staff engaged in planning a redesign, you may need to mitigate expectations. During your brainstorming sessions, have a "why" behind the approval or denials of ideas.Everyone will have functionality or features they want to see on the site, but as The Stones' song goes, "No, you can't always get what you want".  Having cost examples ready for review is one way to help people understand why something will or won't work. Staff should also be made aware that project decisions require approval, and that approvers will have rationale for their choices. 
+<span class="highlight-line">What needs to be negotiated and how to negotiate?</span> After you have gotten you staff engaged in planning a redesign, you may need to mitigate expectations. During your brainstorming sessions, have a "why" behind the approval or denials of ideas. Everyone will have functionality or features they want to see on the site, but as the Stones' song goes, "No, you can't always get what you want".  Having cost examples ready for review is one way to help people understand why something will or won't work. Staff should also be made aware that project decisions require approval, and that approvers will have rationale for their choices. 
 </div>
 
 <h5><span class="sub-point">3.</span> Approval / decision matrix / hierarchy &</h5>
@@ -60,7 +60,7 @@ This topic was presented by Scott Anderson from Room 34. His handout laid out Th
 <span class="highlight-line">Who should be on your decision teams?</span> Your website may have more content than you realize. A content team could be necessary for managing it. Keep in mind, content teams should be people with their boots on the ground (working out your org's mission with its audience as opposed to a grant writer). Also, having a content team manager will help you maintain a consistent voice across the site. For testing teams, include you audience if you can. It goes without saying that they're the ultimate goal in making your site usable and useful.   
 </div>
 <div class="page-content-text">
-<span class="highlight-line">Do your homework!</span> Once roles and teams are assigned, prepare for your new tasks. There are many resources to help fill the knowlege gaps. There are countless online resources to help you form effective site testing cases or develop a project checklist. In the Twin Cities, there are many in person classes tech classes geared at nonprofits. Keep in mind that content creation and curation often will take longer than expected.    
+<span class="highlight-line">Do your homework!</span> Once roles and teams are assigned, prepare for your new tasks. There are many resources to help fill the knowlege gaps. This includes countless online resources to help you form effective test cases or develop a project checklist. In the Twin Cities, there are many in person classes geared at nonprofits. Also, keep in mind that content creation and curation often will take longer than expected.    
 </div>
 
 <h5><span class="sub-point">5.</span> Cost</h5>
