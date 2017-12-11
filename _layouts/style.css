@@ -209,7 +209,12 @@
   padding-right: 5px;
 }
 
-ol li { padding-left: 10px  }
+ol li { padding-left: 5px  }
+
+ol.task-list {
+  list-style-type: lower-roman;
+  padding-left: 10px;
+}
 
 .file-path {
   width: 100%; 

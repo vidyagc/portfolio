@@ -102,7 +102,7 @@ The following is a set of tasks and instructions that are recommened to cover al
 <div id="tab1show" class="tab-content">
 <h5 class="sub-head">TASK 1 – VIEW AND CREATE PUBLIC WIKIS</h5><span id="tab0" class="tab" style="margin-left:30px;"><button type="button" class="btn btn-sm btn-info hide-btn">Hide</button></span><br />
 <div style="margin-bottom:.25cm"></div>
-<ol type="i">
+<ol class="task-list">
 <li>Use either of the “Sign Up” links on the Home page to create an account. Note down the email address and password you enter, as they will need to be used again after a logout. This will be the <b>first</b> account you use.
 <ul>
 <li>By default, this is a free (Standard) account that allows creating public wikis</li>
@@ -120,7 +120,7 @@ The following is a set of tasks and instructions that are recommened to cover al
 <div id="tab2show" class="tab-content">
 <h5 class="sub-head">TASK 2 – CREATE PRIVATE WIKIS</h5><span id="tab0" class="tab" style="margin-left:30px;"><button type="button" class="btn btn-sm btn-info hide-btn">Hide</button></span><br />
 <div style="margin-bottom:.25cm"></div>
-<ol type="i">
+<ol class="task-list">
 
 <li>Use the “Upgrade” link in the top navigation bar OR on your “My Account” page to  upgrade to a Premium account.
 <ul>
@@ -147,7 +147,7 @@ The following is a set of tasks and instructions that are recommened to cover al
 <div id="tab3show" class="tab-content">
 <h5 class="sub-head">TASK 3 – ADD A COLLABORATOR TO A PRIVATE WIKI</h5><span id="tab0" class="tab" style="margin-left:30px;"><button type="button" class="btn btn-sm btn-info hide-btn">Hide</button></span><br />
 <div style="margin-bottom:.25cm"></div>
-<ol type="i">
+<ol class="task-list">
 <li>Log back into your <b>first</b> account.</li>
 <li>Use the “My Wikis” link to view your wikis, and click on the link for the private wiki you created.</li>
 <li>On the page for your private wiki, enter the email address for the <b>second</b> account you created, in the text box for “Add a Collaborator”. Then click “Submit a Collaborator”.</li>
@@ -158,7 +158,7 @@ The following is a set of tasks and instructions that are recommened to cover al
 <div id="tab4show" class="tab-content">
 <h5 class="sub-head">TASK 4 – EDIT  A WIKI AS A COLLABORATOR</h5><span id="tab0" class="tab" style="margin-left:30px;"><button type="button" class="btn btn-sm btn-info hide-btn">Hide</button></span><br />
 <div style="margin-bottom:.25cm"></div>
-<ol type="i">
+<ol class="task-list">
 <li>Log out of your account, and sign back in with your <b>second</b> account.</li>
 <li>Use the “Browse all Wikis” link to verify that you can see all public wikis AND the private wiki on which you are a collaborator.</li>
 <li>Use the “My Wikis” link to see the wiki on which you are a collaborator.</li>
@@ -169,7 +169,7 @@ The following is a set of tasks and instructions that are recommened to cover al
 <div id="tab5show" class="tab-content">
 <h5 class="sub-head">TASK 5 – DOWNGRADE AN ACCOUNT</h5><span id="tab0" class="tab" style="margin-left:30px;"><button type="button" class="btn btn-sm btn-info hide-btn">Hide</button></span><br />
 <div style="margin-bottom:.25cm"></div>
-<ol type="i">
+<ol class="task-list">
 <li>Log out of the <b>second</b> account, and log back in with your <b>first</b> account.</li>
 <li>Use the “My Account” link in the side menu to see your account page.</li>
 <li>Read the Downgrade Warning and click on the “Downgrade” button to downgrade your account back to Standard. You will have to click “OK” on a pop-up warning before the Downgrade is submitted.</li>
