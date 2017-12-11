@@ -22,6 +22,7 @@ introduction: On November 28th, the Minnesota Council of Nonprofits and Internat
 </ol>
 </div>
 
+<h5><span class="sub-point">1.</span> Do you need a full redesign?</h5>
 <div class="page-content-text">
 <span class="highlight-line">Step one, assess if your current site is a good foundation and what the best use of your org’s resources is.</span> If a complete redesign is not necessary or not in the budget, you can do “quick hits” or “sizeable updates”. Quick hits could include rewriting pages, making small changes to layout, adding disability access, or optimizing SEO (search engine optimization). If you are looking for more, you could do sizeable updates, including redesigning navigation, changing color scheme or fonts, or adding new functionality (e.g. member login, event registration capability, or customer relationship management software integration). Doing a navigation redesign<a name="balancing"></a> with a graphic redesign might be more in the realm of a complete redesign. 
 
