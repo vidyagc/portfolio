@@ -245,9 +245,13 @@ ol.task-list li {
 }
 
 a:link {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 nav a:link, section a:link {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
 }

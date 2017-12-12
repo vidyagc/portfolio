@@ -10,7 +10,7 @@ featured: true
 introduction: On November 28th, the Minnesota Council of Nonprofits and International Association of Business Communicators put on the "Nonprofit Communicators Workshop&#58; What Should We Expect from a Web Redesign? 15 Things to Know". Presenters from Idealware, Room 34, and Annex Teen Clinic discussed redesign from the perspectives of a technology consultant, developer, and nonprofit director. The presentations and Q&A session yielded great direction for orgs on three topics&#58; 1) redesign planning; 2) working with a developer; and 3) coordinating your staff’s role in the process. The discussion below is an overview of topics 2 and 3. See <a href="/2017/12/05/design-nonprofits-1">Design for Nonprofits (Part 1)</a> for topic 1.
 ---
 
-<h5><u>WORKING WITH A WEB DEVELOPER - 5 THINGS TO CONSIDER</u></h5>
+<h5>WORKING WITH A WEB DEVELOPER - 5 THINGS TO CONSIDER</h5>
 <div class="page-content-text">
 <ol class="ol-blog">
 <li><span class="li-col">Your Mission Comes First - Find a Developer Who Gets It</span></li>
@@ -28,7 +28,7 @@ This topic was presented by Scott Anderson from Room 34. His handout laid out Th
 <span class="highlight-line">Thing 1 should be emphasized: a mission-driven developer can be key to success</span>. It is especially the case for organizations that will have trouble paying the industry standard minimum for a redesign ($2,000 for a barebones site using a prebuilt template). If you are seeking services for below standard rates, find someone who values what you do, and is willing to adjust their pricing because they support your mission, or because they consider your project good experience for them. Several of the nonprofits I work with pay contract staff less than market rates, or rely heavily on volunteers to complete their projects. The most reliable work comes from participants who share your desire for the organization to succeed, and value its role in the community. 
 </div>
 
-<h5><u>REDESIGN - 5 THINGS I'VE LEARNED</u>
+<h5>REDESIGN - 5 THINGS I'VE LEARNED
 <br>(Brooke Thomson at Annex Teen Clinic)</h5>
 <div class="page-content-text">
 <ol class="ol-blog">
