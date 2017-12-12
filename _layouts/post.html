@@ -2,12 +2,11 @@
 <body  id="page-top" class="index">
     {% include nav-page.html %}
 
-            <div class="container">
+            <div class="container page">
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                       <div class="post-header">
-                        <h4>{{ page.title }}</h4>
-                        <!--<span style="float:right">{{page.date | date: '%B %d, %Y'}}</span>-->
+                        <h4><span id="post-date-m">{{ page.title }}</span> <div id="post-date">{{page.date | date: '%B %d, %Y'}}</div></h4>
                         <hr>
                         <p id="post-intro">{{ page.introduction }}</p>
                         <hr>
