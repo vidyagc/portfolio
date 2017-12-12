@@ -7,7 +7,7 @@ client:
 category: 
 title: Design for Nonprofits (Part 2)
 featured: true
-introduction: On November 28th, the Minnesota Council of Nonprofits and International Association of Business Communicators put on the "Nonprofit Communicators Workshop&#58; What Should We Expect from a Web Redesign? 15 Things to Know". Presenters from Idealware, Room 34, and Annex Teen Clinic discussed redesign from the perspectives of a technology consultant, developer, and nonprofit director. The presentations and Q&A session yielded great direction for orgs on three topics&#58; 1) redesign planning; 2) working with a developer; and 3) coordinating your staff’s role in the process. The discussion below is an overview of topics 2 and 3. See <a href="/2017/12/05/design-nonprofits-1"><u>Design for Nonprofits (Part 1)</u></a> for topic 1.
+introduction: On November 28th, the Minnesota Council of Nonprofits and International Association of Business Communicators put on the "Nonprofit Communicators Workshop&#58; What Should We Expect from a Web Redesign? 15 Things to Know". Presenters from Idealware, Room 34, and Annex Teen Clinic discussed redesign from the perspectives of a technology consultant, developer, and nonprofit director. The presentations and Q&A session yielded great direction for orgs on three topics&#58; 1) redesign planning; 2) working with a developer; and 3) coordinating your staff’s role in the process. The discussion below is an overview of topics 2 and 3. See <a href="/2017/12/05/design-nonprofits-1">Design for Nonprofits (Part 1)</a> for topic 1.
 ---
 
 <h5><u>WORKING WITH A WEB DEVELOPER - 5 THINGS TO CONSIDER</u></h5>
@@ -21,7 +21,7 @@ introduction: On November 28th, the Minnesota Council of Nonprofits and Internat
 </ol>
 
 <div style="margin-bottom:.75cm"></div>
-This topic was presented by Scott Anderson from Room 34. His handout laid out Things one through five really well, and copying the material here would be repetitive. Instead, you can look it over on <a href="https://do4.room34.com/transfer/mcn/Room34_MCN_Presentation_20171128_single.pdf" target="_blank"><u>Room 34</u></a>. I highly encourge reading through it. It covers key points of choosing and engaging with a developer.  
+This topic was presented by Scott Anderson from Room 34. His handout laid out Things one through five really well, and copying the material here would be repetitive. Instead, you can look it over on <a href="https://do4.room34.com/transfer/mcn/Room34_MCN_Presentation_20171128_single.pdf" target="_blank">Room 34</a>. I highly encourge reading through it. It covers key points of choosing and engaging with a developer.  
 </div>
 
 <div class="page-content-text">
@@ -43,7 +43,7 @@ This topic was presented by Scott Anderson from Room 34. His handout laid out Th
 
 <h5><span class="sub-point">1.</span> Audiences</h5>
 <div class="page-content-text">
-<span class="highlight-line">Know them!</span> Your staff / members should be able to agree on who your audiences are. To keep it manageable, have not more than three audience groups identified. Also, involve audience members in the user testing process (testing your site). Identifying audience needs and wants was discussed at some length in the <a href="{{site.url}}/2017/12/05/design-nonprofits-1#balancing" target="_blank"><u>Balancing Goals</u></a> section of Design for Nonprofits (Part 1). Instead of repeating that information here, please refer back to that post.  
+<span class="highlight-line">Know them!</span> Your staff / members should be able to agree on who your audiences are. To keep it manageable, have not more than three audience groups identified. Also, involve audience members in the user testing process (testing your site). Identifying audience needs and wants was discussed at some length in the <a href="{{site.url}}/2017/12/05/design-nonprofits-1#balancing" target="_blank">Balancing Goals</a> section of Design for Nonprofits (Part 1). Instead of repeating that information here, please refer back to that post.  
 </div>
 
 <h5><span class="sub-point">2.</span> Managing Expectations</h5>

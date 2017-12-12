@@ -41,7 +41,7 @@ Collaborative and educational software is of particular interest to me. It goes 
 <div class="page-content-text">
 <h5>CONFIGURATION</h5>
 <ul>
-<li>Two-factor authentication is disabled – email accounts do not need to be confirmed in order to begin using the app, though password authentication is still required. 'Forgot Password' functionality is also disabled at this time, as account ownership is not confirmed. You can use any email id (real of fake) to create an account. If you would like to review this app with account confirmation and recovery, please contact me, and I will make a link available.</li>
+<li>Two-factor authentication is disabled – email accounts do not need to be confirmed in order to begin using the app, though password authentication is still required. 'Forgot Password' functionality is also disabled at this time, as account ownership is not confirmed. You can use any email id (real of fake) to create an account. If you would like to review this app with account confirmation and recovery, please <a href="{{site.url}}/#contact" target="_blank">contact me</a>, and I will make a link available.</li>
 <li>Stripe Test Data (used for the Account Upgrade feature)
 <ul>
 <li><u>Email</u>: choose any email address</li>

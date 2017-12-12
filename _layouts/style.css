@@ -243,3 +243,11 @@ ol.task-list li {
   border-bottom: none; 
   padding: 3px 0 3px 9px;
 }
+
+a:link {
+    text-decoration: underline;
+}
+
+nav a:link, section a:link {
+    text-decoration: none;
+}

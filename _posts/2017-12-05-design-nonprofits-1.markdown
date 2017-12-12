@@ -8,7 +8,7 @@ client:
 category: 
 title: Design for Nonprofits (Part 1)
 featured: true
-introduction: On November 28th, the Minnesota Council of Nonprofits and International Association of Business Communicators put on the "Nonprofit Communicators Workshop&#58; What Should We Expect from a Web Redesign? 15 Things to Know". Presenters from Idealware, Room 34, and Annex Teen Clinic discussed redesign from the perspectives of a technology consultant, developer, and nonprofit director. The presentations and Q&A session yielded great direction for orgs on three topics&#58; 1) redesign planning; 2) working with a developer; and 3) coordinating your staff’s role in the process. The discussion below is an overview of topic 1, presented by Idealware. See <a href="/2017/12/05/design-nonprofits-2"><u>Design for Nonprofits (Part 2)</u></a> for topics 2 and 3.    
+introduction: On November 28th, the Minnesota Council of Nonprofits and International Association of Business Communicators put on the "Nonprofit Communicators Workshop&#58; What Should We Expect from a Web Redesign? 15 Things to Know". Presenters from Idealware, Room 34, and Annex Teen Clinic discussed redesign from the perspectives of a technology consultant, developer, and nonprofit director. The presentations and Q&A session yielded great direction for orgs on three topics&#58; 1) redesign planning; 2) working with a developer; and 3) coordinating your staff’s role in the process. The discussion below is an overview of topic 1, presented by Idealware. See <a href="/2017/12/05/design-nonprofits-2">Design for Nonprofits (Part 2)</a> for topics 2 and 3.    
 ---
 
 <h5>Planning a Redesign – 5 Points</h5>
@@ -58,7 +58,7 @@ From my own experience, I work with a performing arts nonprofit that does an aud
 Another data consideration are the stash of pages, pictures and text from your old site. If there is a lot of old content and it needs to be moved manually (it can't be done automatically), you will need to budget time and money for this migration. You might have to schedule your staff to do these moves - per Brooke Thomson, pizza and donuts can provide effective motivation. Also, be ready to make choices an leaving less relevant information behind – be cognizant, however, that some of those old pages may have been bringing in a lot of traffic. 
 </div>
 
-<h5>If you found this post useful, check out <a href="{{site.url}}/2017/12/05/design-nonprofits-2/"><u>part two</u></a> with more guidance on redesign.</h5> 
+<h5>If you found this post useful, check out <a href="{{site.url}}/2017/12/05/design-nonprofits-2/">Part two</a> with more guidance on redesign.</h5> 
 
 
 
