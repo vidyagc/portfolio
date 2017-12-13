@@ -125,7 +125,7 @@ The following is a set of tasks and instructions that are recommened to cover al
 <li>Use the “Upgrade” link in the top navigation bar OR on your “My Account” page to  upgrade to a Premium account.
 <ul>
 <li><u>Email</u>: choose any email address</li>
-<li><u>Card Number</u>: <span class="terms">4242 4242 4242 4242</span> or any of the test card numbers <a href="https://stripe.com/docs/testing#cards" target="_blank">here</a>.</li>
+<li><u>Card Number</u>: <span class="terms" style="text-decoration:none; color:inherit; pointer-events: none;">4242 4242 4242 4242</span> or any of the test card numbers <a href="https://stripe.com/docs/testing#cards" target="_blank">here</a>.</li>
 <li><u>Expiration</u>: choose almost any month and year in the future</li>
 <li><u>CVC</u>: choose any three numbers</li>
 </ul>
