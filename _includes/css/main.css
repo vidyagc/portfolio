@@ -44,6 +44,8 @@ hr.star-primary {
     border: 0;
     border-top: solid 5px;
     text-align: center;
+/* Added overflow property and set to 'visible' - 'hidden' by default in versions of Chrome, Edge and IE
+FontAwesome icon does not display when overflow is 'hidden' */
     overflow: visible;
 }
 
