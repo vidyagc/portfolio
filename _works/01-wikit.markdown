@@ -224,7 +224,7 @@ Three models were generated for this app <span class="terms">User</span>, <span 
 </div>
 
 <div class="page-content-text">
-The <span class="terms">belongs_to</span> relationship between <span class="terms">Collaborator</span> and <span class="terms">Wiki</span> is relied on just once - the <span class="terms">wiki</span> method for <span class="terms">Collaborator</span> is used in <span class="terms">_show.html.erb</span> partial in the <span class="terms">views/collaborators</span>. The partial is rendered on the show view for users. The users show view first lists links to wikis the signed in user has created, and below that, there are links to wikis on which the user is a collaborator. 
+The <span class="terms">belongs_to</span> relationship between <span class="terms">Collaborator</span> and <span class="terms">Wiki</span> is relied on just once - the <span class="terms">wiki</span> method for <span class="terms">Collaborator</span> is used in the <span class="terms">_show.html.erb</span> partial in <span class="terms">views/collaborators</span>. The partial is rendered on the show view for users. The users show view first lists links to wikis the signed in user has created, and below that, there are links to wikis on which the user is a collaborator. 
 </div>
 
 <div class="file-path">app/views/collaborators/_show.html.erb</div>
