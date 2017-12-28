@@ -104,13 +104,15 @@ In the <span class="terms">home</span> template, this list element contains two 
 
 <div>&nbsp;</div>
 
-<h5>Task Completion and Expiration</h5>
+<h4>TASK MANAGEMENT WITH FIREBASE</h4>
+<div style="margin-bottom:.75cm"></div>
+<h5>Completion and Expiration</h5>
 <div class="page-content-text">
 The <span class="terms">status</span> of task objects is updated via two methods: first, the user marking the task as complete; second, a <span class="terms">setInterval</span> method in Angular’s <span class="terms">Task</span> factory which expires tasks based on their <span class="terms">date</span> property. In the <span class="terms">home</span> template, ‘incomplete’ tasks are displayed with a button that has an <span class="terms">ng-click</span> directive. Clicking it executes the <span class="terms">completeTask</span> function in <span class="terms">HomeCtrl</span> and passes the respective task object as an argument. Within this method, the <span class="terms">status</span> property of the object is updated to ‘complete’.
 </div>
 
 <div class="page-content-text">
-In the <span class="terms">Task</span> factory, the <span class="terms">setInterval()</span> method updates an object’s <span class="terms">status</span> to ‘expired’ based on its <span class="terms">date</span> property. Within the method, <span class="terms">orderByChild()</span> is used to generate a query object ordered by the ‘status’ key. <span class="terms">equalTo()</span> is used to limit the query to children with a status of 'incomplete'. <span class="terms">on()</span> is called on the query object and the tasks are looped through with <span class="terms">forEach()</span>. A conditional statement then checks if the <span class="terms">date</span> of the snapshot is 90 seconds behind the current time. Then <span class="terms">update()</span> is used on the <span class="terms">Reference</span> for that location to change <span class="terms">status</span> to ‘expired’.
+In the <span class="terms">Task</span> factory, JavaScript's <span class="terms">setInterval()</span> method is used to update the object’s <span class="terms">status</span> to ‘expired’ based on its <span class="terms">date</span> property. Within the method, <span class="terms">orderByChild()</span> generates a query object ordered by the ‘status’ key, and <span class="terms">equalTo()</span> limits the query to children with a status of 'incomplete'. <span class="terms">on()</span> is called on the query object and the tasks are looped through with <span class="terms">forEach()</span>. A conditional statement then checks if the <span class="terms">date</span> of the snapshot is 90 seconds behind the current time. Then <span class="terms">update()</span> is used on the <span class="terms">Reference</span> for that location to change <span class="terms">status</span> to ‘expired’.
 </div>
 
 <div class="file-path">app/scripts/services/Task.js</div>
