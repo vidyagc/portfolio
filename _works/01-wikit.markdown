@@ -41,7 +41,7 @@ Collaborative and educational software is of particular interest to me. It goes 
 <div class="page-content-text">
 <h5>CONFIGURATION</h5>
 <ul>
-<li>Two-factor authentication is disabled – email accounts do not need to be confirmed in order to begin using the app, though password authentication is still required. 'Forgot Password' functionality is also disabled at this time, as account ownership is not confirmed. You can use any email id (real of fake) to create an account. If you would like to review this app with account confirmation and recovery, please <a href="{{site.url}}/#contact" target="_blank">contact me</a>, and I will make a link available.</li>
+<li>Two-factor authentication is enabled. You will need to confirm an email account before signing in to the application. Confirmation emails can take a few minutes to be delivered. If you do not see one within five minutes, please check your spam folder.</li>
 <li>Stripe Test Data (used for the Account Upgrade feature)
 <ul>
 <li><u>Email</u>: choose any email address</li>
@@ -181,19 +181,8 @@ The following is a set of tasks and instructions that are recommened to cover al
 
 <h4>Authentication</h4>
 <div class="page-content-text">
-After creating the Rails app structure, I updated the <span class="terms">Gemfile</span> with, among other gems, <span class="terms">sqlite3</span> for the Development database and <span class="terms">pg</span>, Heroku Postgres database, for the Production environment. After generating the Welcome Controller and related views, authentication was added using <span class="terms">Devise</span>. This app only required one <span class="terms">Devise</span> model, <span class="terms">User</span>, and did not require much customization. Global views were used, but the default <span class="terms">RegistrationsController</span> was overridden. I created my own <span class="terms">RegistrationsController</span> to redirect paths after user sign up (users see the view with their current account status and upgrade option), and set routes for it. 
+After creating the Rails app structure, I updated the <span class="terms">Gemfile</span> with, among other gems, <span class="terms">sqlite3</span> for the Development database and <span class="terms">pg</span>, Heroku Postgres database, for the Production environment. After generating the Welcome Controller and related views, authentication was added using <span class="terms">Devise</span>. This app only required one <span class="terms">Devise</span> model, <span class="terms">User</span>, and views, redirects, and error messages were customized. Customization included overriding the default <span class="terms">RegistrationsController</span> and a creating a <span class="terms">CustomFailure</span> class to redirect paths after failed authentications or account creation. A <span class="terms">_form.html.erb</span> partial with customized Devise forms was rendered on the Welcome page, and resource mapping was used in the <span class="terms">ApplicationController</span> to allow these forms to access Devise variables and methods. The full implementation of this customization will not be covered here, but rather discussed in a separate blog entry that will be posted in the near future.  
 </div>
-
-<div class="file-path">app/controllers/registrations_controller.rb</div>
-{% highlight ruby %}
-def after_sign_up_path_for(resource)
-    if resource.class == User
-        account_management_path
-    end
-end
-{% endhighlight %}
-
-<div>&nbsp;</div>
 
 <div class="file-path">config/routes.rb</div>
 {% highlight ruby %}
