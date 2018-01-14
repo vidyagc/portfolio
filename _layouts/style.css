@@ -16,8 +16,10 @@
 
 #avatar-bio {
   padding:2px;
-  border:1px solid #{{ site.color.secondary }};
-  background-color: #{{ site.color.primary }};
+  border:1px solid #fff;
+  background-color:#{{ site.color.secondary }};
+  /*border:1px solid #{{ site.color.secondary }};*/
+  /*background-color: #{{ site.color.primary }};*/
   border-radius: 50%;
 }
 
@@ -56,6 +58,13 @@
   border: 1px solid #ddd;
   border-radius: .25em;
   letter-spacing: .5px;
+}
+
+.jumbotron { 
+  background-color: #{{ site.color.primary }};
+  padding-top:10px !important; 
+  padding-right:0 !important; 
+  padding-left:0 !important;
 }
 
 .about-font {
