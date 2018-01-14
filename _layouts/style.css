@@ -74,7 +74,7 @@
   float: right;
   font-size: 15px;
   padding-top: 3px;
-  color: #{{ site.color.primary }};;
+  color: #{{ site.color.primary }};
 }
 
 #post-intro {
