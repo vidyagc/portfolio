@@ -79,16 +79,16 @@ On his <a href="https://pupeno.com/2016/04/26/show-a-devise-log-in-or-sign-up-fo
 <div>&nbsp;</div>
 
 <div class="page-content-text">
-The second part of this solution, addressed by Fernández, involves resource mapping to ensure that the methods relied on by the forms as accessible. I placed them in <span class="terms">ApplicationController</span>.
+The second part of this solution, addressed by Fernández, involves resource mapping to ensure that the methods relied on by the forms are accessible. I placed them in <span class="terms">ApplicationController</span>.
 </div>
 
 <h5>Consistent User Flow</h5>
 <div class="page-content-text">
-The solution above allowed Devise methods to be used from the partial view. The remaining issues, however, were maintaining consistency in the user flow in the event of failures, and handling error messages. With the above implementation, a failed authentication or registration still redirects to the default Devise paths/views. But if a user fails to authenticate or sign up from the welcome page, they should be redirected to the welcome page and see the error messages for the failure there. 
+The solution above allowed Devise methods to be used from a partial. The remaining issues, however, were maintaining consistency in user flow in the event of failures, and handling error messages. With the above implementation, a failed authentication or registration still redirects to the default Devise paths/views. But if a user fails to authenticate or sign up from the welcome page, they should be redirected to the welcome page and see the error messages for the failure there. 
 </div>
 
 <div class="page-content-text">
-In order to customize the redirect and error message display for failed registration, you can subclass <span class="terms">Devise::RegistrationsController</span> and override the <span class="terms">create</span> action. The default Devise views use a call to <span class="terms"><%= devise_error_messages! %></span> to display error messages on the page<span class="terms">resource.errors</span>, but I wanted to display them to <span class="terms">flash[:danger]</span>. The value for <span class="terms">flash[:danger]</span> is set inside <span class="terms">create</span>, using the <span class="terms">map</span> method on <span class="terms">resource.errors</span> to display the items in list form. 
+In order to customize the redirect and error message display for failed registration, you can subclass <span class="terms">Devise::RegistrationsController</span> and override the <span class="terms">create</span> action. The default Devise views use a call to <span class="terms"><%= devise_error_messages! %></span> to display <span class="terms">resource.errors</span>, but I wanted to display them to <span class="terms">flash[:danger]</span>. The value for <span class="terms">flash[:danger]</span> is set inside <span class="terms">create</span>, using the <span class="terms">map</span> method on <span class="terms">resource.errors</span> to display the items in list form. 
 </div>
 
 <div class="file-path">app/controllers/registrations_controller.rb</div>
