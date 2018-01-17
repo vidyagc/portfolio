@@ -7,7 +7,7 @@ project-date: month 4-dig-year
 client: 
 category: 
 title: Rails - Devise Customization 
-featured: true
+featured: 
 introduction: Devise is a complete MVC authentication solution for Rails. It can be used in lieu of building authentication from scratch. This post is an overview of Devise customization solutions that were used in <a href="/wikit" target="_blank">Wikit</a>. Some of the customizations below were also used in <a href="/libertyhawk" target="_blank">Liberty Hawk</a>, but the discussion and code snippets pertain to <a href="/wikit" target="_blank">Wikit</a>.
 ---
 
@@ -31,7 +31,7 @@ There are a number of free resources that discuss customization of Devise, inclu
 What if, instead of just changing the styles of existing forms or <a href="https://github.com/plataformatec/devise/wiki/How-To:-Create-custom-layouts" target="_blank">adding additional layouts</a>, you want to change where the forms are rendered in your application (e.g. you want sign up and sign in forms located inside another view)? And what are the considerations that follow this new placement? A failed registration will still redirect to Devise's default sign up path (not the new form location you implemented) unless these redirects are updated via a controller. And how do you make sure error messages are displayed on your new view. When I wanted to render devise sign in and sign up forms as partials on the welcome page of my application, <a href="/wikit" target="_blank">Wikit</a>, this was the problem and follow up customization issues that needed to be addressed. The efficacy of the following solutions are limited to the scope in which Devise was used in that application. It has not been tested beyond that (e.g. with models that inherit from another Devise model).  
 </div>
 <div class="page-content-text">
-On his <a href="https://pupeno.com/2016/04/26/show-a-devise-log-in-or-sign-up-forms-in-another-page/" target="_blank">blog</a>, J. Fernández offers a solution for showing Devise forms on another page. <a href="https://github.com/plataformatec/devise/wiki/How-To:-Display-a-custom-sign_in-form-anywhere-in-your-app" target="_blank">Devise wiki</a> shows it as well, with some revisions. As Fernández suggests, I found the use of a partial as the best way to use the form on another view.
+On his <a href="https://pupeno.com/2016/04/26/show-a-devise-log-in-or-sign-up-forms-in-another-page/" target="_blank">blog</a>, J. Fernández offers a solution for showing Devise forms on another page. <a href="https://github.com/plataformatec/devise/wiki/How-To:-Display-a-custom-sign_in-form-anywhere-in-your-app" target="_blank">Devise wiki</a> posts it as well, with some revisions. As Fernández suggests, I found the use of a partial as the best way to use the form on another view.
 </div>
 
 <div class="file-path">app/views/welcome/index.html.erb</div>
@@ -120,10 +120,10 @@ class RegistrationsController < Devise::RegistrationsController
 <div>&nbsp;</div>
 
 <div class="page-content-text">
-Also, because <span class="terms">html_safe</span> is not preserved from the controller to the view, it is called in <span class="terms">application.html.erb</span> instead, <span class="terms"><%= flash[:danger].html_safe %></span>. Redirects after a failed authentication needed to be customized as well. This can be done with a <a href="https://github.com/plataformatec/devise/wiki/How-To:-Redirect-to-a-specific-page-when-the-user-can-not-be-authenticated" target="_blank">CustomFailure class</a>. As I am using <span class="terms">flash[:danger]</span> for error messages, that is set in <span class="terms">def respond</span>.
+Also, because <span class="terms">html_safe</span> is not preserved from the controller to the view, it is called in <span class="terms">application.html.erb</span> instead, <span class="terms"><%= flash[:danger].html_safe %></span>. Redirects after a failed authentication needed to be customized as well. This can be done with a <a href="https://github.com/plataformatec/devise/wiki/How-To:-Redirect-to-a-specific-page-when-the-user-can-not-be-authenticated" target="_blank">CustomFailure class</a>. As <span class="terms">flash[:danger]</span> is used for error messages, that is set in <span class="terms">def respond</span>.
 </div>
 
-<div class="file-path">app/controllers/registrations_controller.rb</div>
+<div class="file-path">lib/custom_failure.rb</div>
 {% highlight ruby %}
 class CustomFailure < Devise::FailureApp
 
@@ -145,14 +145,10 @@ Other customizations included the following: styling the <span class="terms">pas
 
 <div class="file-path">app/controllers/confirmations_controller.rb</div>
 {% highlight ruby %}
-def after_confirmation_path_for(resource_name, resource)
-  if signed_in?(resource_name)
-    account_management_path(resource)
-  else
-    root_path(resource_name)
-  end
+def after_resending_confirmation_instructions_path_for(resource_name)
+  is_navigational_format? ? root_path(resource_name) : '/'
 end
 {% endhighlight %}
 <div>&nbsp;</div>
 
-<h5>I hope this post was useful in understanding the how and why of the customized Devise implementations in this portfolio's apps. Even better if you learned something new about using Devise forms on different pages in your app, and correspondingly handling paths and error messages on failures.</h5>
+<h5>I hope this post was useful in understanding the how and why of the customized Devise implementations in this portfolio's apps. Even better if you learned something about using Devise forms on different pages in your app, and correspondingly handling paths and error messages on failures.</h5>

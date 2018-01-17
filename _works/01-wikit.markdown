@@ -186,7 +186,7 @@ After creating the Rails app structure, I updated the <span class="terms">Gemfil
 
 <div class="file-path">config/routes.rb</div>
 {% highlight ruby %}
-devise_for :user, controllers: { registrations: "registrations" }
+devise_for :users, controllers: { registrations: "registrations", passwords: "passwords", confirmations: "confirmations" }
 {% endhighlight %}
 
 <div>&nbsp;</div>

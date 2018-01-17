@@ -1,32 +1,33 @@
 <section id="blog">
 
   <div class="container">
-      <div class="row">
-          <div class="col-lg-12 text-center">
-              <h2>Blog</h2>
-              <hr class="star-primary">
-          </div>
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2>Blog</h2>
+            <hr class="star-primary">
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        {% assign post1 = site.posts.first %}
+        <a href="{{site.baseurl}}{{ post1.url }}">
+          <h3>{{ post1.title }}</h3>
+        </a>
       </div>
-      <div class="row">
-<div class="col-lg-6">
+      <div class="col-lg-6">
         {% for post in site.posts %} <!--limit:2-->
           {% if post.featured == true %}
-        <a href="{{site.baseurl}}{{ post.url }}">
-        
-              <div class="caption">
-                  <div class="caption-content">
-              </div>
+            <a href="{{site.baseurl}}{{ post.url }}">
               <h3>{{ post.title }}</h3>
-          </a>
+            </a>
           {% endif %}
         {% endfor %}
 
+      </div>
+    </div>
+  </div>
+</section>
       <!--<a href="{{site.baseurl}}/archive/">-->
       <!--<a href="#blogsArchive" data-toggle="modal">-->
       <!--    <h2>Archive</h2>-->
       <!--</a>-->
-
-      </div>
-  </div>
-
-</section>
