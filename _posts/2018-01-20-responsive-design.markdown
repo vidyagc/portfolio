@@ -1,7 +1,7 @@
 ---
 layout: post
-url: 2018-01-17-responsive-design
-date: 2018-01-17
+url: 2018-01-20-responsive-design
+date: 2018-01-20
 alt: image-alt
 client: 
 category: 
@@ -112,7 +112,7 @@ The content of <span class="terms">menu-list</span>, <span class="terms">menu-co
     </div>
 </div>
 
-<div>&nbsp;</div>
+<div style="margin-bottom:.75cm"></div>
 
 <h5>Footer - <span style="color:#ec8013;">Wikit</span></h5>
 <div class="page-content-text">
@@ -148,7 +148,8 @@ Although not a responsive design element, in order to keep the <span class="term
 {% endhighlight %}
     </div>
 </div>
-<div>&nbsp;</div>
+
+<div style="margin-bottom:.75cm"></div>
 
 <h5>Footer - <span style="color:#ec8013;">Liberty Hawk</span> - Responding to Scroll & Viewport</h5>
 <div class="page-content-text">
@@ -180,7 +181,7 @@ if (hasScrollbar) {
 }
 {% endhighlight %}
 
-<div>&nbsp;</div>
+<div style="margin-bottom:.75cm"></div>
 
 <h5>Bootstrap Grid - <span style="color:#ec8013;">Wikit</span> - Mixed Columns & nesting</h5>
 <div class="page-content-text">

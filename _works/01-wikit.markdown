@@ -387,4 +387,9 @@ def check_permission
 end
 {% endhighlight %}
 
+<div style="margin-bottom:.75cm"></div>
 
+<h5>RESPONSIVE DESIGN</h5>
+<div class="page-content-text">
+Responsive design was employed on this app, particularly for navigation, but also for view layouts. This is discussed in <a href="/2018/01/20/responsive-design/">Responsive Design</a> 
+</div>
