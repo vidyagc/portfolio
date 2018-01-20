@@ -330,3 +330,12 @@ nav a:link, section a:link {
 section a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 991px) {
+  .wikit-resp-img img {
+    display:block !important;
+  }
+  .wikit-resp-img img:first-child {
+    margin-right: 0;
+  }
+}

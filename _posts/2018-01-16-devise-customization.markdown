@@ -3,7 +3,6 @@ layout: post
 url: 2018-01-16-devise-customization
 date: 2018-01-16
 alt: image-alt
-project-date: month 4-dig-year
 client: 
 category: 
 title: Rails - Devise Customization 
@@ -31,7 +30,7 @@ There are a number of free resources that discuss customization of Devise, inclu
 What if, instead of just changing the styles of existing forms or <a href="https://github.com/plataformatec/devise/wiki/How-To:-Create-custom-layouts" target="_blank">adding additional layouts</a>, you want to change where the forms are rendered in your application (e.g. you want sign up and sign in forms located inside another view)? And what are the considerations that follow this new placement? A failed registration will still redirect to Devise's default sign up path (not the new form location you implemented) unless these redirects are updated via a controller. And how do you make sure error messages are displayed on your new view. When I wanted to render devise sign in and sign up forms as partials on the welcome page of my application, <a href="/wikit" target="_blank">Wikit</a>, this was the problem and follow up customization issues that needed to be addressed. The efficacy of the following solutions are limited to the scope in which Devise was used in that application. It has not been tested beyond that (e.g. with models that inherit from another Devise model).  
 </div>
 <div class="page-content-text">
-On his <a href="https://pupeno.com/2016/04/26/show-a-devise-log-in-or-sign-up-forms-in-another-page/" target="_blank">blog</a>, J. Fernández offers a solution for showing Devise forms on another page. <a href="https://github.com/plataformatec/devise/wiki/How-To:-Display-a-custom-sign_in-form-anywhere-in-your-app" target="_blank">Devise wiki</a> posts it as well, with some revisions. As Fernández suggests, I found the use of a partial as the best way to use the form on another view.
+On his <a href="https://pupeno.com/2016/04/26/show-a-devise-log-in-or-sign-up-forms-in-another-page/" target="_blank">blog</a>, J. Fernández offers a solution for showing Devise forms on another page. <a href="https://github.com/plataformatec/devise/wiki/How-To:-Display-a-custom-sign_in-form-anywhere-in-your-app" target="_blank">Devise Wiki</a> posts it as well, with some revisions. As Fernández suggests, I found the use of a partial as the best way to use the form on another view.
 </div>
 
 <div class="file-path">app/views/welcome/index.html.erb</div>
@@ -139,14 +138,26 @@ end
 {% endhighlight %}
 <div>&nbsp;</div>
 
+<h5>Other Customizations: messages and paths</h5>
 <div class="page-content-text">
-Other customizations included the following: styling the <span class="terms">passwords/new</span> and <span class="terms">confirmations/new</span> views to match (but not duplicate) the style of the sign in and sign up forms; removing messages for successful sign up and sign in, by editing them in <span class="terms">devise.en.yml</span>; and editing paths for certain links in <span class="terms">shared/_links</span>. Additional controllers were also implemented to customize redirects on password recovery and resending confirmation actions.
+Other customizations included the following: styling the <span class="terms">passwords/new</span> and <span class="terms">confirmations/new</span> views to match (but not duplicate) the style of the sign in and sign up forms; removing messages for successful sign up and sign in, by editing them in <span class="terms">devise.en.yml</span>; and editing paths for certain links in <span class="terms">shared/_links</span>. Additional controllers were also implemented to customize redirects on password recovery and resending confirmation actions. 
 </div>
 
 <div class="file-path">app/controllers/confirmations_controller.rb</div>
 {% highlight ruby %}
 def after_resending_confirmation_instructions_path_for(resource_name)
   is_navigational_format? ? root_path(resource_name) : '/'
+end
+{% endhighlight %}
+<div>&nbsp;</div>
+
+<div class="file-path">app/controllers/passwords_controller.rb</div>
+{% highlight ruby %}
+class PasswordsController < Devise::PasswordsController
+  protected
+  def after_sending_reset_password_instructions_path_for(resource_name)
+    return root_path 
+  end
 end
 {% endhighlight %}
 <div>&nbsp;</div>

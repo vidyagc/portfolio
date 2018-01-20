@@ -9,13 +9,14 @@
     </div>
     <div class="row">
       <div class="col-lg-6">
-        {% assign post1 = site.posts.first %}
-        <a href="{{site.baseurl}}{{ post1.url }}">
-          <h3>{{ post1.title }}</h3>
+        {% for post in site.posts limit:2 %} 
+        <a href="{{site.baseurl}}{{ post.url }}">
+          <h3>{{ post.title }}</h3>
         </a>
+        {% endfor %}
       </div>
       <div class="col-lg-6">
-        {% for post in site.posts %} <!--limit:2-->
+        {% for post in site.posts %}
           {% if post.featured == true %}
             <a href="{{site.baseurl}}{{ post.url }}">
               <h3>{{ post.title }}</h3>
