@@ -5,7 +5,8 @@ permalink: wikit
 id: 1
 img: wikit-400.png
 img2: wikit-mon.png
-alt: image-alt
+alt: Wikit logo, links to Wikit application writeup
+alt2: Wikit app view
 project-date: July 2017
 project-name: Wikit
 client: Start Bootstrap
@@ -389,7 +390,7 @@ end
 
 <div style="margin-bottom:.75cm"></div>
 
-<h5>RESPONSIVE DESIGN</h5>
+<h4>RESPONSIVE DESIGN</h4>
 <div class="page-content-text">
 Responsive design was employed on this app, particularly for navigation, but also for view layouts. This is discussed in <a href="/2018/01/20/responsive-design/">Responsive Design</a> 
 </div>

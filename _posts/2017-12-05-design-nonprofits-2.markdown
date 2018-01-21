@@ -6,6 +6,7 @@ alt: image-alt
 client: 
 category: 
 title: Design for Nonprofits (Part 2)
+title2: Design for Nonprofits <font size="4em important!">(Part 2)</font>
 featured: true
 introduction: On November 28th, the Minnesota Council of Nonprofits and International Association of Business Communicators put on the "Nonprofit Communicators Workshop&#58; What Should We Expect from a Web Redesign? 15 Things to Know". Presenters from Idealware, Room 34, and Annex Teen Clinic discussed redesign from the perspectives of a technology consultant, developer, and nonprofit director. The presentations and Q&A session yielded great direction for orgs on three topics&#58; 1) redesign planning; 2) working with a developer; and 3) coordinating your staff’s role in the process. The discussion below is an overview of topics 2 and 3. See <a href="/2017/12/05/design-nonprofits-1">Design for Nonprofits (Part 1)</a> for topic 1.
 ---

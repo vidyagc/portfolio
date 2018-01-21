@@ -5,7 +5,8 @@ permalink: giterdone
 id: 2
 img: giterdone-400.png
 img2: giterdone-mon.png
-alt: image-alt
+alt: Giterdone logo, links to Giterdone application writeup
+alt2: Giterdone app view
 project-date: August 2017
 project-name: Git'er Done!
 client: Personal Project

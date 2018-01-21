@@ -5,7 +5,8 @@ permalink: libertyhawk
 id: 3
 img: libertyhawk-400.png
 img2: libertyhawk-mon.png
-alt: image-alt
+alt: Liberty Hawk logo, links to Liberty Hawk application writeup
+alt2: Liberty Hawk app view
 project-date: December 2017
 project-name: Liberty Hawk
 client: Start Bootstrap

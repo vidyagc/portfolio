@@ -18,14 +18,14 @@ Liberty Hawk and Wikit use different nav menu styles, top and side respectively.
 <div class="row">
     <div class="col-md-12">
         <div class="wikit-resp-img" style="display:table; margin: auto">
-        <img src="{{site.baseurl}}/img/blog/wikit-resp-mon.png" style="display:inline; margin-right:15px" class="img-responsive img-centered img-padded" alt="">
-        <img src="{{site.baseurl}}/img/blog/wikit-phone.png" style="display:inline" class="img-responsive img-centered img-padded" alt="">
+        <img src="{{site.baseurl}}/img/blog/wikit-resp-mon.png" style="display:inline; margin-right:15px" class="img-responsive img-centered img-padded" alt="Wikit uncollapsed menu view">
+        <img src="{{site.baseurl}}/img/blog/wikit-phone.png" style="display:inline" class="img-responsive img-centered img-padded" alt="Wikit collapsed menu view">
         </div>
     </div>
 </div>
 
 <div class="page-content-text">
-First, there is a top bootstrap <span class="terms">navbar</span>. It doesn't contain menu items, but rather, contains a brand logo, and a logout link is displayed after a user is signed in. Menu items are displayed in a side navigation bar. Both <span class="terms">navbar-top</span> and the contents of <span class="terms">nav-side-menu</span> are updated at screen width ≤ 767, the portrait browser size for the iPad mini is 768. The mechanisms to hide each of the bars is as follows. For <span class="terms">navbar-top</span>, a CSS media query sets <span class="terms">display:none</span> at screens ≤ 767. 
+First, there is a top bootstrap <span class="terms">navbar</span>. It doesn't contain menu items, but rather, contains a brand logo, and a logout link is displayed after a user is signed in. Menu items are displayed in a side navigation panel. Both <span class="terms">navbar-top</span> and the contents of <span class="terms">nav-side-menu</span> are updated at screen width ≤ 767, the portrait browser size for the iPad mini is 768. The mechanisms to hide each of the bars is as follows. For <span class="terms">navbar-top</span>, a CSS media query sets <span class="terms">display:none</span> at screens ≤ 767. 
 </div>
 
 <div class="file-path">app/assets/stylesheets/application.scss</div>
@@ -97,7 +97,7 @@ The content of <span class="terms">menu-list</span>, <span class="terms">menu-co
     ...
     }
     .brand {
-    ...
+    ...    
         display: block;
     ...
     }
@@ -197,8 +197,8 @@ Liberty Hawk uses various grid layout techniques, inlcuding mixed columns and pu
 <div class="row">
     <div class="col-md-12">
         <div class="wikit-resp-img" style="display:table; margin: auto">
-        <img src="{{site.baseurl}}/img/blog/lh-ipad-hor.png" style="display:inline; margin-right:15px" class="img-responsive img-centered img-padded" alt="">
-        <img src="{{site.baseurl}}/img/blog/lh-ipad-vert.png" style="display:inline" class="img-responsive img-centered img-padded" alt="">
+        <img src="{{site.baseurl}}/img/blog/lh-ipad-hor.png" style="display:inline; margin-right:15px" class="img-responsive img-centered img-padded" alt="Wikit iPad mini horizontal view">
+        <img src="{{site.baseurl}}/img/blog/lh-ipad-vert.png" style="display:inline" class="img-responsive img-centered img-padded" alt="Wikit iPad mini vertical view">
         </div>
     </div>
 </div>
@@ -268,8 +268,8 @@ Push and pull are also used on the landing page, to ensure that the Liberty Hawk
 <div class="row">
     <div class="col-md-12">
         <div class="wikit-resp-img" style="display:table; margin: auto">
-        <img src="{{site.baseurl}}/img/blog/lh-land-ipad-vert.png" style="display:inline; margin-right:15px" class="img-responsive img-centered img-padded" alt="">
-        <img src="{{site.baseurl}}/img/blog/lh-land-ipad-hor.png" style="display:inline" class="img-responsive img-centered img-padded" alt="">
+        <img src="{{site.baseurl}}/img/blog/lh-land-ipad-vert.png" style="display:inline; margin-right:15px" class="img-responsive img-centered img-padded" alt="Liberty Hawk iPad mini vertical view">
+        <img src="{{site.baseurl}}/img/blog/lh-land-ipad-hor.png" style="display:inline" class="img-responsive img-centered img-padded" alt="Liberty Hawk iPad mini horizontal view">
         </div>
     </div>
 </div>
