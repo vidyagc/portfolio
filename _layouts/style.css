@@ -3,6 +3,10 @@
 
 .btn-success{color:#0da5a5;background-color:#ffffff;border-color:#ffffff}.btn-success:hover,.btn-success:focus,.btn-success:active,.btn-success.active,.open>.dropdown-toggle.btn-success{color:#098383;background-color:#cfeded;border-color:#bad5d5}.btn-success:active,.btn-success.active,.open>.dropdown-toggle.btn-success{background-image:none}.btn-success.disabled,.btn-success[disabled],fieldset[disabled] .btn-success,.btn-success.disabled:hover,.btn-success[disabled]:hover,fieldset[disabled] .btn-success:hover,.btn-success.disabled:focus,.btn-success[disabled]:focus,fieldset[disabled] .btn-success:focus,.btn-success.disabled:active,.btn-success[disabled]:active,fieldset[disabled] .btn-success:active,.btn-success.disabled.active,.btn-success[disabled].active,fieldset[disabled] .btn-success.active{background-color:#0da5a5;border-color:#0da5a5}.btn-success .badge{color:#0da5a5;background-color:#ffffff}
 
+.page-content, .btn-outline {
+    padding-top: 13px;
+}
+
 #avatar-about {
   display:block; 
   margin:auto; 
