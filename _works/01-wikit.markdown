@@ -55,7 +55,7 @@ Collaborative and educational software is of particular interest to me. It goes 
 <div class="page-content-text">
 <h5>FEATURES</h5>
 <ul>
-<li>Authenticated user accounts (two-factor authentication is currently disabled for ease of testing)</li>
+<li>Authenticated user accounts</li>
 
 <li>User accounts with two plan options
 <ul>

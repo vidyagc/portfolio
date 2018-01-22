@@ -185,13 +185,13 @@ if (hasScrollbar) {
 
 <h5>Bootstrap Grid - <span style="color:#ec8013;">Wikit</span> - Mixed Columns & nesting</h5>
 <div class="page-content-text">
-Wikit employs mixed and nested columns to manage layout in medium and small viewports. In a small viewport (width 768px), I wanted to keep the plan option boxes and sign in/up forms on the same row, and drop the About Wikit box below them. In lieu of a code snippet, you can view the page's code in it's <a href="https://github.com/vidyagc/wikit/blob/master/app/views/welcome/index.html.erb" target="_blank">GitHub repository</a>.
+Wikit employs mixed and nested columns to manage content layout and alignment in medium and small viewports. In a small viewport (width 768px), I wanted to keep the plan option boxes and sign in/up forms on the same row, and drop the About Wikit box below them. In lieu of a code snippet, you can view the page's code in it's <a href="https://github.com/vidyagc/wikit/blob/master/app/views/welcome/index.html.erb" target="_blank">GitHub repository</a>.
 </div>
 
 <h5>Bootstrap Grid - <span style="color:#ec8013;">Liberty Hawk</span> - Mixed columns & push/pull</h5>
 <div class="page-content-text">
 <!--style="float:left; max-width:43%; text-align:justify; padding-right:10px">-->
-Liberty Hawk uses various grid layout techniques, inlcuding mixed columns and push and pull in a number of views. One example of mixed colums is the user sign in view. In medium and larger viewports, there are equal column widths, containg the two forms and Account Benefits div. The most logical layout for small screens was to keep the sign up form and Account Benefits div next to eachother. This would not work for xs views, but as long as sufficient width existed to keep them in the same row, I wanted to do that. The border line between the Current User and New Account sections was used as a thematic division. A media query sets this border at the breakpoint at which these sections are on the same horizontal line (vs the New Account form dropping below).
+Liberty Hawk uses various grid layout techniques, inlcuding mixed columns and push and pull in a number of views. One example of mixed colums is the user sign in view. In medium and larger viewports, there are equal column widths, containg the two forms and Account Benefits div. The most logical alignment for small screens was to keep the sign up form and Account Benefits div next to eachother. This would not work for xs views, but as long as sufficient width existed to keep them in the same row, I wanted to do that. The border line between the Current User and New Account sections was used as a thematic division. A media query sets this border at the breakpoint at which these sections are on the same horizontal line (vs the New Account form dropping below).
 </div>
 
 <div class="row">
@@ -262,7 +262,7 @@ The Search page in Liberty Hawk uses push and pull to ensure that the search box
 <div>&nbsp;</div>
 
 <div class="page-content-text">
-Push and pull are also used on the landing page, to ensure that the Liberty Hawk logo (the center of three columns in md viewports) is at the top on small views. On the landing page, in small views, <span class="terms">&lt;hr class="star-primary" style="display:visible"&gt;</span> is also used to define thematic breaks between the vertically lined content sections.     
+Push and pull are also used on the landing page, to ensure that the Liberty Hawk logo (the center of three columns in medium viewports) is at the top on small views. On the landing page, in small views, <span class="terms">&lt;hr class="star-primary" style="display:visible"&gt;</span> is also used to define thematic breaks between the vertically lined content sections.     
 </div>
 
 <div class="row">
@@ -272,6 +272,14 @@ Push and pull are also used on the landing page, to ensure that the Liberty Hawk
         <img src="{{site.baseurl}}/img/blog/lh-land-ipad-hor.png" style="display:inline" class="img-responsive img-centered img-padded" alt="Liberty Hawk iPad mini horizontal view">
         </div>
     </div>
+</div>
+
+<h5>Transform with scale - <span style="color:#ec8013;">Liberty Hawk</span> - responsive widget</h5>
+<div class="page-content-text">
+CSS <span class="terms">transform: scale</span> was used to resize a Bill Status Widget powered by GovTrack.us, that is incorporated in the search results bill and saved bill show views. Discussion of this will be posted later today.  
+
+
+
 </div>
 
 <h5>Hopefully this post explains the reasoning behind some the layout choices for responsive design in Wikit and Liberty Hawk. Thank you for taking a look!</h5>

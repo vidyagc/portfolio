@@ -11,6 +11,59 @@ project-date: December 2017
 project-name: Liberty Hawk
 client: Start Bootstrap
 category: Web Development
-description: an app that retrieves the latest, relevant information regarding your congressional representatives
+description: a congressional bill search application that uses the ProPublica API ‘Search Bills’ endpoint.   
 ---
-<p>Project Description and live links coming soon!<p>
+
+<h4>Upcoming Overview and Repo Access</h4>
+<div class="page-content-text">
+<ul>
+<li>A complete project writeup will be posted by the end of the first week of February, but check back at the end of January for new discussion sections on various aspects of the implementation. For now, you can read about the responsive design in the blog post, <a href="/2018/01/20/responsive-design/">Responsive Design</a>. This post covers the Wikit app as well.</li>
+<li>GitHub Repo: check back in two weeks. The code is currently being refactored for resourceful routing and other Rails best practices and efficiencies. For now, check out the <span style="color:#ec8013; font-variant:small-caps"><b>Link</b></span> to the live app below.</li>
+</ul>
+</div>
+
+<h4>DESCRIPTION</h4>
+<div class="page-content-text">
+A congressional bill search application that uses the ProPublica API ‘Search Bills’ endpoint. Users can search bills while logged in or just as site visitors. Logged in users can save bills (favorites), see a history of their past 10 searches, sort bills by multiple categories, and their most recent search results are persisted until a new search. 
+</div>
+
+<h5>UPCOMING FEATURE</h5>
+<div class="page-content-text">
+Foldering that allows users to create named folders and organize their saved bills into them.  
+</div>
+
+<h5>CODER COMMENT</h5>
+<div class="page-content-text">
+Creating a Ruby on Rails app with a RESTful API was interesting. Constructing resources for two use cases (user not signed in and signed in) involved multiple overlapping considerations: first, when did data need to be persisted and when did it not; second, which views does each use case need or need to be limited from, based on the purpose(s) of that view, etc. Furthermore, view design for persisted versus non-persisted data of the same object class required different controller methods or actions, partials for differing object access abilities, etc. These are some of the points that will be covered in the upcoming writeup sections. 
+</div>
+
+<h4>LINK</h4>
+<div class="page-content-text">
+<a href="https://libertyhawk.herokuapp.com/" target="_blank">Live App</a>&nbsp;&nbsp;<span style="font-variant:small-caps">please read <span style="color:#ec8013"><b>testing</b></span> below before trying app</span><br>
+</div>
+
+<h4>TESTING</h4>
+<div class="page-content-text">
+Two-factor authentication is enabled. You will need to confirm an email account before signing in to the application. Confirmation emails can take a few minutes to be delivered. If you do not see one within five minutes, please check your spam folder.
+</div>
+
+<h5>FEATURES</h5>
+<div class="page-content-text">
+<ul>
+<li>Authenticated user accounts</li>
+<li>Sign in and do the following</li>
+<ul>
+<li>Search bills</li>
+<li>Sort bills by three different criteria (Title, Date Introduced, and Active Status</li>
+<li>Save bills</li>
+<li>Unsave bills</li>
+<li>Re-run any of your 10 most recent searches via the links in the search history panel</li>
+</ul>
+<li>Search bills when not signed in</li>
+</ul>
+</div>
+
+<h4>Responsive design</h4>
+<div class="page-content-text">
+Responsive design was employed on this app. The landing page, sign in, and search views employ it to reorder content for logic and prominence. The bill and saved bill show pages use it for aligning content, but also to resize, or <span class="terms">scale</span>, objets that are larger than the screen width at given breakpoints. This is discussed in <a href="/2018/01/20/responsive-design/">Responsive Design</a>.
+</div>
