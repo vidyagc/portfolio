@@ -44,11 +44,12 @@ Creating a Ruby on Rails app with a RESTful API was interesting. Constructing re
 
 <h4>TESTING</h4>
 <div class="page-content-text">
-Two-factor authentication is enabled. You will need to confirm an email account before signing in to the application. Confirmation emails can take a few minutes to be delivered. If you do not see one within five minutes, please check your spam folder.
-</div>
+<ul>
+<li>Two-factor authentication is enabled. You will need to confirm an email account before signing in to the application. Confirmation emails can take a few minutes to be delivered. If you do not see one within five minutes, please check your spam folder.</li>
+<li>For guidance on running queries (searches), click the orange info button (<i class="fa fa-info-circle" aria-hidden="true" style="color: #e6902a;"></i>) next to the search box. It will open a panel that explains results and how to use mutliples word searches.</li>
+</ul>
 
 <h5>FEATURES</h5>
-<div class="page-content-text">
 <ul>
 <li>Authenticated user accounts</li>
 <li>Sign in and do the following</li>
