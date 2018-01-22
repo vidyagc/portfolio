@@ -242,14 +242,15 @@ Liberty Hawk uses various grid layout techniques, inlcuding mixed columns and pu
 <!--</div>-->
 
 <div class="page-content-text">
-The Search page in Liberty Hawk uses push and pull to ensure that the search box is at the top of the screen in small viewports. In medium ones, it is to the right of the column containing search results. This is the view for signed in users. For not signed in users, the search box is only in the menu bar. 
+The Search page in Liberty Hawk uses push and pull to ensure that the search box and search history panel are at the top of the screen in small viewports. In medium ones, they are to the right of the column containing search results. This is the view for signed in users. For not signed in users, the search box is only in the menu bar. 
 </div>
 
 <div class="file-path">app/views/searches/search.html.erb</div>
 {% highlight erb %}
 <div class="row page-row">
     <div class="col-md-4 col-md-push-8">
-        <%= render 'form' %>
+        <!-- partial with search box and search history panel -->
+        <%= render 'form' %> 
     </div>
     <div class="col-md-8 col-md-pull-4">
             ...
@@ -273,6 +274,45 @@ Push and pull are also used on the landing page, to ensure that the Liberty Hawk
         </div>
     </div>
 </div>
+
+<h5>JavaScript for Adapting Display - <span style="color:#ec8013;">Liberty Hawk</span></h5>
+<div class="page-content-text">
+In small viewports, the history panel is collapsed and the user can toggle it to see the history links. This was done to ensure that the space taken up by the panel was minimized whenever possible in small views. JavaScript is used to toggle the display and update the link to 'Show' or 'Hide' the div.  
+</div>
+<div class="file-path">app/views/layouts/application.html.erb</div>
+{% highlight javascript %}
+// function to get last word of search history panel heading, and apply css and an onclick function to it. 
+function lastWord () {
+  $('div.historyHeader').html(function(){	
+  	// separate the text by spaces
+  	var text= $(this).text().split(' ');
+  	// drop the last word and store it in a variable
+  	var last = text.pop();
+  	// join the text back and if it has more than 1 word add the span tag
+  	// to the last word
+  	return text.join(" ") + (text.length > 0 ? ' <p class="last" style="float:right" onclick="toggleHistory();">'+last+'</p>' : last);   
+  });
+}
+
+// function to toggle display of the history panel body and heading content
+function toggleHistory() {
+  var x = document.getElementById("history");
+  var z = document.getElementById("historyTogSm");
+  if (x.style.display === "none" || z.textContent === 'Last 10 searches Show') {
+      x.style.display = "block";
+      z.textContent="Last 10 searches Hide";
+  } 
+  else {
+      x.style.display = "none";
+      z.textContent="Last 10 searches Show";
+  }
+  
+  // call of last word function to update the last word of the history panel heading (make it a link)
+lastWord();
+}
+{% endhighlight %}
+
+<div>&nbsp;</div>
 
 <h5>Transform with scale - <span style="color:#ec8013;">Liberty Hawk</span> - responsive widget</h5>
 <div class="page-content-text">
