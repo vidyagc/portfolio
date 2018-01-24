@@ -66,5 +66,5 @@ Creating a Ruby on Rails app with a RESTful API was interesting. Constructing re
 
 <h4>Responsive design</h4>
 <div class="page-content-text">
-Responsive design was employed on this app. The landing page, sign in, and search views employ it to reorder content for logic and prominence. The bill and saved bill show pages use it for aligning content, but also to resize, or <span class="terms">scale</span>, objets that are larger than the screen width at given breakpoints. This is discussed in <a href="/2018/01/20/responsive-design/">Responsive Design</a>.
+Responsive design was employed on this app. The landing page, sign in, and search views employ it to reorder content for logic and prominence. The bill and saved bill show pages use it for aligning content, but also to resize, or <span class="terms">scale</span>, objets that are larger than the screen width at given breakpoints. These topics are discussed in <a href="/2018/01/20/responsive-design/">Responsive Design</a>.
 </div>

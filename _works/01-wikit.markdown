@@ -392,5 +392,5 @@ end
 
 <h4>RESPONSIVE DESIGN</h4>
 <div class="page-content-text">
-Responsive design was employed on this app, particularly for navigation, but also for view layouts. This is discussed in <a href="/2018/01/20/responsive-design/">Responsive Design</a> 
+Responsive design was employed in this app, particularly for navigation, but also for view layouts. This is discussed in <a href="/2018/01/20/responsive-design/">Responsive Design</a> 
 </div>

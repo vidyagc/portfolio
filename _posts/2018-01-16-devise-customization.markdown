@@ -138,7 +138,7 @@ end
 {% endhighlight %}
 <div>&nbsp;</div>
 
-<h5>Other Customizations: messages and paths</h5>
+<h5>Other Customizations: styles, messages, & paths</h5>
 <div class="page-content-text">
 Other customizations included the following: styling the <span class="terms">passwords/new</span> and <span class="terms">confirmations/new</span> views to match (but not duplicate) the style of the sign in and sign up forms; removing messages for successful sign up and sign in, by editing them in <span class="terms">devise.en.yml</span>; and editing paths for certain links in <span class="terms">shared/_links</span>. Additional controllers were also implemented to customize redirects on password recovery and resending confirmation actions. 
 </div>
@@ -162,4 +162,4 @@ end
 {% endhighlight %}
 <div>&nbsp;</div>
 
-<h5>I hope this post was useful in understanding the how and why of the customized Devise implementations in this portfolio's apps. Even better if you learned something about using Devise forms on different pages in your app, and correspondingly handling paths and error messages on failures.</h5>
+<h5>I hope this post was useful in understanding the how and why of the customized Devise implementations in this portfolio's apps. Even better if you learned something about using Devise forms on different pages in your app, and correspondingly handling paths and Devise messages.</h5>
