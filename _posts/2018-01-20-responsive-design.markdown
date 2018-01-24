@@ -281,44 +281,10 @@ Push and pull are also used on the landing page, to ensure that the Liberty Hawk
 <div class="page-content-text">
 In small viewports, the history panel is collapsed and the user can toggle it to see the history links. This was done to ensure that the space taken up by the panel was minimized whenever possible in small views. JavaScript is used to toggle the display and update the link to 'Show' or 'Hide' the div. You can read a more detailed discussion of how JavaScript used in this and other sites in an upcoming Blog post. 
 </div>
-<div class="file-path">app/views/layouts/application.html.erb</div>
-{% highlight javascript %}
-// function to get last word of search history panel heading, and apply css and an onclick function to it. 
-function lastWord () {
-  $('div.historyHeader').html(function(){	
-  	// separate the text by spaces
-  	var text= $(this).text().split(' ');
-  	// drop the last word and store it in a variable
-  	var last = text.pop();
-  	// join the text back and if it has more than 1 word add the span tag
-  	// to the last word
-  	return text.join(" ") + (text.length > 0 ? ' <p class="last" style="float:right" onclick="toggleHistory();">'+last+'</p>' : last);   
-  });
-}
-
-// function to toggle display of the history panel body and heading content
-function toggleHistory() {
-  var x = document.getElementById("history");
-  var z = document.getElementById("historyTogSm");
-  if (x.style.display === "none" || z.textContent === 'Last 10 searches Show') {
-      x.style.display = "block";
-      z.textContent="Last 10 searches Hide";
-  } 
-  else {
-      x.style.display = "none";
-      z.textContent="Last 10 searches Show";
-  }
-  
-  // call of last word function to update the last word of the history panel heading (make it a link)
-lastWord();
-}
-{% endhighlight %}
-
-<div>&nbsp;</div>
 
 <h5>Transform with scale - <span style="color:#ec8013;">Liberty Hawk</span> - responsive widget</h5>
 <div class="page-content-text">
-CSS <span class="terms">transform: scale</span> was used to resize a Bill Status Widget powered by GovTrack.us, that is incorporated in the search results bill and saved bill show views. It is scaled for all views, but then scaled smaller for smaller views. Negative margins were used to adjust the widget's position, as its pixel ratio is now different from the other DOM elements. Without this adjustment, it does not line up in the layout and and it would still run past the view width. There are better solutions for this involving transform and or JavaScript. Those will be tried later.  
+CSS <span class="terms">transform: scale</span> was used to resize a Bill Status Widget powered by GovTrack.us, that is incorporated in the search results bill and saved bill show views. By default, the widget expands beyond the width of small and medium views. It is scaled for all views to <span class="terms">0.90</span>, but then scaled smaller for smaller views. Negative margins were used to adjust the widget's position, as its pixel ratio is now different from the other DOM elements. Without this adjustment, it does not line up in the layout and and it would still run past the view width. There are better solutions for this involving transform and or JavaScript. Those will be tried later.  
 </div>
 
 <div class="row">
@@ -332,6 +298,15 @@ CSS <span class="terms">transform: scale</span> was used to resize a Bill Status
     </div>
 </div>
 {% endhighlight %}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="wikit-resp-img" style="display:table; margin: auto">
+        <img src="{{site.baseurl}}/img/blog/lh-ws-widget.png" style="display:inline; margin-right:15px" class="img-responsive img-padded img-marg" alt="Liberty Hawk iPad mini vertical view">
+        <img src="{{site.baseurl}}/img/blog/lh-s-widget.png" style="display:inline" class="img-responsive img-padded" alt="Liberty Hawk iPad mini horizontal view">
+        </div>
+    </div>
+</div>
     </div>
     
     <div class="col-md-6">
@@ -366,6 +341,5 @@ CSS <span class="terms">transform: scale</span> was used to resize a Bill Status
     </div>
 </div>
 <div>&nbsp;</div>
-
 
 <h5>Hopefully this post explains the reasoning behind some the layout choices for responsive design in Wikit and Liberty Hawk. Thank you for taking a look!</h5>

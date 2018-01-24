@@ -181,6 +181,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .img-marg {
+    margin-right: 0 !important;
+  }
+}
+
 .li-col {
   color: #07335e; /*changed */
   font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:15px;line-height:1.42857143;
