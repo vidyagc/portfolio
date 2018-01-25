@@ -284,7 +284,7 @@ In small viewports, the history panel is collapsed and the user can toggle it to
 
 <h5>Transform with scale - <span style="color:#ec8013;">Liberty Hawk</span> - responsive widget</h5>
 <div class="page-content-text">
-CSS <span class="terms">transform: scale</span> was used to resize a Bill Status Widget powered by GovTrack.us, that is incorporated in the search results bill and saved bill show views. By default, the widget expands beyond the width of small and medium views. It is scaled for all views to <span class="terms">0.90</span>, but then scaled smaller for smaller views. Negative margins were used to adjust the widget's position, as its pixel ratio is now different from the other DOM elements. Without this adjustment, it does not line up in the layout and and it would still run past the view width. There are better solutions for this involving transform and or JavaScript. Those will be tried later.  
+CSS <span class="terms">transform: scale</span> was used to resize a Bill Status Widget powered by GovTrack.us, that is incorporated in the search results bill and saved bill show views. By default, the widget expands beyond the width of small and medium views (notice images below), but scaling allows it to fit the screen size. It is scaled for all views to <span class="terms">0.90</span>, but then scaled smaller for smaller views. Negative margins were used to adjust the widget's position, as its pixel ratio is now different from the other DOM elements. Without this adjustment, it does not line up in the layout and and it would still run past the view width. There are better solutions for this involving transform and or JavaScript. Those will be tried later.  
 </div>
 
 <div class="row">
