@@ -25,12 +25,12 @@ Liberty Hawk and Wikit use different nav menu styles, top and side respectively.
 </div>
 
 <div class="page-content-text">
-First, there is a top bootstrap <span class="terms">navbar</span>. It doesn't contain menu items, but rather, contains a brand logo, and a logout link is displayed after a user is signed in. Menu items are displayed in a side navigation panel. Both <span class="terms">navbar-top</span> and the contents of <span class="terms">nav-side-menu</span> are updated for screen width ≤ 767px, the portrait browser size for the iPad mini is 768px. The mechanisms to hide each of the bars is as follows. For <span class="terms">navbar-top</span>, a CSS media query sets <span class="terms">display:none</span> for screens <span class="terms">max-width: 767px</span>. 
+First, there is a top bootstrap <span class="terms">navbar</span>. It doesn't contain menu items, but rather, contains a brand logo, and a logout link is displayed after a user is signed in. Menu items are displayed in a side navigation panel. Both <span class="terms">navbar-top</span> and the contents of <span class="terms">nav-side-menu</span> are updated for screen width ≤ 768px, the portrait browser size for the iPad mini. The mechanisms to hide each of the bars is as follows. For <span class="terms">navbar-top</span>, a CSS media query sets <span class="terms">display:none</span> for screens <span class="terms">max-width: 768px</span>. 
 </div>
 
 <div class="file-path">app/assets/stylesheets/application.scss</div>
 {% highlight scss %}
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 ...
     .navbar-top {
         display: none;
@@ -42,7 +42,7 @@ First, there is a top bootstrap <span class="terms">navbar</span>. It doesn't co
 <div>&nbsp;</div>
 
 <div class="page-content-text">
-<span class="terms">nav-side-menu</span> employs two divs with updating visibility based on screen width. These are <span class="terms">menu-list</span> and <span class="terms">brand</span>. It also contains an icon element that toggles the display of the <span class="terms">menu-list</span> content in screens ≤ 767px width. 
+<span class="terms">nav-side-menu</span> employs two divs with updating visibility based on screen width. These are <span class="terms">menu-list</span> and <span class="terms">brand</span>. It also contains an icon element that toggles the display of the <span class="terms">menu-list</span> content in screens ≤ 768px width. 
 </div>
 
 <div class="file-path">app/views/layouts/application.html.erb</div>
@@ -61,14 +61,14 @@ First, there is a top bootstrap <span class="terms">navbar</span>. It doesn't co
 <div>&nbsp;</div>
 
 <div class="page-content-text">
-The content of <span class="terms">menu-list</span>, <span class="terms">menu-content</span>, is shown in screens of minimum size small. It is hidden in xs screens. The <span class="terms">menu-content</span> list is assigned the Bootstrap <span class="terms">collapse</span> class. By default, this content is hidden. A CSS media query, however, sets <span class="terms">display:block</span> screens minimum size small. Thus, <span class="terms">menu-content</span> is collapsed by default in xs screens. Correspondingly, <span class="terms">brand</span> and the icon element (used to toggle <span class="terms">menu-content</span> visibility) have <span class="terms">display:none</span> at small and larger screens, but this is set to <span class="terms">display:block</span> for xs. The toggle element has <span class="terms">data-target="#menu-content"</span>, and once visible in the xs view, this toggle icon can be used to hide and show the <span class="terms">menu=content</span> for navigation. Because the value of the toggle is maintained when the screen is expanded beyond an xs width (e.g. you are in a large screen, and you reduce it to xs, then resize to larger), <span class="terms">menu-content</span> can remain hidden when you resize to a larger view. To ensure that the content is visible in the larger view in this scenario, <span class="terms">min-height</span> is set in a media query for width ≥ 768px.   
+The content of <span class="terms">menu-list</span>, <span class="terms">menu-content</span>, is shown in screens of minimum size small. It is hidden in xs screens. The <span class="terms">menu-content</span> list is assigned the Bootstrap <span class="terms">collapse</span> class. By default, this content is hidden. A CSS media query, however, sets <span class="terms">display:block</span> screens minimum size small. Thus, <span class="terms">menu-content</span> is collapsed by default in xs and 768px width screens. Correspondingly, <span class="terms">brand</span> and the icon element (used to toggle <span class="terms">menu-content</span> visibility) have <span class="terms">display:none</span> at most small and larger screens, but this is set to <span class="terms">display:block</span> for width ≤ 768px . The toggle element has <span class="terms">data-target="#menu-content"</span>, and once visible in the xs view, this toggle icon can be used to hide and show the <span class="terms">menu=content</span> for navigation. Because the value of the toggle is maintained when the screen is expanded beyond 768px width (e.g. you are in a large screen, and you reduce it to xs/s, then resize to larger), <span class="terms">menu-content</span> can remain hidden when you resize to a larger view. To ensure that the content is visible in the larger view in this scenario, <span class="terms">min-height</span> is set in a media query for width ≥ 769px.   
 </div>
 
 <div class="row">
     <div class="col-md-6">
         <div class="file-path">app/assets/stylesheets/application.scss</div>
 {% highlight scss %}
-@media (min-width: 768px) {
+@media (min-width: 769px) {
 ...
     .nav-side-menu .menu-list .menu-content {
         display: block;
@@ -90,7 +90,7 @@ The content of <span class="terms">menu-list</span>, <span class="terms">menu-co
     <div class="col-md-6">
         <div class="file-path">app/assets/stylesheets/application.scss</div>
 {% highlight scss %}
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 ...
     .nav-side-menu .toggle-btn {
         display: block;
@@ -103,7 +103,7 @@ The content of <span class="terms">menu-list</span>, <span class="terms">menu-co
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .nav-side-menu {
         min-height: 275;
     }
