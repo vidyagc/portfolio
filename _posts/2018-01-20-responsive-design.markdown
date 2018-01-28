@@ -46,7 +46,7 @@ First, there is a top bootstrap <span class="terms">navbar</span>. It doesn't co
 </div>
 
 <div class="file-path">app/views/layouts/application.html.erb</div>
-{% highlight html %}
+{% highlight erb %}
 <div class="nav-side-menu">
     <div class="brand"><%= link_to "<u><h3 style='font-weight: bold; color:#80668a;'>Wikit <i class='fa fa-pencil' aria-hidden='true'></i></h3></u>".html_safe, welcome_index_path, class: "nav-logo" %></div>
     <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content" ></i>
@@ -121,7 +121,7 @@ Because the footers for Wikit and Liberty Hawk contained little content (just a 
 <div class="page-content-text">
 Although not a responsive design element, in order to keep the <span class="terms">footer</span> near the bottom of the view (with spacing below it being similar to the spacing about the top <span class="terms">navbar</span>), I used a <span class="terms">wrapper</span> with <span class="terms">min-height: 75vh;</span> to push the <span class="terms">footer</span> to the correct position.
 </div>
-
+<a name="scrollbar"></a>
 <div class="row">
     <div class="col-md-6">
         <div class="file-path">app/assets/stylesheets/application.scss</div>
@@ -135,7 +135,6 @@ Although not a responsive design element, in order to keep the <span class="term
 }
 {% endhighlight %}
     </div>
-
     <div class="col-md-6">
         <div class="file-path">app/views/layouts/application.html.erb</div>
 {% highlight erb %}
@@ -148,7 +147,7 @@ Although not a responsive design element, in order to keep the <span class="term
 {% endhighlight %}
     </div>
 </div>
-
+ 
 <div style="margin-bottom:.75cm"></div>
 
 <h5>Footer - <span style="color:#ec8013;">Liberty Hawk</span> - Responding to Scroll & Viewport</h5>
@@ -279,7 +278,12 @@ Push and pull are also used on the landing page, to ensure that the Liberty Hawk
 
 <h5>JavaScript for Dynamic Display - <span style="color:#ec8013;">Liberty Hawk</span></h5>
 <div class="page-content-text">
-In small viewports, the history panel is collapsed and the user can toggle it to see the history links. This was done to ensure that the space taken up by the panel was minimized whenever possible in small views. JavaScript is used to toggle the display and update the link to 'Show' or 'Hide' the div. You can read a more detailed discussion of how JavaScript used in this and other sites in an upcoming Blog post. 
+In small viewports, the history panel is collapsed and the user can toggle it to see the history links. This was done to ensure that the space taken up by the panel was minimized whenever possible in small views. JavaScript is used to toggle the display and update the link to 'Show' or 'Hide' the div. You can read a more detailed discussion of how JavaScript used in this and other sites in <a href="/2018/01/28/js-dynamic-content/#">JavaScript for Dynamic Content</a>. 
+</div>
+
+<h5>Landing page forms display with CSS and JavaScript - <span style="color:#ec8013;">Wikit</span></h5>
+<div class="page-content-text">
+The position and display of the Devise forms on the landing page are updated based on the viewport size. For large viewports, the are displayed on the right side of the layout. At breakpoint ≤ 768px (iPad mini size), the forms are on the left side of the layout. Additionally, at breakpoint ≤ 767px, the forms are hidden, and two buttons are displayed to toggle them. The CSS and JavaScript used to update and toggle the display of these elements is covered in <a href="/2018/01/28/js-dynamic-content/">JavaScript for Dynamic Content</a>. 
 </div>
 
 <h5>Transform with scale - <span style="color:#ec8013;">Liberty Hawk</span> - responsive widget</h5>

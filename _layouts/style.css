@@ -106,6 +106,12 @@
   padding-bottom: 42px;
 }
 
+.code-header {
+  margin-top:0; 
+  text-transform:none !important; 
+  color:#ec8013;
+}
+
 .work-header h3 {
   color: #ec8013;
   text-transform: capitalize !important;

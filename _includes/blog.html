@@ -9,9 +9,13 @@
     </div>
     <div class="row">
       <div class="col-md-6">
-        {% for post in site.posts limit:2 %} 
+        {% for post in site.posts limit:3 %} 
         <a href="{{site.baseurl}}{{ post.url }}">
-          <h3>{{ post.title }}</h3>
+          {% if post.title2 %}
+            <h3>{{ post.title2 }}</h3>
+          {% else %}
+            <h3>{{ post.title }}</h3>
+          {% endif %}
         </a>
         {% endfor %}
       </div>
