@@ -274,3 +274,5 @@ When a user leaves the landing page, after <span class="terms">showTab</span> ha
             </li>
 {% endhighlight %}
 <div>&nbsp;</div>
+
+<h5>Hopefully this post explains how JavaScript was used in conjunction with responsive design in Wikit and Liberty Hawk. Thank you for taking a look!</h5>
