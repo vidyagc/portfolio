@@ -8,7 +8,7 @@ category:
 title: JavaScript for Dynamic Content
 title2: JS - Dynamic Content
 featured: 
-introduction: <a href="/libertyhawk" target="_blank">Liberty Hawk</a> and <a href="/wikit" target="_blank">Wikit</a> rely on JavaScript (and the JQuery library) for one of its more common uses (to show/hide content). The show/hide functions are used in conjunction with responsive design features to conserve space where possible on small and xs screens. Another use in <a href="/libertyhawk" target="_blank">Liberty Hawk</a> use was to detect a scrollbar on the window to update the position of the footer. As with most coding, there were alternative ways to achieve this functionality, but these implementations seemed efficient (lines of code, ease of implementation, etc.). 
+introduction: <a href="/libertyhawk" target="_blank">Liberty Hawk</a> and <a href="/wikit" target="_blank">Wikit</a> rely on JavaScript (and the JQuery library) for one of its more common uses (to show/hide content). The show/hide functions are used in conjunction with responsive design features to conserve space where possible on small and xs screens. Another use of JS in <a href="/libertyhawk" target="_blank">Liberty Hawk</a> was to detect a scrollbar on the window to update the position of the footer. As with most coding, there were alternative ways to achieve this functionality, but these implementations seemed efficient (lines of code or ease of implementation, etc.). 
 ---
 
 <div class="page-content-text">
