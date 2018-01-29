@@ -14,17 +14,17 @@ category: Web Development
 description: a congressional bill search application that uses the ProPublica API ‘Search Bills’ endpoint.   
 ---
 
-<h4>Upcoming Overview and Repo Access</h4>
+<h4>Upcoming Overview and Refactoring</h4>
 <div class="page-content-text">
 <ul>
-<li>A complete project writeup will be posted by the end of the first week of February, but check back at the end of January for new discussion sections on various aspects of the implementation. For now, you can read about the responsive design in the blog post, <a href="/2018/01/20/responsive-design/">Responsive Design</a>. This post covers the Wikit app as well.</li>
-<li>GitHub Repo: check back in two weeks. The code is currently being refactored for resourceful routing and other Rails best practices and efficiencies. For now, check out the <span style="color:#ec8013; font-variant:small-caps"><b>Link</b></span> to the live app below.</li>
+<li>A complete project writeup will be posted by the end of the first week of February, For now, you can read about the app's responsive design features in the blog post, <a href="/2018/01/20/responsive-design/">Responsive Design</a>, and its dynamic content in <a href="/2018/01/28/js-dynamic-content/#">JavaScript for Dynamic Content</a>.</li>
+<li>The code is currently being refactored for resourceful routing and other Rails best practices and efficiencies. If you see anything in the GitHub repo that you would like to discuss (e.g. "How are you planning on improving the following items?"), just contact me, and I'm happy to talk.</li>
 </ul>
 </div>
 
 <h4>DESCRIPTION</h4>
 <div class="page-content-text">
-A congressional bill search application that uses the ProPublica API ‘Search Bills’ endpoint. Users can search bills while logged in or just as site visitors. Logged in users can save bills (favorites), see a history of their past 10 searches, sort bills by multiple categories, and their most recent search results are persisted until a new search. 
+A congressional bill search application that uses the ProPublica API ‘Search Bills’ endpoint. Users can search bills while logged in or search just as site visitors. Logged in users can save bills (favorites), see a history of their past 10 searches, sort bills by multiple categories, and their most recent search results are persisted (you can see them when you log back in to a new session). 
 </div>
 
 <h5>UPCOMING FEATURE</h5>
@@ -40,6 +40,7 @@ Creating a Ruby on Rails app with a RESTful API was interesting. Constructing re
 <h4>LINK</h4>
 <div class="page-content-text">
 <a href="https://libertyhawk.herokuapp.com/" target="_blank">Live App</a>&nbsp;&nbsp;<span style="font-variant:small-caps">please read <span style="color:#ec8013"><b>testing</b></span> below before trying app</span><br>
+<a href="https://github.com/vidyagc/libertyhawk" target="_blank">GitHub Repo</a>
 </div>
 
 <h4>TESTING</h4>
@@ -67,4 +68,9 @@ Creating a Ruby on Rails app with a RESTful API was interesting. Constructing re
 <h4>Responsive design</h4>
 <div class="page-content-text">
 Responsive design was employed on this app. The landing page, sign in, and search views employ it to reorder content for logic and prominence. The bill and saved bill show pages use it for aligning content, but also to resize, or <span class="terms">scale</span>, objets that are larger than the screen width at given breakpoints. These topics are discussed in <a href="/2018/01/20/responsive-design/">Responsive Design</a>.
+</div>
+
+<h4>Dynamic Content</h4>
+<div class="page-content-text">
+JavaScript was used to show and hide content on small screens. This is discussed in <a href="/2018/01/20/responsive-design/">Responsive Design</a>.
 </div>
