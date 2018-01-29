@@ -128,7 +128,7 @@ The toggle feature required several considerations.
     <ol class="ol-blog">
     <li><span class="li-col">Displaying the forms and hiding the toggle bottons at breakpoint ≥ 768px</span></li> 
     <li><span class="li-col">Hiding the forms and displaying the toggle buttons at breakpoint ≤ 767px</span></li> 
-    <li><span class="li-col">Showing a form when the user is redirecting to the landing page</span></li>
+    <li><span class="li-col">Showing a form when the user is linking to the landing page</span></li>
     </ol>
 </div>
 
@@ -223,9 +223,9 @@ toggleTabs();
 {% endhighlight %}
 <div>&nbsp;</div>
 
-<h5><span style="color:#ec8013;">3.</span> Display form when redirecting to landing page</h5> 
+<h5><span style="color:#ec8013;">3.</span> Display form when linking to landing page</h5> 
 <div class="page-content-text">
-The password recovery and resend confirmation pages have links to the log in and sign up forms. These links lead back to the landing page. I wanted the respective forms to show when each link is clicked. This is achieved by creating a global variable called <span class="terms">showTab</span>, and setting the value of the variable in an <span class="terms">onclick</span> event for each link. Using <span class="terms">$('#tab2show').show()</span> or <span class="terms">$('#tab1show').show()</span> in the <span class="terms">onclick</span> does not work, as the event needs to fire after the redirect. Instead of using a method for triggering the event after the redirect, <span class="terms">showTab</span> is set, and used to show the corresponding <span class="terms">tab-content</span> (sign in or sign up form).</div>
+The password recovery and resend confirmation pages have links to the log in and sign up forms. These links lead back to the landing page. I wanted the respective forms to show when each link is clicked. This is achieved by creating a global variable called <span class="terms">showTab</span>, and setting the value of the variable in an <span class="terms">onclick</span> event for each link. Using <span class="terms">$('#tab2show').show()</span> or <span class="terms">$('#tab1show').show()</span> in the <span class="terms">onclick</span> does not work, as the event needs to fire after the page load. Instead of using a method for triggering the event after the page load, <span class="terms">showTab</span> is set, and used to show the corresponding <span class="terms">tab-content</span> (sign in or sign up form).</div>
 
 <h5 class="code-header">showTab variable declaration & conditional to show element</h5>
 <div class="file-path">app/views/layouts/application.html.erb</div>
@@ -241,14 +241,14 @@ else if (showTab==2)
 }
 else 
 {
-    // hide all tab-content elements when the landing page is redirected to (showTab is set to 0 in the an onclick on links to landing page)
+    // hide all tab-content elements when the landing page is loaded (showTab is set to 0 in the an onclick on links to landing page)
     $('#tab1show').hide(); 
     $('#tab2show').hide();
 }
 {% endhighlight %}
 <div>&nbsp;</div>
 
-<h5 class="code-header">redirect with onclick to set showTab value</h5>
+<h5 class="code-header">link with onclick to set showTab value</h5>
 <div class="file-path">app/views/devise/shared/_links.html.erb</div>
 {% highlight erb %}
 <%- if controller_name != 'sessions' %>
@@ -262,7 +262,7 @@ else
 <div>&nbsp;</div>
 
 <div class="page-content-text">
-When a user leaves the landing page, after <span class="terms">showTab</span> has been set from a log in or sign up redirect link, I do not want the form to remain displayed when they go back to the landing page. There were several was to do this, but I just chose to set <span class="terms">showTab=0</span> in an <span class="terms">onclick</span> event in links that redirect to the landing page. 
+When a user leaves the landing page, after <span class="terms">showTab</span> has been set from a log in or sign up link, I do not want the form to remain displayed when they go back to the landing page. There were several was to do this, but I just chose to set <span class="terms">showTab=0</span> in an <span class="terms">onclick</span> event in links that direct to the landing page. 
 </div>
 
 <div class="file-path">app/views/layouts/application.html.erb</div>
