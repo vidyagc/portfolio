@@ -349,11 +349,11 @@ section a:hover {
 }
 
 @media (max-width: 991px) {
-  .wikit-resp-img img {
+  .resp-img-page img {
     display:block !important;
   }
-  .wikit-resp-img img:first-child {
-    margin-right: 0;
+  .resp-img-page img:first-child {
+    margin-right: 0 !important;
   }
 }
 

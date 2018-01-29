@@ -17,7 +17,7 @@ Liberty Hawk and Wikit use different nav menu styles, top and side respectively.
 
 <div class="row">
     <div class="col-md-12">
-        <div class="wikit-resp-img" style="display:table; margin: auto">
+        <div class="resp-img-page" style="display:table; margin: auto">
         <img src="{{site.baseurl}}/img/blog/wikit-resp-mon.png" style="display:inline; margin-right:15px" class="img-responsive img-centered img-padded" alt="Wikit uncollapsed menu view">
         <img src="{{site.baseurl}}/img/blog/wikit-phone.png" style="display:inline" class="img-responsive img-centered img-padded" alt="Wikit collapsed menu view">
         </div>
@@ -196,8 +196,8 @@ Liberty Hawk uses various grid layout techniques, inlcuding mixed columns and pu
 </div>
 
 <div class="row">
-    <div class="col-md-12">
-        <div class="wikit-resp-img" style="display:table; margin: auto">
+    <div class="col-md-12" >
+        <div class="resp-img-page" style="display:table; margin: auto">
         <img src="{{site.baseurl}}/img/blog/lh-ipad-hor.png" style="display:inline; margin-right:15px" class="img-responsive img-centered img-padded" alt="Wikit iPad mini horizontal view">
         <img src="{{site.baseurl}}/img/blog/lh-ipad-vert.png" style="display:inline" class="img-responsive img-centered img-padded" alt="Wikit iPad mini vertical view">
         </div>
@@ -269,9 +269,9 @@ Push and pull are also used on the landing page, to ensure that the Liberty Hawk
 
 <div class="row">
     <div class="col-md-12">
-        <div class="wikit-resp-img" style="display:table; margin: auto">
-        <img src="{{site.baseurl}}/img/blog/lh-land-ipad-vert.png" style="display:inline; margin-right:15px" class="img-responsive img-centered img-padded" alt="Liberty Hawk iPad mini vertical view">
-        <img src="{{site.baseurl}}/img/blog/lh-land-ipad-hor.png" style="display:inline" class="img-responsive img-centered img-padded" alt="Liberty Hawk iPad mini horizontal view">
+        <div class="resp-img-page" style="display:table; margin: auto">
+        <img src="{{site.baseurl}}/img/blog/lh-land-ipad-hor.png" style="display:inline; margin-right:15px;" class="img-responsive img-centered img-padded" alt="Liberty Hawk iPad mini vertical view">
+        <img src="{{site.baseurl}}/img/blog/lh-land-ipad-vert.png" style="display:inline" class="img-responsive img-centered img-padded" alt="Liberty Hawk iPad mini horizontal view">
         </div>
     </div>
 </div>
@@ -305,8 +305,8 @@ CSS <span class="terms">transform: scale</span> was used to resize a Bill Status
 
 <div class="row">
     <div class="col-md-12">
-        <div class="wikit-resp-img" style="display:table; margin: auto">
-        <img src="{{site.baseurl}}/img/blog/lh-ws-widget.png" style="display:inline; margin-right:15px" class="img-responsive img-padded img-marg" alt="Liberty Hawk iPad mini vertical view">
+        <div class="resp-img-page" style="display:table; margin: auto">
+        <img src="{{site.baseurl}}/img/blog/lh-ws-widget.png" style="display:inline; margin-right:15px;" class="img-responsive img-padded img-marg" alt="Liberty Hawk iPad mini vertical view">
         <img src="{{site.baseurl}}/img/blog/lh-s-widget.png" style="display:inline" class="img-responsive img-padded" alt="Liberty Hawk iPad mini horizontal view">
         </div>
     </div>

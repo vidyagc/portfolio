@@ -25,7 +25,7 @@ width). One panel is visible only in view width ≥ 769px. The other panel, <spa
 
 <div class="row">
     <div class="col-md-12">
-        <div class="wikit-resp-img" style="display:table; margin: auto">
+        <div class="resp-img-page" style="display:table; margin: auto">
         <img src="{{site.baseurl}}/img/blog/lh-resp-mon-search.png" style="display:inline; margin-right:15px" class="img-responsive img-centered img-padded" alt="Wikit uncollapsed menu view">
         <img src="{{site.baseurl}}/img/blog/lh-phone-search-hide.png" style="display:inline" class="img-responsive img-centered img-padded" alt="Wikit collapsed menu view">
         </div>
@@ -110,12 +110,12 @@ The use of JavaScript to detect and respond to a scrollable view is discussed in
 <div style="margin-bottom:.75cm"></div>
 <h5>Show/Hide Elements</h5>
 <div class="page-content-text">
-As mentioned in Responsive Design, at breakpoint ≤ 767px, the sign in/up forms on the landing page are displayed at the top of the view, and their display is toggled with buttons. 
+As mentioned in Responsive Design, at breakpoint ≤ 767px, the Devise forms on the landing page are displayed at the top of the view, and their display is toggled with buttons. 
 </div>
 
 <div class="row">
     <div class="col-md-12">
-        <div class="wikit-resp-img" style="display:table; margin: auto">
+        <div class="resp-img-page" style="display:table; margin: auto">
         <img src="{{site.baseurl}}/img/blog/wikit-resp-mon.png" style="display:inline; margin-right:15px" class="img-responsive img-centered img-padded" alt="Wikit uncollapsed menu view">
         <img src="{{site.baseurl}}/img/blog/wikit-phone-toggle.png" style="display:inline" class="img-responsive img-centered img-padded" alt="Wikit collapsed menu view">
         </div>
