@@ -5,8 +5,9 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="shortcut icon" href="{{site.baseurl}}/img/portfolio/head-logo.png">
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{{site.baseurl}}/img/DDD-logo.png">
     <meta name="keywords" content="{{ site.keywords }}" />
+    <meta property="og:image" content="http://example.com/logo.jpg">
     {% if site.meta_author %}<meta name="author" content="{{ site.meta_author }}">{% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
