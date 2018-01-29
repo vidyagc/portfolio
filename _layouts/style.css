@@ -191,6 +191,10 @@
   .img-marg {
     margin-right: 0 !important;
   }
+  #avatar-bio {
+    margin: auto;    
+    display: block;
+  }
 }
 
 .li-col {
