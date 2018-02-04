@@ -6,7 +6,7 @@ alt: image-alt
 client: 
 category: 
 title: Rails - Devise Customization 
-featured: 
+featured: true
 introduction: Devise is a complete MVC authentication solution for Rails. It can be used in lieu of building authentication from scratch. This post is an overview of Devise customization solutions that were used in <a href="/wikit" target="_blank">Wikit</a>. Some of the customizations below were also used in <a href="/libertyhawk" target="_blank">Liberty Hawk</a>, but the discussion and code snippets pertain to <a href="/wikit" target="_blank">Wikit</a>.
 ---
 

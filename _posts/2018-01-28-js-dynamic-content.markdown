@@ -61,7 +61,7 @@ width). One panel is visible only in view width ≥ 769px. The other panel, <spa
 <div>&nbsp;</div>
 
 <div class="page-content-text">
-Javascript is used to show/hide history and correspondingly update <span class="terms">historyHeader</span>. <span class="terms">toggleHistory()</span> updates the <span class="terms">display</span> of<span class="terms">history</span>, and the <span class="terms">textContent</span> of <span class="terms">historyHeader</span>. The helper method <span class="terms">lastWord()</span> updates the last word of <span class="terms">historyHeader</span>’s text content into a link with an <span class="terms">onclick</span> event to toggle the display. In the code snippet below, the functions are commented to explain how they work. 
+Javascript is used to show/hide history and correspondingly update <span class="terms">historyHeader</span>. <span class="terms">toggleHistory()</span> updates the <span class="terms">display</span> of<span class="terms">history</span>, and the <span class="terms">textContent</span> of <span class="terms">historyHeader</span>. The helper method <span class="terms">lastWord()</span> updates the last word of <span class="terms">historyHeader</span>’s <span class="terms">textContent</span> into a link with an <span class="terms">onclick</span> event to toggle the display. In the code snippet below, the functions are commented to explain how they work. 
 </div>
 
 <div class="file-path">app/views/layouts/application.html.erb</div>
@@ -110,7 +110,7 @@ The use of JavaScript to detect and respond to a scrollable view is discussed in
 <div style="margin-bottom:.75cm"></div>
 <h5>Show/Hide Elements</h5>
 <div class="page-content-text">
-As mentioned in Responsive Design, at breakpoint ≤ 767px, the Devise forms on the landing page are displayed at the top of the view, and their display is toggled with buttons. 
+As mentioned in <a href="/2018/01/20/responsive-design/#forms">Responsive Design</a>, at breakpoint ≤ 767px, the Devise forms on the landing page are displayed at the top of the view, and their display is toggled with buttons. 
 </div>
 
 <div class="row">

@@ -278,7 +278,7 @@ Push and pull are also used on the landing page, to ensure that the Liberty Hawk
 
 <h5>JavaScript for Dynamic Display - <span style="color:#ec8013;">Liberty Hawk</span></h5>
 <div class="page-content-text">
-In small viewports, the history panel is collapsed and the user can toggle it to see the history links. This was done to ensure that the space taken up by the panel was minimized whenever possible in small views. JavaScript is used to toggle the display and update the link to 'Show' or 'Hide' the div. You can read a more detailed discussion of how JavaScript used in this and other sites in <a href="/2018/01/28/js-dynamic-content/#">JavaScript for Dynamic Content</a>. 
+In small viewports, the history panel is collapsed and the user can toggle it to see the history links. This was done to ensure that the space taken up by the panel was minimized<a name="forms"></a> whenever possible in small views. JavaScript is used to toggle the display and update the link to 'Show' or 'Hide' the div. You can read a more detailed discussion of how JavaScript used in this and other sites in <a href="/2018/01/28/js-dynamic-content/#">JavaScript for Dynamic Content</a>. 
 </div>
 
 <h5>Landing page forms display with CSS and JavaScript - <span style="color:#ec8013;">Wikit</span></h5>

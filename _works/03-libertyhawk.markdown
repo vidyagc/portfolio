@@ -72,5 +72,10 @@ Responsive design was employed on this app. The landing page, sign in, and searc
 
 <h4>Dynamic Content</h4>
 <div class="page-content-text">
-JavaScript was used to show and hide content on small screens. This is discussed in <a href="/2018/01/28/js-dynamic-content/#">JavaScript for Dynamic Content</a>.
+JavaScript was used to show and hide content on small screens. This is discussed in <a href="/2018/01/28/js-dynamic-content/">JavaScript for Dynamic Content</a>.
+</div>
+
+<h4>JQuery Animate</h4>
+<div class="page-content-text">
+JQuery animated scroll was used to help users easily and smoothly get back to the top of the page on small screens. This is discussed in <a href="/2018/02/04/jquery-animated-scroll/">JQuery - Animated Scroll</a>.
 </div>
