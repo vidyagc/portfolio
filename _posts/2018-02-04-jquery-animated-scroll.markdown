@@ -23,15 +23,14 @@ The button element is placed under the footer. It's position is fixed in the low
 </div>
 
 <div class="row">
-    <div class="col-md-5">
-        <div class="resp-img-page pull-left" style="display:table; margin: auto">
+    <div class="col-md-5 col-sm-6">
+        <div class="pull-left" style="display:table; margin: auto">
             <img src="{{site.baseurl}}/img/blog/scroll-to-top.gif" class="img-responsive img-padded img-marg" alt="">
         </div>
     </div>
+    <div class="col-md-7 col-sm-6">
     
-    <div class="col-md-7">
-    
-<div class="file-path">app/views/layouts/application.html.erb</div>
+<div class="file-path" style="overflow:hidden">app/views/layouts/application.html.erb</div>
 {% highlight erb %}
 <!-- footer element above -->
 <div class="scroll-top visible-xs visible-sm">
