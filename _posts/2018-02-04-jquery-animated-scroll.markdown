@@ -89,5 +89,6 @@ $(document).ready(function(){
 <div>&nbsp;</div>
 
 <h5>JQuery - Easing</h5>
-
+<div class="page-content-text">
 Several easing options were tried with <span class="terms">animate</span>, including linear. The JQuery easing plugin for Rails was also installed, but <span class="terms">animate</span> with a slow speed and the default <span class="terms">swing</span> function seemed sufficient for achieving the desired effect.  
+</div>
