@@ -227,6 +227,13 @@ toggleTabs();
 <div class="page-content-text">
 The password recovery and resend confirmation pages have links to the log in and sign up forms. These links lead back to the landing page. I wanted the respective forms to show when each link is clicked. This is achieved by creating a global variable called <span class="terms">showTab</span>, and setting the value of the variable in an <span class="terms">onclick</span> event for each link. Using <span class="terms">$('#tab2show').show()</span> or <span class="terms">$('#tab1show').show()</span> in the <span class="terms">onclick</span> does not work, as the event needs to fire after the page load. Instead of using a method for triggering the event after the page load, <span class="terms">showTab</span> is set, and used to show the corresponding <span class="terms">tab-content</span> (sign in or sign up form).</div>
 
+<div class="row">
+    <div class="col-md-5 col-sm-6">
+        <div class="pull-left" style="display:table; margin: auto">
+            <img src="{{site.baseurl}}/img/blog/wikit-form-link.gif" class="img-responsive img-padded img-marg" alt="">
+        </div>
+    </div>
+    <div class="col-md-7 col-sm-6">
 <h5 class="code-header">showTab variable declaration & conditional to show element</h5>
 <div class="file-path">app/views/layouts/application.html.erb</div>
 {% highlight javascript %}
@@ -241,12 +248,15 @@ else if (showTab==2)
 }
 else 
 {
-    // hide all tab-content elements when the landing page is loaded (showTab is set to 0 in the an onclick on links to landing page)
+    // hide all tab-content elements when the landing page is loaded 
+    // (showTab is set to 0 in the an onclick on links to landing page)
     $('#tab1show').hide(); 
     $('#tab2show').hide();
 }
 {% endhighlight %}
 <div>&nbsp;</div>
+</div>
+</div>
 
 <h5 class="code-header">link with onclick to set showTab value</h5>
 <div class="file-path">app/views/devise/shared/_links.html.erb</div>
