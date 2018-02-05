@@ -56,8 +56,8 @@ The button element is placed under the footer. It's position is fixed in the low
 }
 {% endhighlight %}
     </div>
+    <div>&nbsp;</div>
 </div>
-<div>&nbsp;</div>
 
 <h5>JQuery - smooth scroll</h5>
 <div class="page-content-text">
