@@ -19,7 +19,7 @@ introduction: Both <a href="/libertyhawk" target="_blank">Liberty Hawk</a> and <
 
 <h5>Button - Display</h5>
 <div class="page-content-text">
-The button element is placed under the footer. It's position is fixed in the lower right-hand corner of the view.
+The button element is placed under the footer. Its position is fixed in the lower right-hand corner of the view.
 </div>
 
 <div class="row">
