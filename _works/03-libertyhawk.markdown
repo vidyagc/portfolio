@@ -17,7 +17,7 @@ description: a congressional bill search application that uses the ProPublica AP
 <h4>Upcoming Overview and Refactoring</h4>
 <div class="page-content-text">
 <ul>
-<li>A complete project writeup will be posted by the end of the first week of February, For now, you can read about the app's responsive design features in the blog post, <a href="/2018/01/20/responsive-design/">Responsive Design</a>, and its dynamic content in <a href="/2018/01/28/js-dynamic-content/#">JavaScript for Dynamic Content</a>.</li>
+<li>A complete project writeup will be posted by the end of the second week of March, For now, you can read about the app's responsive design features in the blog post, <a href="/2018/01/20/responsive-design/">Responsive Design</a>, and its dynamic content in <a href="/2018/01/28/js-dynamic-content/#">JavaScript for Dynamic Content</a>.</li>
 <li>The code is currently being refactored for resourceful routing and other Rails best practices and efficiencies. If you see anything in the GitHub repo that you would like to discuss (e.g. "How are you planning on improving the following items?"), just contact me, and I'm happy to talk.</li>
 </ul>
 </div>
