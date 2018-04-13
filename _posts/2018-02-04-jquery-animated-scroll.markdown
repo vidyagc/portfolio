@@ -7,7 +7,7 @@ client:
 category: 
 title: JQuery - Animated Scroll
 featured: 
-introduction: Both <a href="/libertyhawk" target="_blank">Liberty Hawk</a> and <a href="/wikit" target="_blank">Wikit</a> use an animatd scroll to top button with JQuery for xs and small views. The purpose of this feature is to ease navigation for users on small devices. Both apps have long-scrolling pages, and the scroll to top button make getting back to the top of the page much easier than manually scrolling it.  The implementation of this feature is practically identical between <a href="/libertyhawk" target="_blank">Liberty Hawk</a> and <a href="/wikit" target="_blank">Wikit</a> (the difference being some style elements), so the discussion and code snippets below will just draw from <a href="/libertyhawk" target="_blank">Liberty Hawk</a>. 
+introduction: Both <a href="/libertyhawk" target="_blank">Liberty Hawk</a> and <a href="/wikit" target="_blank">Wikit</a> use an animatd scroll to top button with JQuery for xs and small views. The purpose of this feature is to ease navigation for users on small devices. Both apps have long-scrolling pages, and the scroll to top button makes getting back to the top of the page much easier than manually scrolling it.  The implementation of this feature is practically identical between <a href="/libertyhawk" target="_blank">Liberty Hawk</a> and <a href="/wikit" target="_blank">Wikit</a> (the difference being some style elements), so the discussion and code snippets below will just draw from <a href="/libertyhawk" target="_blank">Liberty Hawk</a>. 
 ---
 
 <div class="row">
