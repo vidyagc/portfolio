@@ -1,0 +1,276 @@
+I"�q<div class="page-content-text">
+Neither Liberty Hawk nor Wikit required much DOM traversal. In both apps, JavaScript and the JQuery library are used to make elements visible on user request. <span class="terms">onclick</span> is used to trigger JavaScript that dynamically changes element properties. 
+</div>
+
+<h4><u>Liberty Hawk</u></h4>
+<div style="margin-bottom:.75cm"></div>
+<h5>Toggle Display &amp; TextContent</h5>
+<div class="page-content-text">
+When a user is signed in on Liberty Hawk, the search page has a history panel that shows the user’s last 10 searches. There are two history panels used (each for a different view
+width). One panel is visible only in view width ≥ 769px. The other panel, <span class="terms">panel-history-small</span>, is only visible in view width ≤ 768px. The display of these panels is updated at the breakpoints using CSS. <span class="terms">panel-history-small</span> can have the display of its body contents (<span class="terms">history</span>) toggled. By default, <span class="terms">history</span> is not displayed. A link in the <span class="terms">panel-heading</span> allows users to show and hide it. 
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="resp-img-page" style="display:table; margin: auto">
+        <img src="/img/blog/lh-resp-mon-search.png" style="display:inline; margin-right:15px" class="img-responsive img-centered img-padded" alt="Wikit uncollapsed menu view" />
+        <img src="/img/blog/lh-phone-search-hide.png" style="display:inline" class="img-responsive img-centered img-padded" alt="Wikit collapsed menu view" />
+        </div>
+    </div>
+</div>
+
+<div class="file-path">app/views/searches/_form.html.erb</div>
+
+<figure class="highlight"><pre><code class="language-erb" data-lang="erb"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default panel-history-small"</span> <span class="na">style=</span><span class="s">"max-width: 350px"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-heading"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"historyHeader"</span><span class="nt">&gt;</span>Last 10 searches Show<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"history"</span><span class="nt">&gt;</span>
+        <span class="cp">&lt;%</span> <span class="n">current_user</span><span class="p">.</span><span class="nf">searches</span><span class="p">.</span><span class="nf">order</span><span class="p">(</span><span class="s1">'created_at DESC'</span><span class="p">).</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">search</span><span class="o">|</span> <span class="cp">%&gt;</span>
+    
+          <span class="nt">&lt;table</span> <span class="na">width=</span><span class="s">"100%"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;tr&gt;</span>
+              <span class="nt">&lt;td</span> <span class="na">align=</span><span class="s">"left"</span><span class="nt">&gt;</span>
+                <span class="cp">&lt;%=</span> <span class="n">link_to</span> <span class="ss">controller: </span><span class="s2">"searches"</span><span class="p">,</span> <span class="ss">action: </span><span class="s2">"search"</span><span class="p">,</span> <span class="ss">method: </span><span class="s2">"get"</span><span class="p">,</span> <span class="ss">subject: </span><span class="n">search</span><span class="p">.</span><span class="nf">metadata</span> <span class="k">do</span> <span class="cp">%&gt;</span><span class="nt">&lt;u&gt;</span><span class="cp">&lt;%=</span> <span class="n">search</span><span class="p">.</span><span class="nf">metadata</span> <span class="cp">%&gt;</span><span class="nt">&lt;/u&gt;</span><span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span>
+              <span class="nt">&lt;/td&gt;</span>
+              <span class="nt">&lt;td</span> <span class="na">align=</span><span class="s">"right"</span><span class="nt">&gt;</span>
+                <span class="cp">&lt;%=</span> <span class="n">search</span><span class="p">.</span><span class="nf">created_at</span><span class="p">.</span><span class="nf">to_date</span> <span class="cp">%&gt;</span>
+              <span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;/tr&gt;</span>
+          <span class="nt">&lt;/table&gt;</span>
+    
+        <span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<div>&nbsp;</div>
+
+<div class="page-content-text">
+Javascript is used to show/hide history and correspondingly update <span class="terms">historyHeader</span>. <span class="terms">toggleHistory()</span> updates the <span class="terms">display</span> of<span class="terms">history</span>, and the <span class="terms">textContent</span> of <span class="terms">historyHeader</span>. The helper method <span class="terms">lastWord()</span> updates the last word of <span class="terms">historyHeader</span>’s <span class="terms">textContent</span> into a link with an <span class="terms">onclick</span> event to toggle the display. In the code snippet below, the functions are commented to explain how they work. 
+</div>
+
+<div class="file-path">app/views/layouts/application.html.erb</div>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// function to get last word of search history panel heading, and apply css and an onclick function to it. </span>
+<span class="kd">function</span> <span class="nx">lastWord</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">div#historyHeader</span><span class="dl">'</span><span class="p">).</span><span class="nx">html</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>	
+  	<span class="c1">// separate the text by spaces</span>
+  	<span class="kd">var</span> <span class="nx">text</span><span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">text</span><span class="p">().</span><span class="nx">split</span><span class="p">(</span><span class="dl">'</span><span class="s1"> </span><span class="dl">'</span><span class="p">);</span>
+  	<span class="c1">// drop the last word and store it in a variable</span>
+  	<span class="kd">var</span> <span class="nx">last</span> <span class="o">=</span> <span class="nx">text</span><span class="p">.</span><span class="nx">pop</span><span class="p">();</span>
+  	<span class="c1">// join the text back and if it has more than 1 word add the span tag</span>
+  	<span class="c1">// to the last word</span>
+  	<span class="k">return</span> <span class="nx">text</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="dl">"</span><span class="s2"> </span><span class="dl">"</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="nx">text</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="p">?</span> <span class="dl">'</span><span class="s1"> &lt;p class="last" style="float:right" onclick="toggleHistory();"&gt;</span><span class="dl">'</span><span class="o">+</span><span class="nx">last</span><span class="o">+</span><span class="dl">'</span><span class="s1">&lt;/p&gt;</span><span class="dl">'</span> <span class="p">:</span> <span class="nx">last</span><span class="p">);</span>   
+  <span class="p">});</span>
+<span class="p">}</span>
+
+<span class="c1">// function to toggle display of the history panel body and heading content</span>
+<span class="kd">function</span> <span class="nx">toggleHistory</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">history</span><span class="dl">"</span><span class="p">);</span>
+  <span class="kd">var</span> <span class="nx">z</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">historyHeader</span><span class="dl">"</span><span class="p">);</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">x</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">===</span> <span class="dl">"</span><span class="s2">none</span><span class="dl">"</span> <span class="o">||</span> <span class="nx">z</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">===</span> <span class="dl">'</span><span class="s1">Last 10 searches Show</span><span class="dl">'</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">x</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">block</span><span class="dl">"</span><span class="p">;</span>
+      <span class="nx">z</span><span class="p">.</span><span class="nx">textContent</span><span class="o">=</span><span class="dl">"</span><span class="s2">Last 10 searches Hide</span><span class="dl">"</span><span class="p">;</span>
+  <span class="p">}</span> 
+  <span class="k">else</span> <span class="p">{</span>
+      <span class="nx">x</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">none</span><span class="dl">"</span><span class="p">;</span>
+      <span class="nx">z</span><span class="p">.</span><span class="nx">textContent</span><span class="o">=</span><span class="dl">"</span><span class="s2">Last 10 searches Show</span><span class="dl">"</span><span class="p">;</span>
+  <span class="p">}</span>
+  
+  <span class="c1">// call of last word function to update the last word of the history panel heading (make it a link)</span>
+<span class="nx">lastWord</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="c1">// call of last word function to update the last word of the history panel heading on page load</span>
+<span class="nx">jQuery</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="nx">lastWord</span><span class="p">());</span></code></pre></figure>
+
+<div>&nbsp;</div>
+
+<h5>Responding to Scroll &amp; Viewport</h5>
+<div class="page-content-text">
+The use of JavaScript to detect and respond to a scrollable view is discussed in <a href="/2018/01/20/responsive-design/#scrollbar">Responsive Design</a>. 
+</div>
+
+<h4><u>Wikit</u></h4>
+<div style="margin-bottom:.75cm"></div>
+<h5>Show/Hide Elements</h5>
+<div class="page-content-text">
+As mentioned in <a href="/2018/01/20/responsive-design/#forms">Responsive Design</a>, at breakpoint ≤ 767px, the Devise forms on the landing page are displayed at the top of the view, and their display is toggled with buttons. 
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="resp-img-page" style="display:table; margin: auto">
+        <img src="/img/blog/wikit-resp-mon.png" style="display:inline; margin-right:15px" class="img-responsive img-centered img-padded" alt="Wikit uncollapsed menu view" />
+        <img src="/img/blog/wikit-phone-toggle.png" style="display:inline" class="img-responsive img-centered img-padded" alt="Wikit collapsed menu view" />
+        </div>
+    </div>
+</div>
+
+<div class="page-content-text">
+The toggle feature required several considerations.
+    <div style="margin-bottom:.25cm"></div>
+    <ol class="ol-blog">
+    <li><span class="li-col">Displaying the forms and hiding the toggle bottons at breakpoint ≥ 768px</span></li> 
+    <li><span class="li-col">Hiding the forms and displaying the toggle buttons at breakpoint ≤ 767px</span></li> 
+    <li><span class="li-col">Showing a form when the user is linking to the landing page</span></li>
+    </ol>
+</div>
+
+<h5><span style="color:#ec8013;">1. &amp; 2.</span> Displaying the forms according to breakpoint</h5>
+<div class="page-content-text">
+The two forms are contained inside <span class="terms">tab-content</span> elements. These are the elements whose display is toggled. First, the forms are always displayed (and the toggle buttons <b><i>hidden</i></b>) at breakpoint ≥ 768px, and vice versa at breakpoint ≤ 767px. Because this display based on screen width is done in JavaScript vs CSS, <span class="terms">&lt;body onresize="toggleTabs()"&gt;</span> is used to update the display when the screen size is changed. 
+</div>
+
+<h5 class="code-header">HTML for buttons (to toggle forms) &amp; CSS to update their display</h5>
+<div class="file-path">app/views/welcome/index.html.erb</div>
+
+<figure class="highlight"><pre><code class="language-erb" data-lang="erb"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-4 col-sm-6 signin-top"</span> <span class="na">style=</span><span class="s">"margin-bottom: 15px"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;table</span> <span class="na">style=</span><span class="s">"width:100%"</span> <span class="na">id=</span><span class="s">"tab-btns"</span> <span class="na">style=</span><span class="s">"display:none;"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td</span> <span class="na">align=</span><span class="s">"left"</span><span class="nt">&gt;&lt;div</span> <span class="na">id=</span><span class="s">"tab1"</span> <span class="na">class=</span><span class="s">"tab"</span><span class="nt">&gt;&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default task-btn"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-sign-in"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/i&gt;</span>Sign In<span class="nt">&lt;/button&gt;&lt;/div&gt;&lt;/td&gt;</span>
+        <span class="nt">&lt;td</span> <span class="na">align=</span><span class="s">"right"</span><span class="nt">&gt;&lt;div</span> <span class="na">id=</span><span class="s">"tab2"</span> <span class="na">class=</span><span class="s">"tab"</span><span class="nt">&gt;&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default task-btn"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-user"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/i&gt;</span>New User<span class="nt">&lt;/button&gt;&lt;/div&gt;&lt;/td&gt;</span>
+      <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;/table&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"center-div"</span><span class="nt">&gt;</span>  
+        <span class="cp">&lt;%=</span> <span class="n">render</span> <span class="s2">"devise/sessions/form"</span> <span class="cp">%&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<div>&nbsp;</div>
+
+<div class="file-path">app/assets/stylesheets/application.scss</div>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="k">@media</span> <span class="p">(</span><span class="n">max-width</span><span class="o">:</span> <span class="m">767px</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nn">#tab-btns</span> <span class="p">{</span>
+    <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">@media</span> <span class="p">(</span><span class="n">min-width</span><span class="o">:</span> <span class="m">768px</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nn">#tab-btns</span> <span class="p">{</span>
+        <span class="nl">display</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="nn">#signin-h</span> <span class="p">{</span>
+        <span class="nl">margin-top</span><span class="p">:</span><span class="m">0</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<div>&nbsp;</div>
+
+<h5 class="code-header">HTML for forms &amp; JavaScript to update and toggle their display</h5>
+<div class="file-path">app/views/devise/sessions/_form.html.erb</div>
+
+<figure class="highlight"><pre><code class="language-erb" data-lang="erb"><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"tab1show"</span> <span class="na">class=</span><span class="s">"tab-content"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div&gt;</span>
+        <span class="nt">&lt;h3</span> <span class="na">id=</span><span class="s">"signin-h"</span><span class="nt">&gt;</span>Sign In<span class="nt">&lt;/h3&gt;</span>
+        ...
+        <span class="c">&lt;!-- sign in form --&gt;</span>
+        ...
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"tab2show"</span> <span class="na">class=</span><span class="s">"tab-content"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div&gt;</span>
+        <span class="nt">&lt;h3&gt;</span>New User<span class="nt">&lt;/h3&gt;</span>
+        ...
+        <span class="c">&lt;!-- sign up form --&gt;</span>
+        ...
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<div>&nbsp;</div>
+
+<div class="file-path">app/views/layouts/application.html.erb</div>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">toggleTabs</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">$contents</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">.tab-content</span><span class="dl">'</span><span class="p">);</span>
+    <span class="c1">// check if view width is &lt;= 767px</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nb">window</span><span class="p">.</span><span class="nx">matchMedia</span><span class="p">(</span><span class="dl">'</span><span class="s1">(max-width: 767px)</span><span class="dl">'</span><span class="p">).</span><span class="nx">matches</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// if view width is &lt;= 767px, hide all of the tab-content elements</span>
+        <span class="nx">$contents</span><span class="p">.</span><span class="nx">hide</span><span class="p">();</span>
+        <span class="c1">// show a tab-content when its corresponding button is clicked. </span>
+        <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">.tab</span><span class="dl">'</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+            <span class="c1">// retreives the ID of the tab-content element based on the ID of the clicked div and shows it.</span>
+            <span class="kd">var</span> <span class="nx">$target</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#</span><span class="dl">'</span> <span class="o">+</span> <span class="k">this</span><span class="p">.</span><span class="nx">id</span> <span class="o">+</span> <span class="dl">'</span><span class="s1">show</span><span class="dl">'</span><span class="p">).</span><span class="nx">show</span><span class="p">();</span>
+            <span class="c1">// hides the tab-content elements whose corresponding button was not clicked (otherwise multiple elements can show at once)</span>
+            <span class="nx">$contents</span><span class="p">.</span><span class="nx">not</span><span class="p">(</span><span class="nx">$target</span><span class="p">).</span><span class="nx">hide</span><span class="p">();</span>
+        <span class="p">});</span>
+    <span class="p">}</span>
+    <span class="k">else</span> <span class="p">{</span>
+        <span class="c1">// if view width is &gt;= 768px, show all of the tab-content elements</span>
+        <span class="nx">$contents</span><span class="p">.</span><span class="nx">show</span><span class="p">();</span>
+    <span class="p">}</span>
+ <span class="p">}</span>
+ 
+<span class="c1">// run toggleTabs() on window load</span>
+<span class="nx">toggleTabs</span><span class="p">();</span></code></pre></figure>
+
+<div>&nbsp;</div>
+
+<h5><span style="color:#ec8013;">3.</span> Display form when linking to landing page</h5>
+<div class="page-content-text">
+The password recovery and resend confirmation pages have links to the log in and sign up forms. These links lead back to the landing page. I wanted the respective forms to show when each link is clicked. This is achieved by creating a global variable called <span class="terms">showTab</span>, and setting the value of the variable in an <span class="terms">onclick</span> event for each link. Using <span class="terms">$('#tab2show').show()</span> or <span class="terms">$('#tab1show').show()</span> in the <span class="terms">onclick</span> does not work, as the event needs to fire after the page load. Instead of using a method for triggering the event after the page load, <span class="terms">showTab</span> is set, and used to show the corresponding <span class="terms">tab-content</span> (sign in or sign up form).</div>
+
+<div class="row">
+    <div class="col-md-5 col-sm-6">
+        <div class="pull-left" style="display:table; margin: auto">
+            <img src="/img/blog/wikit-form-link.gif" class="img-responsive img-padded img-marg" alt="" />
+        </div>
+    </div>
+    <div class="col-md-7 col-sm-6">
+<h5 class="code-header">showTab variable declaration &amp; conditional to show element</h5>
+<div class="file-path">app/views/layouts/application.html.erb</div>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">showTab</span><span class="p">;</span>
+<span class="k">if</span> <span class="p">(</span><span class="nx">showTab</span><span class="o">==</span><span class="mi">1</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#tab2show</span><span class="dl">'</span><span class="p">).</span><span class="nx">show</span><span class="p">();</span>
+<span class="p">}</span>
+<span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">showTab</span><span class="o">==</span><span class="mi">2</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#tab1show</span><span class="dl">'</span><span class="p">).</span><span class="nx">show</span><span class="p">();</span>
+<span class="p">}</span>
+<span class="k">else</span> 
+<span class="p">{</span>
+    <span class="c1">// hide all tab-content elements when the landing page is loaded </span>
+    <span class="c1">// (showTab is set to 0 in the an onclick on links to landing page)</span>
+    <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#tab1show</span><span class="dl">'</span><span class="p">).</span><span class="nx">hide</span><span class="p">();</span> 
+    <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#tab2show</span><span class="dl">'</span><span class="p">).</span><span class="nx">hide</span><span class="p">();</span>
+<span class="p">}</span></code></pre></figure>
+
+<div>&nbsp;</div>
+</div>
+</div>
+
+<h5 class="code-header">link with onclick to set showTab value</h5>
+<div class="file-path">app/views/devise/shared/_links.html.erb</div>
+
+<figure class="highlight"><pre><code class="language-erb" data-lang="erb"><span class="cp">&lt;%-</span> <span class="k">if</span> <span class="n">controller_name</span> <span class="o">!=</span> <span class="s1">'sessions'</span> <span class="cp">%&gt;</span>
+  <span class="cp">&lt;%=</span> <span class="n">link_to</span> <span class="s2">"Log in"</span><span class="p">,</span> <span class="n">root_path</span><span class="p">(</span><span class="n">resource_name</span><span class="p">),</span> <span class="ss">:onclick</span> <span class="o">=&gt;</span> <span class="s2">"showTab=2"</span> <span class="cp">%&gt;</span><span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+<span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">-%&gt;</span>
+
+<span class="cp">&lt;%-</span> <span class="k">if</span> <span class="n">devise_mapping</span><span class="p">.</span><span class="nf">registerable?</span> <span class="o">&amp;&amp;</span> <span class="n">controller_name</span> <span class="o">!=</span> <span class="s1">'registrations'</span> <span class="cp">%&gt;</span>
+  <span class="cp">&lt;%=</span> <span class="n">link_to</span> <span class="s2">"Sign up"</span><span class="p">,</span> <span class="n">root_path</span><span class="p">(</span><span class="n">resource_name</span><span class="p">),</span> <span class="ss">:onclick</span> <span class="o">=&gt;</span> <span class="s2">"showTab=1"</span> <span class="cp">%&gt;</span><span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+<span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">-%&gt;</span></code></pre></figure>
+
+<div>&nbsp;</div>
+
+<div class="page-content-text">
+When a user leaves the landing page, after <span class="terms">showTab</span> has been set from a log in or sign up link, I do not want the form to remain displayed when they go back to the landing page. There were several was to do this, but I just chose to set <span class="terms">showTab=0</span> in an <span class="terms">onclick</span> event in links that direct to the landing page. 
+</div>
+
+<div class="file-path">app/views/layouts/application.html.erb</div>
+
+<figure class="highlight"><pre><code class="language-erb" data-lang="erb"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"brand"</span><span class="nt">&gt;</span><span class="cp">&lt;%=</span> <span class="n">link_to</span> <span class="s2">"&lt;u&gt;&lt;h3 style='font-weight: bold; color:#80668a;'&gt;Wikit &lt;i class='fa fa-pencil' aria-hidden='true'&gt;&lt;/i&gt;&lt;/h3&gt;&lt;/u&gt;"</span><span class="p">.</span><span class="nf">html_safe</span><span class="p">,</span> <span class="n">welcome_index_path</span><span class="p">,</span> <span class="ss">class: </span><span class="s2">"nav-logo"</span><span class="p">,</span> <span class="ss">:onclick</span> <span class="o">=&gt;</span> <span class="s2">"showTab=0"</span> <span class="cp">%&gt;</span><span class="nt">&lt;/div&gt;</span>
+...
+            <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"list-group-item mid-list-item"</span><span class="nt">&gt;</span>
+                <span class="cp">&lt;%=</span> <span class="n">link_to</span> <span class="s2">"&lt;i class='fa fa-home' aria-hidden='true'&gt;&lt;/i&gt; Home / Sign in"</span><span class="p">.</span><span class="nf">html_safe</span><span class="p">,</span> <span class="n">welcome_index_path</span><span class="p">,</span> <span class="ss">:onclick</span> <span class="o">=&gt;</span> <span class="s2">"showTab=0"</span> <span class="cp">%&gt;</span>
+            <span class="nt">&lt;/li&gt;</span></code></pre></figure>
+
+<div>&nbsp;</div>
+
+<h5>Hopefully this post explains how JavaScript was used in conjunction with responsive design in Wikit and Liberty Hawk. Thank you for taking a look!</h5>
+:ET

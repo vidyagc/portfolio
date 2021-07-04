@@ -1,0 +1,15 @@
+I"+<h5>Devise Customization Resources</h5>
+<div class="page-content-text">
+There are a number of free resources that discuss customization of Devise, including <a href="https://github.com/plataformatec/devise/wiki" target="_blank">Devise Wiki</a>, <a href="http://railscasts.com/episodes/209-devise-revised?autoplay=true" target="_blank">RailsCasts #209</a> and <a href="http://railscasts.com/episodes/210-customizing-devise" target="_blank">RailsCasts #210</a>. The RailsCasts episodes cover the following topics.
+<p>
+<ol class="ol-blog">
+<li><span class="li-col">Including and removing modules (e.g. confirmable and validatable)</span></li>
+<li><span class="li-col">Configuring Devise messages in devise.en.yml</span></li> 
+<li><span class="li-col">Customizing Devise views by using templates to override them – generating these templates via the devise:views generator.</span></li>
+<li><span class="li-col">Customizing authentication routing by adding options to the devise_for call in routes.rb</span></li> 
+<li><span class="li-col">Customizing fields used for authentication – e.g. using a username field instead of the default email field.</span></li>
+<li><span class="li-col">Customizing validations when a user signs up for an account by changing configuration options in devise.rb.</span></li> 
+</ol>
+</p>
+</div>
+:ET

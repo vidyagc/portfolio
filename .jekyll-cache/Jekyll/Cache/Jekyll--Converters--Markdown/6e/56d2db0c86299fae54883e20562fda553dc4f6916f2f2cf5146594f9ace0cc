@@ -1,0 +1,152 @@
+I"�O<h5>Devise Customization Resources</h5>
+<div class="page-content-text">
+There are a number of free resources that discuss customization of Devise, including <a href="https://github.com/plataformatec/devise/wiki" target="_blank">Devise Wiki</a>, <a href="http://railscasts.com/episodes/209-devise-revised?autoplay=true" target="_blank">RailsCasts #209</a> and <a href="http://railscasts.com/episodes/210-customizing-devise" target="_blank">RailsCasts #210</a>. The RailsCasts episodes cover the following topics.
+<p>
+<ol class="ol-blog">
+<li><span class="li-col">Including and removing modules (e.g. confirmable and validatable)</span></li>
+<li><span class="li-col">Configuring Devise messages in devise.en.yml</span></li> 
+<li><span class="li-col">Customizing Devise views by using templates to override them – generating these templates via the devise:views generator.</span></li>
+<li><span class="li-col">Customizing authentication routing by adding options to the devise_for call in routes.rb</span></li> 
+<li><span class="li-col">Customizing fields used for authentication – e.g. using a username field instead of the default email field.</span></li>
+<li><span class="li-col">Customizing validations when a user signs up for an account by changing configuration options in devise.rb.</span></li> 
+</ol>
+</p>
+</div>
+
+<h5>Beyond Layouts</h5>
+<div class="page-content-text">
+What if, instead of just changing the styles of existing forms or <a href="https://github.com/plataformatec/devise/wiki/How-To:-Create-custom-layouts" target="_blank">adding additional layouts</a>, you want to change where the forms are rendered in your application (e.g. you want sign up and sign in forms located inside another view)? And what are the considerations that follow this new placement? A failed registration will still redirect to Devise's default sign up path (not the new form location you implemented) unless these redirects are updated via a controller. And how do you make sure error messages are displayed on your new view. When I wanted to render devise sign in and sign up forms as partials on the welcome page of my application, <a href="/wikit" target="_blank">Wikit</a>, this was the problem and follow up customization issues that needed to be addressed. The efficacy of the following solutions are limited to the scope in which Devise was used in that application. It has not been tested beyond that (e.g. with models that inherit from another Devise model).  
+</div>
+<div class="page-content-text">
+On his <a href="https://pupeno.com/2016/04/26/show-a-devise-log-in-or-sign-up-forms-in-another-page/" target="_blank">blog</a>, J. Fernández offers a solution for showing Devise forms on another page. <a href="https://github.com/plataformatec/devise/wiki/How-To:-Display-a-custom-sign_in-form-anywhere-in-your-app" target="_blank">Devise Wiki</a> posts it as well, with some revisions. As Fernández suggests, I found the use of a partial as the best way to use the form on another view.
+</div>
+
+<div class="file-path">app/views/welcome/index.html.erb</div>
+
+<figure class="highlight"><pre><code class="language-erb" data-lang="erb"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-4 col-sm-6"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">name=</span><span class="s">"signin"</span><span class="nt">&gt;&lt;/a&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"center-div"</span><span class="nt">&gt;</span>  
+        <span class="cp">&lt;%=</span> <span class="n">render</span> <span class="s2">"devise/sessions/form"</span> <span class="cp">%&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<div>&nbsp;</div>
+
+<div class="file-path">app/views/devise/sessions/_form.html.erb</div>
+
+<figure class="highlight"><pre><code class="language-erb" data-lang="erb"><span class="nt">&lt;div&gt;</span>
+<span class="nt">&lt;h3</span> <span class="na">style=</span><span class="s">"margin-top:0"</span><span class="nt">&gt;</span>Sign In<span class="nt">&lt;/h3&gt;</span>
+<span class="cp">&lt;%=</span> <span class="n">form_for</span><span class="p">(</span><span class="ss">:user</span><span class="p">,</span> <span class="ss">:url</span> <span class="o">=&gt;</span> <span class="n">session_path</span><span class="p">(</span><span class="ss">:user</span><span class="p">),</span> <span class="ss">:html</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="ss">:class</span> <span class="o">=&gt;</span>
+<span class="s1">'auth-form-for'</span><span class="p">})</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span> <span class="cp">%&gt;</span>
+    <span class="nt">&lt;p&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-envelope-o"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/i&gt;</span><span class="cp">&lt;%=</span> <span class="n">f</span><span class="p">.</span><span class="nf">text_field</span> <span class="ss">:email</span><span class="p">,</span> <span class="ss">placeholder: </span><span class="s2">"email"</span><span class="p">,</span> <span class="ss">class: </span><span class="s2">"auth-form"</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-lock"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/i&gt;</span><span class="cp">&lt;%=</span> <span class="n">f</span><span class="p">.</span><span class="nf">password_field</span> <span class="ss">:password</span><span class="p">,</span> <span class="ss">autocomplete: </span><span class="s2">"off"</span><span class="p">,</span> <span class="ss">placeholder: </span><span class="s2">"password"</span><span class="p">,</span> <span class="ss">class: </span><span class="s2">"auth-form"</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span><span class="cp">&lt;%=</span> <span class="n">f</span><span class="p">.</span><span class="nf">check_box</span> <span class="ss">:remember_me</span> <span class="cp">%&gt;</span><span class="ni">&amp;nbsp;</span><span class="cp">&lt;%=</span> <span class="n">f</span><span class="p">.</span><span class="nf">label</span> <span class="ss">:remember_me</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span><span class="cp">&lt;%=</span> <span class="n">f</span><span class="p">.</span><span class="nf">submit</span> <span class="s1">'Sign in'</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span><span class="cp">&lt;%=</span> <span class="n">link_to</span> <span class="s2">"Forgot your password?"</span><span class="p">,</span> <span class="n">new_password_path</span><span class="p">(</span><span class="ss">:user</span><span class="p">)</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span><span class="cp">&lt;%=</span> <span class="n">link_to</span> <span class="s2">"Didn't receive confirmation instructions?"</span><span class="p">,</span> <span class="n">new_user_confirmation_path</span><span class="p">(</span><span class="ss">:user</span><span class="p">)</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
+<span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div&gt;</span>
+<span class="nt">&lt;h3&gt;</span>New User<span class="nt">&lt;/h3&gt;</span>
+<span class="cp">&lt;%=</span> <span class="n">form_for</span><span class="p">(</span><span class="ss">:user</span><span class="p">,</span> <span class="ss">:url</span> <span class="o">=&gt;</span> <span class="n">registration_path</span><span class="p">(</span><span class="ss">:user</span><span class="p">),</span> <span class="ss">:html</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="ss">:class</span> <span class="o">=&gt;</span>
+<span class="s1">'auth-form-for'</span><span class="p">})</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span> <span class="cp">%&gt;</span>
+    <span class="nt">&lt;p&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-envelope-o"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/i&gt;</span><span class="cp">&lt;%=</span> <span class="n">f</span><span class="p">.</span><span class="nf">text_field</span> <span class="ss">:email</span><span class="p">,</span> <span class="ss">placeholder: </span><span class="s2">"email"</span><span class="p">,</span> <span class="ss">class: </span><span class="s2">"auth-form"</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-lock"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/i&gt;</span><span class="cp">&lt;%=</span> <span class="n">f</span><span class="p">.</span><span class="nf">password_field</span> <span class="ss">:password</span><span class="p">,</span> <span class="ss">autocomplete: </span><span class="s2">"off"</span><span class="p">,</span> <span class="ss">placeholder: </span><span class="s2">"password"</span><span class="p">,</span> <span class="ss">class: </span><span class="s2">"auth-form"</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
+     <span class="cp">&lt;%</span> <span class="k">if</span> <span class="vi">@minimum_password_length</span> <span class="cp">%&gt;</span>
+     <span class="nt">&lt;em&gt;</span>(<span class="cp">&lt;%=</span> <span class="vi">@minimum_password_length</span> <span class="cp">%&gt;</span> characters minimum)<span class="nt">&lt;/em&gt;</span>
+     <span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span>
+    <span class="nt">&lt;p&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-lock"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/i&gt;</span><span class="cp">&lt;%=</span> <span class="n">f</span><span class="p">.</span><span class="nf">password_field</span> <span class="ss">:password_confirmation</span><span class="p">,</span> <span class="ss">autocomplete: </span><span class="s2">"off"</span><span class="p">,</span> <span class="ss">placeholder: </span><span class="s2">"confirm password"</span><span class="p">,</span> <span class="ss">class: </span><span class="s2">"auth-form"</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"margin-top:15px"</span><span class="nt">&gt;</span><span class="cp">&lt;%=</span> <span class="n">f</span><span class="p">.</span><span class="nf">submit</span> <span class="s1">'Sign up'</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
+<span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<div>&nbsp;</div>
+
+<div class="page-content-text">
+The second part of this solution, addressed by Fernández, involves resource mapping to ensure that the methods relied on by the forms are accessible. I placed them in <span class="terms">ApplicationController</span>.
+</div>
+
+<h5>Consistent User Flow</h5>
+<div class="page-content-text">
+The solution above allowed Devise methods to be used from a partial. The remaining issues, however, were maintaining consistency in user flow in the event of failures, and handling error messages. With the above implementation, a failed authentication or registration still redirects to the default Devise paths/views. But if a user fails to authenticate or sign up from the welcome page, they should be redirected to the welcome page and see the error messages for the failure there. 
+</div>
+
+<div class="page-content-text">
+In order to customize the redirect and error message display for failed registration, you can subclass <span class="terms">Devise::RegistrationsController</span> and override the <span class="terms">create</span> action. The default Devise views use a call to <span class="terms">&lt;%= devise_error_messages! %&gt;</span> to display <span class="terms">resource.errors</span>, but I wanted to display them to <span class="terms">flash[:danger]</span>. The value for <span class="terms">flash[:danger]</span> is set inside <span class="terms">create</span>, using the <span class="terms">map</span> method on <span class="terms">resource.errors</span> to display the items in list form. 
+</div>
+
+<div class="file-path">app/controllers/registrations_controller.rb</div>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">RegistrationsController</span> <span class="o">&lt;</span> <span class="no">Devise</span><span class="o">::</span><span class="no">RegistrationsController</span>
+
+    <span class="k">def</span> <span class="nf">create</span>
+        <span class="n">build_resource</span><span class="p">(</span><span class="n">sign_up_params</span><span class="p">)</span>
+    
+        <span class="k">if</span> <span class="n">resource</span><span class="p">.</span><span class="nf">save</span>
+            <span class="k">yield</span> <span class="n">resource</span> <span class="k">if</span> <span class="nb">block_given?</span>
+            <span class="k">if</span> <span class="n">resource</span><span class="p">.</span><span class="nf">active_for_authentication?</span>
+                <span class="n">set_flash_message</span> <span class="ss">:notice</span><span class="p">,</span> <span class="ss">:signed_up</span> <span class="k">if</span> <span class="n">is_flashing_format?</span>
+                <span class="n">sign_up</span><span class="p">(</span><span class="n">resource_name</span><span class="p">,</span> <span class="n">resource</span><span class="p">)</span>
+                <span class="n">respond_with</span> <span class="n">resource</span><span class="p">,</span> <span class="ss">location: </span><span class="n">after_sign_up_path_for</span><span class="p">(</span><span class="n">resource</span><span class="p">)</span>
+            <span class="k">else</span>
+                <span class="n">set_flash_message</span> <span class="ss">:notice</span><span class="p">,</span> <span class="ss">:"signed_up_but_</span><span class="si">#{</span><span class="n">resource</span><span class="p">.</span><span class="nf">inactive_message</span><span class="si">}</span><span class="ss">"</span> <span class="k">if</span> <span class="n">is_flashing_format?</span>
+                <span class="n">expire_data_after_sign_in!</span>
+                <span class="n">respond_with</span> <span class="n">resource</span><span class="p">,</span> <span class="ss">location: </span><span class="n">after_inactive_sign_up_path_for</span><span class="p">(</span><span class="n">resource</span><span class="p">)</span>
+            <span class="k">end</span>
+        <span class="k">else</span>
+            <span class="n">clean_up_passwords</span> <span class="n">resource</span>
+            <span class="n">flash</span><span class="p">[</span><span class="ss">:danger</span><span class="p">]</span> <span class="o">=</span> <span class="n">resource</span><span class="p">.</span><span class="nf">errors</span><span class="p">.</span><span class="nf">full_messages</span><span class="p">.</span><span class="nf">map</span> <span class="p">{</span> <span class="o">|</span><span class="n">error</span><span class="o">|</span> <span class="s2">"&lt;li&gt;</span><span class="si">#{</span><span class="n">error</span><span class="si">}</span><span class="s2">"</span> <span class="p">}.</span><span class="nf">join</span><span class="p">(</span><span class="s2">"&lt;/li&gt;"</span><span class="p">)</span>
+            <span class="n">redirect_to</span> <span class="n">root_path</span>
+        <span class="k">end</span>
+    <span class="k">end</span>
+<span class="o">...</span></code></pre></figure>
+
+<div>&nbsp;</div>
+
+<div class="page-content-text">
+Also, because <span class="terms">html_safe</span> is not preserved from the controller to the view, it is called in <span class="terms">application.html.erb</span> instead, <span class="terms">&lt;%= flash[:danger].html_safe %&gt;</span>. Redirects after a failed authentication needed to be customized as well. This can be done with a <a href="https://github.com/plataformatec/devise/wiki/How-To:-Redirect-to-a-specific-page-when-the-user-can-not-be-authenticated" target="_blank">CustomFailure class</a>. As <span class="terms">flash[:danger]</span> is used for error messages, that is set in <span class="terms">def respond</span>.
+</div>
+
+<div class="file-path">lib/custom_failure.rb</div>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">CustomFailure</span> <span class="o">&lt;</span> <span class="no">Devise</span><span class="o">::</span><span class="no">FailureApp</span>
+
+  <span class="k">def</span> <span class="nf">respond</span>
+    <span class="k">if</span> <span class="n">http_auth?</span>
+      <span class="n">http_auth</span>
+    <span class="k">else</span>
+        <span class="n">flash</span><span class="p">[</span><span class="ss">:danger</span><span class="p">]</span> <span class="o">=</span> <span class="n">i18n_message</span>
+        <span class="n">redirect_to</span> <span class="n">welcome_index_path</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></figure>
+
+<div>&nbsp;</div>
+
+<h5>Other Customizations: styles, messages, &amp; paths</h5>
+<div class="page-content-text">
+Other customizations included the following: styling the <span class="terms">passwords/new</span> and <span class="terms">confirmations/new</span> views to match (but not duplicate) the style of the sign in and sign up forms; removing messages for successful sign up and sign in, by editing them in <span class="terms">devise.en.yml</span>; and editing paths for certain links in <span class="terms">shared/_links</span>. Additional controllers were also implemented to customize redirects on password recovery and resending confirmation actions. 
+</div>
+
+<div class="file-path">app/controllers/confirmations_controller.rb</div>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">after_resending_confirmation_instructions_path_for</span><span class="p">(</span><span class="n">resource_name</span><span class="p">)</span>
+  <span class="n">is_navigational_format?</span> <span class="p">?</span> <span class="n">root_path</span><span class="p">(</span><span class="n">resource_name</span><span class="p">)</span> <span class="p">:</span> <span class="s1">'/'</span>
+<span class="k">end</span></code></pre></figure>
+
+<div>&nbsp;</div>
+
+<div class="file-path">app/controllers/passwords_controller.rb</div>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">PasswordsController</span> <span class="o">&lt;</span> <span class="no">Devise</span><span class="o">::</span><span class="no">PasswordsController</span>
+  <span class="kp">protected</span>
+  <span class="k">def</span> <span class="nf">after_sending_reset_password_instructions_path_for</span><span class="p">(</span><span class="n">resource_name</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">root_path</span> 
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></figure>
+
+<div>&nbsp;</div>
+
+<h5>I hope this post was useful in understanding the how and why of the customized Devise implementations in this portfolio's apps. Even better if you learned something about using Devise forms on different pages in your app, and correspondingly handling paths and Devise messages.</h5>
+:ET

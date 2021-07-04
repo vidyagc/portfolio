@@ -1,14 +1,15 @@
 # Site settings
 
 # https://jekyllrb.com/docs/pagination/
+# <img id="nav-logo" class="img-responsive" src="img/VN-logo.jpg" alt="Vidya Neni logo">
 
-title: Dragonfly D&D
-heading: Dragonfly
+title: Vidya
+heading: Web and Nonprofit Professional
 email: vidyagc16@gmail.com
 url: https://vidyagc.github.io
-description: "Web design and development by Vidya Neni. Offering services to small and large organizations - commercial entities, nonprofits, artists, musicians, and more."
-keywords: "web design, development, vidya neni, twin cities, minnesota, nonprofit, wordpress"
-skills: "Design <span style='color: #f5e013; font-weight: bold'>&</span> Development - sites that are beautiful, agile, and fast - <span style='color: #f5e013; font-weight: bold'>by</span> Vidya Neni" # <strong>D</strong>esign & <strong>D</strong>
+description: "Vidya Neni: experienced web support manager and nonprofit professional. I'm committed to making effective websites and helping mission-driven organizations grow."
+keywords: "web design, development, vidya neni, twin cities, minnesota, nonprofit, wordpress, drupal, project manager"
+skills: "Supporting websites with project management, content strategy, and accessibility services, and advancing mission-driven organizations."
 meta_author: Neni Vidya
 
 # site.pages.title: page.title '| DragonflyD&D'
@@ -69,11 +70,11 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 
-  - line: 
+  - line:
+  - line:
 
 # Copyright content
-copyright: '2017 Vidya Neni'
+copyright: '2021 Vidya Neni'
 
 # Build settings
 markdown: kramdown

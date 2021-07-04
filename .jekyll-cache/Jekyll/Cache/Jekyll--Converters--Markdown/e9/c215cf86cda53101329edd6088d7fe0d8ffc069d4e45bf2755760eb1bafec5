@@ -1,0 +1,4 @@
+I"5<div class="page-content-text">
+Neither Liberty Hawk nor Wikit required much DOM traversal. In both apps, JavaScript and the JQuery library are used to make elements visible on user request. <span class="terms">onclick</span> is used to trigger JavaScript that dynamically changes element properties. 
+</div>
+:ET

@@ -1,0 +1,5 @@
+I"°<h5>Navigation: top bar &amp; side panel</h5>
+<div class="page-content-text">
+Liberty Hawk and Wikit use different nav menu styles, top and side respectively. Liberty Hawk uses a Bootstrap collapsing navigation bar. There was no customization on it and it uses the default breakpoint. Wikit, on the other hand, has a side navigation panel and employs several components whose properties are updated based on viewport size.  
+</div>
+:ET
