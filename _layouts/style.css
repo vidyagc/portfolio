@@ -380,9 +380,21 @@ section a:hover {
 }
 
 #nav-logo {
-  max-width: 70px;
+/*  max-width: 70px;
   float:left;
   margin: -.75rem 2rem 0 0;
+
+
+  */
+  background-image: url('../../img/VN-logo.jpg');
+  background-size: 55px ;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 60px;
+  width: 60px; /* may not be necessary */
+  float: left;
+  margin-right: 17px;
+  margin-top: -17px;
 }
 
 @media (max-width: 1199px) {
