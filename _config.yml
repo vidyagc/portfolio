@@ -1,7 +1,6 @@
 # Site settings
 
 # https://jekyllrb.com/docs/pagination/
-# <img id="nav-logo" class="img-responsive" src="img/VN-logo.jpg" alt="Vidya Neni logo">
 
 title: Vidya
 heading: Web and Nonprofit Professional
@@ -12,7 +11,7 @@ keywords: "web design, development, vidya neni, twin cities, minnesota, nonprofi
 skills: "Supporting websites with project management, maintenance, and accessibility services, and advancing mission-driven organizations."
 meta_author: Neni Vidya
 
-# site.pages.title: page.title '| DragonflyD&D'
+site.pages.title: page.title '| Vidya Neni'
 
 highlighter: rouge
 
