@@ -18,10 +18,6 @@ description: a to-do list management application that automatically deletes expi
 <div class="page-content-text">
 A web application that uses Firebase API and AngularJS to create tasks and automatically expire them. The project write up below does not detail every aspect of implementation. Rather, it summarizes or skips common practice code, but highlights the relatively more individualistic components. It also assumes basic familiarity with the technology on the part of the reader. Environment setup is outlined in README in the GitHub repository, and is not covered here. 
 </div>
-<h5>UPCOMING FEATURE</h5>
-<div class="page-content-text">
-Authenticated user accounts will be added in the near future. 
-</div>
 
 <h5>CODER COMMENT</h5>
 <div class="page-content-text">
