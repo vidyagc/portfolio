@@ -4,21 +4,21 @@
 
             <div class="container page">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-10 col-lg-offset-1">
                         <img src="../img/portfolio/{{ page.img2 }}" class="img-responsive img-centered img-padded" alt="{{ page.alt2 }}">
                         <div class="work-header">
                             <h3>{{ page.project-name }}</h3>
                             <hr width="30%">
                             <div>Project Date: <strong>{{ page.project-date }}</strong></div>
                         </div>
-                        <div class="page-content">{{ content }}</div>          
+                        <div class="page-content">{{ content }}</div>
                     </div>
                 </div>
             </div>
-            
+
     {% include footer.html %}
     {% include js.html %}
-    
+
     <script>
         var $contents = $('.tab-content');
         $contents.slice(1).hide();
@@ -27,5 +27,5 @@
             $contents.not($target).hide();
         });
     </script>
-    
+
 </body>
