@@ -16,7 +16,7 @@ description: redesign of the BareBones website
 ---
 <h4>CLIENT</h4>
 <div class="page-content-text">
-<a href="https://barebonespuppets.org/">BareBones Productions</a> is a Minneapolis-based 501(c)(3) performing arts nonprofit. It operates as a collective of visual and performing artists that produce outdoor installations and spectacle performances. Its mission is, in part, "[t]o bring art into community and community into art." Correspondingly, BareBones relies largely on volunteers for its yearly operations and to produce its premiere event, the Annual Halloween Extravaganza. Its website and social media are imperative to building and sustaining this community support.
+<a href="https://barebonespuppets.org/">BareBones Productions</a> (AKA BareBones Puppet Theatre) is a Minneapolis-based 501(c)(3) performing arts nonprofit. It operates as a collective of visual and performing artists that produce outdoor installations and spectacle performances. Its mission is, in part, "[t]o bring art into community and community into art." Correspondingly, BareBones relies largely on volunteers for its yearly operations and to produce its premiere event, the Annual Halloween Extravaganza. Its website and social media are imperative to building and sustaining this community support.
 </div>
 
 <h4>SERVICES PROVIDED</h4>
