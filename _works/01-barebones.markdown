@@ -6,7 +6,7 @@ id: 4
 img: barebones-400.png
 img2: barebones-mon.png
 alt: BareBones
-alt2: BareBones calendar desktop view
+alt2: BareBones newsletter signup desktop view
 project-date: August - October 2021
 project-type: Freelance services - web design and development
 project-name: BareBones Puppets
@@ -24,7 +24,7 @@ description: redesign of the BareBones website
 I became Web Administrator for BareBones Puppet Theatre (<a href="https://barebonespuppets.org/">barebonespuppets.org</a>) in July, 2021. I provided the following services: content strategy, web design, and web development. Upon first reviewing the site, I identified many opportunities for improving engagement, including but not limited to: responsive (e.g. mobile) design, content refresh (text and images), new landing pages, call to action prompts, updated navigation structure, newsletter/mailing list signups, and web accessibility. I assessed what was needed to show visitors the best of what BareBones does and promote public support/engagement. All together, these updates constituted a full redesign of the site. Changes were done and made live incrementally, between August and early October, 2021. Due to time constraints, updates to Past Show pages were held off until after this fall. For now, the only past show section that is viewable is 2020, which will also be included in that redesign.    
 </div>
 
-<h4>CASE STUDY (COMING SOON)</h4>
+<h4>CASE STUDY</h4>
 <div class="page-content-text">
 A more comprehensive case study of the redesign will be posted this fall. Below is a summary of some of its key elements.
 </div>
