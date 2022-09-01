@@ -89,7 +89,7 @@ There were several takeaways from this project. Chief among them was the importa
 
 <h5>IMAGE AND VIDEO CONTENT</h5>
 <div class="page-content-text">
-BareBones is a visual arts organization. Financial and other support for its work is built around the <a href="https://barebonespuppets.org/halloween-show/" target="_blank">annual puppet spectacle</a>. Consequently, showcasing the best of the production's moments was a large part of content curation for the redesign. At the time, BareBones assets were in a number of places, and not easily searchable (that has since been resolved). Ultimately, I searched through thousands of photos from years of past shows to find images of the right quality (e.g. resolution) that showcased some of the most eye-catching moments. When called for, some images were also color corrected or otherwise enhanced in Photoshop.  
+BareBones is a visual arts organization. Financial and other support for its work is built around the <a href="https://barebonespuppets.org/halloween-show/" target="_blank">annual puppet spectacle</a>. Consequently, showcasing the best of the production's moments was a large part of content curation for the redesign. At the time, BareBones assets were in a number of places, and not easily searchable (that has since been resolved). Ultimately, I looked through thousands of photos from years of past shows to find images of the right quality (e.g. resolution) that showcased some of the most eye-catching moments. When called for, some images were also color corrected or otherwise enhanced in Photoshop.  
 </div>  
 
 <div class="page-content-text">
