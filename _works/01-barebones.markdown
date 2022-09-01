@@ -39,7 +39,7 @@ A more comprehensive case study of the redesign will be posted this fall. Below 
 <li>Wrote content for new sections and sourced new images for the entire site</li>
 <li>Identified content cycle - off show and during show season messaging, and when each needed to be applied</li>
 <li>Created mailing lists for volunteer interest and general newsletter</li>
-<li>Developed Page SEO settings (meta, Open Graph, and Twitter title and description and images for each page)
+<li>Developed Page SEO settings (meta, Open Graph, and Twitter title and description and images for each page)</li>
 </ul>   
 </div>
 
