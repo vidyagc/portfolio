@@ -40,7 +40,7 @@ A more comprehensive case study of the redesign will be posted this fall. Below 
 <li>Generated a sitemap (a list of all the pages on the site and how they relate to each other)</li>
 <li>Defined site goals: what are the business objectives we want to achieve with the site?</li>
 <li>Identified target audiences, based on audience values and interests</li>
-<li>Wrote content for new sections and sourced new images for the entire site</li>
+<li>Wrote content for new sections, sourced new images for the entire site, and curated video content</li>
 <li>Identified content cycle - off show and during show season messaging, and when each needed to be applied</li>
 <li>Created mailing lists for volunteer interest and general newsletter</li>
 <li>Created content for individual Page SEO settings (meta, Open Graph, and Twitter title and description and images for each page)</li>
@@ -89,5 +89,9 @@ There were several takeaways from this project. Chief among them was the importa
 
 <h5>IMAGE CONTENT</h5>
 <div class="page-content-text">
-BareBones is a visual arts organization. Financial and other support for its work is built around the <a href="https://barebonespuppets.org/halloween-show/" target="_blank">annual puppet spectacle</a>. Consequently, showcasing the best of the production's moments was a large part of content curation for the redesign. At the time, BareBones assets were in a number of places, and not easily searchable (that has since been resolved). Ultimately, I searched through thousands of photos from years of past shows to find images of the right quality (e.g. resolution) that showcased some of the most eye-catching moments. When called for, some images were also color corrected or otherwise enhanced in Photoshop. These photos were used across the site in page banners/headers, half image components, and (most prominently) in galleries on the <a href="https://barebonespuppets.org/" target="_blank">homepage</a> and <a href="https://barebonespuppets.org/halloween-show/" target="_blank">Extravaganza page</a>.   
+BareBones is a visual arts organization. Financial and other support for its work is built around the <a href="https://barebonespuppets.org/halloween-show/" target="_blank">annual puppet spectacle</a>. Consequently, showcasing the best of the production's moments was a large part of content curation for the redesign. At the time, BareBones assets were in a number of places, and not easily searchable (that has since been resolved). Ultimately, I searched through thousands of photos from years of past shows to find images of the right quality (e.g. resolution) that showcased some of the most eye-catching moments. When called for, some images were also color corrected or otherwise enhanced in Photoshop.  
+</div>  
+
+<div class="page-content-text">
+These photos were used across the site in page banners/headers, half image components, and (most prominently) in galleries on the <a href="https://barebonespuppets.org/" target="_blank">homepage</a> and <a href="https://barebonespuppets.org/halloween-show/" target="_blank">Extravaganza page</a>. In addition to images, I collected video from one of BareBones past videographers. These were placed on Vimeo (there was an existing account), and also added to the <a href="https://barebonespuppets.org/halloween-show/" target="_blank">Extravaganza page</a>. The artist statements from those pieces provided even more background for what the Extravaganza does.   
 </div>  
