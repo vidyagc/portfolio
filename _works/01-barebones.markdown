@@ -25,7 +25,7 @@ I became Web Administrator for BareBones Puppet Theatre (<a href="https://barebo
 </div>
 
 <div class="page-content-text">
-I assessed what was needed to show visitors the best of what BareBones does and promote public support/engagement. All together, these updates constituted a full redesign of the site. The bulk of the changes were done and made live incrementally, between August and early October, 2021. Due to time constraints, updates to <a href="https://barebonespuppets.org/halloweens-past/">Past Show pages</a> were held off until after fall 2022. Show pages for 2020 and prior will be redesigned.    
+I assessed what was needed to show visitors the best of what BareBones does and promote public support/engagement. All together, these updates constituted a full redesign of the site. The bulk of the changes were done and made live incrementally, between August and early October, 2021. Due to time constraints, updates to <a href="https://barebonespuppets.org/halloweens-past/">Past Show pages</a> were held off until after fall 2022: show pages for 2020 and prior will be redesigned.    
 </div>
 
 <h4>CASE STUDY</h4>
