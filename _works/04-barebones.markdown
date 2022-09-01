@@ -60,6 +60,7 @@ A more comprehensive case study of the redesign will be posted this fall. Below 
 <div class="page-content-text">
 <h5>DEVELOPMENT</h5>
 The BareBones site was already on WordPress, and I stayed with the existing CMS and page builder for the refresh. One reason for this included the ease of use of the page builder for other users. It allowed me to make sections that are easily editable, so BareBones members would not have to be totally reliant on the web admin for modifying content.
+<div style="margin-bottom:.25cm"></div>
 <ul>
 <li>Technologies used: WordPress, WP Builder Beaver Builder, HTML/CSS, Photoshop</li>
 <li>Built new pages and sections</li>
