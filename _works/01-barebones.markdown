@@ -8,7 +8,7 @@ img2: barebones-mon.png
 alt: BareBones
 alt2: BareBones newsletter signup desktop view
 project-date: August - October 2021
-project-type: Freelance services - web design and development
+project-type: Freelance web services - design and development
 project-name: BareBones Puppets
 client: BareBones Productions
 category: Web Development
