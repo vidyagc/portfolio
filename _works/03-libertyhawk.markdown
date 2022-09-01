@@ -2,12 +2,13 @@
 layout: work
 title: Liberty Hawk
 permalink: libertyhawk
-id: 3
+id: 4
 img: libertyhawk-400.png
 img2: libertyhawk-mon.png
 alt: Liberty Hawk logo, links to Liberty Hawk application writeup
 alt2: Liberty Hawk app view
 project-date: December 2017
+project-type: Academic
 project-name: Liberty Hawk
 client: Start Bootstrap
 category: Web Development
@@ -17,24 +18,19 @@ description: a congressional bill search application that uses the ProPublica AP
 <h4>Upcoming Overview and Refactoring</h4>
 <div class="page-content-text">
 <ul>
-<li>A complete project writeup will be posted by the end of the second week of March, For now, you can read about the app's responsive design features in the blog post, <a href="/2018/01/20/responsive-design/">Responsive Design</a>, and its dynamic content in <a href="/2018/01/28/js-dynamic-content/#">JavaScript for Dynamic Content</a>.</li>
-<li>The code is currently being refactored for resourceful routing and other Rails best practices and efficiencies. If you see anything in the GitHub repo that you would like to discuss (e.g. "How are you planning on improving the following items?"), just contact me, and I'm happy to talk.</li>
+<li>A complete project writeup will be posted in the future. For now, you can read about the app's responsive design features in the blog post, <a href="/2018/01/20/responsive-design/">Responsive Design</a>, and its dynamic content in <a href="/2018/01/28/js-dynamic-content/#">JavaScript for Dynamic Content</a>.</li>
+<li>The code may be refactored for resourceful routing and other Rails best practices and efficiencies. If you see anything in the GitHub repo that you would like to discuss (e.g. "How are you planning on improving the following items?"), just contact me, and I'm happy to talk.</li>
 </ul>
 </div>
 
 <h4>DESCRIPTION</h4>
 <div class="page-content-text">
-A congressional bill search application that uses the ProPublica API ‘Search Bills’ endpoint. Users can search bills while logged in or search just as site visitors. Logged in users can save bills (favorites), see a history of their past 10 searches, sort bills by multiple categories, and their most recent search results are persisted (you can see them when you log back in to a new session). 
-</div>
-
-<h5>UPCOMING FEATURE</h5>
-<div class="page-content-text">
-Foldering that allows users to create named folders and organize their saved bills into them.  
+A congressional bill search application that uses the ProPublica API ‘Search Bills’ endpoint. Users can search bills while logged in or search just as site visitors. Logged in users can save bills (favorites), see a history of their past 10 searches, sort bills by multiple categories, and their most recent search results are persisted (you can see them when you log back in to a new session).
 </div>
 
 <h5>CODER COMMENT</h5>
 <div class="page-content-text">
-Creating a Ruby on Rails app with a RESTful API was interesting. Constructing resources for two use cases (user not signed in and signed in) involved multiple overlapping considerations: first, when did data need to be persisted and when did it not; second, which views does each use case need or need to be limited from, based on the purpose(s) of that view, etc. Furthermore, view design for persisted versus non-persisted data of the same object class required different controller methods or actions, partials for differing object access abilities, etc. These are some of the points that will be covered in the upcoming writeup sections. 
+Creating a Ruby on Rails app with a RESTful API was interesting. Constructing resources for two use cases (user not signed in and signed in) involved multiple overlapping considerations: first, when did data need to be persisted and when did it not; second, which views does each use case need or need to be limited from, based on the purpose(s) of that view, etc. Furthermore, view design for persisted versus non-persisted data of the same object class required different controller methods or actions, partials for differing object access abilities, etc. These are some of the points that will be covered in the upcoming writeup sections.
 </div>
 
 <h4>LINK</h4>
