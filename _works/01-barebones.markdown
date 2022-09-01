@@ -53,7 +53,7 @@ A more comprehensive case study of the redesign will be posted this fall. Below 
 <li>Designed mobile layouts and tablet size layouts for all pages</li>
 <li>Designed mobile menu</li>
 <li>Restyled/customized The Events Calendar</li>
-<li>Enhanced/corrected event images in Photoshop, to make them look better on the site</li>
+<li>Enhanced/corrected event images in Photoshop, to make them look better in the context of the pages</li>
 </ul>
 </div>
 
