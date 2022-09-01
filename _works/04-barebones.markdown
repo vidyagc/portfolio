@@ -53,7 +53,7 @@ A more comprehensive case study of the redesign will be posted this fall. Below 
 <li>Designed mobile layouts and tablet size layouts for all pages</li>
 <li>Designed mobile menu</li>
 <li>Restyled/customized The Events Calendar</li>
-<li>Enhanced/corrected event images in Photoshop, to make them look better on the site
+<li>Enhanced/corrected event images in Photoshop, to make them look better on the site</li>
 </ul>
 </div>
 
@@ -73,17 +73,4 @@ The BareBones site was already on WordPress, and I stayed with the existing CMS 
 <h4>KEY TAKEAWAYS</h4>
 <div class="page-content-text">
 There were several key takeaways from this project. Chief among them was the importance of understanding an organization and its community when shaping its communication platform. I have worked with multiple arts nonprofits since 2016 in a variety of roles (including several years of volunteering with BareBones). In tailoring content and designing site sections, I was able to rely on an understanding of business priorities, organizational voice, and target audience interests.
-</div>
-
-<div class="page-content-text">
-
-</div>
-<ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-</ul>
 </div>
