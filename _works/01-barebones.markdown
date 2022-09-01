@@ -46,7 +46,7 @@ A more comprehensive case study of the redesign will be posted this fall. Below 
 <h5>DESIGN</h5>
 <ul>
 <li>Created a color palette. The colors were based around the logo and rooted in the theme of BareBones premiere event - an autumn ritual honoring the cycle of life</li>
-<li>Restructured main navigation</li>
+<li>Restructured main navigation for clearer navigating experience and consistency</li>
 <li>Designed new landing pages (e.g. dedicated pages for donation, community, jobs, newsletter signup, and press)</li>
 <li>Incorporated CTA (call to action) prompts throughout the site, in areas targeted for that engagement, for various goals (e.g. donation and volunteering)</li>
 <li>Added newsletter signup prompts and CTAs throughout the site (in areas targeted for that engagement)</li>
