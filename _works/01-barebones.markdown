@@ -39,7 +39,7 @@ A more comprehensive case study of the redesign will be posted this fall. Below 
 <li>Wrote content for new sections and sourced new images for the entire site</li>
 <li>Identified content cycle - off show and during show season messaging, and when each needed to be applied</li>
 <li>Created mailing lists for volunteer interest and general newsletter</li>
-<li>Developed Page SEO settings (meta, Open Graph, and Twitter title and description and images for each page)</li>
+<li>Created content for individual Page SEO settings (meta, Open Graph, and Twitter title and description and images for each page)</li>
 </ul>   
 </div>
 
@@ -70,7 +70,7 @@ The BareBones site was already on WordPress, and I stayed with the existing CMS 
 <li>Cross browser testing of entire site</li>
 <li>Set up mailing lists in Mailchimp and Google reCAPTCHA for subscription form</li>
 <li>Set default Open Graph image (for social sharing image previews)</li>
-<li>Set default Open Graph image (for social sharing image previews)</li>
+<li>Set individual Page SEO settings</li>
 </ul>
 </div>
 
