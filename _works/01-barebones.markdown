@@ -21,7 +21,7 @@ description: redesign of the BareBones website
 
 <h4>SERVICES PROVIDED</h4>
 <div class="page-content-text">
-I became Web Administrator for BareBones Puppet Theatre (<a href="https://barebonespuppets.org/">barebonespuppets.org</a>) in July, 2021. I provided the following services: content strategy, web design, and web development. Upon first reviewing the site, I identified many opportunities for improving engagement, including but not limited to: responsive (e.g. mobile) design, content refresh (text and images), new landing pages, call to action prompts, updated navigation structure, newsletter/mailing list signups, and web accessibility.
+I became Web Administrator for BareBones Puppet Theatre (<a href="https://barebonespuppets.org/">barebonespuppets.org</a>) in July, 2021. I provided the following services: content strategy, web design, and web development. Upon first reviewing their existing site, I identified many opportunities for improving engagement, including but not limited to: responsive (e.g. mobile) design, content refresh (text and images), new landing pages, call to action prompts, updated navigation structure, newsletter/mailing list signups, and web accessibility.
 </div>
 
 <div class="page-content-text">
