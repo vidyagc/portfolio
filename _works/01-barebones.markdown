@@ -16,21 +16,21 @@ description: redesign of the BareBones website
 ---
 <h4>CLIENT</h4>
 <div class="page-content-text">
-<a href="https://barebonespuppets.org/">BareBones Productions</a> (AKA BareBones Puppet Theatre) is a Minneapolis-based 501(c)(3) performing arts nonprofit. It operates as a collective of visual and performing artists that produce outdoor installations and spectacle performances. Its mission is, in part, "[t]o bring art into community and community into art." Correspondingly, BareBones relies largely on volunteers for its yearly operations and to produce its premiere event, the Annual Halloween Extravaganza. Its website and social media are imperative to building and sustaining this community support.
+<a href="https://barebonespuppets.org/" target="_blank">BareBones Productions</a> (AKA BareBones Puppet Theatre) is a Minneapolis-based 501(c)(3) performing arts nonprofit. It operates as a collective of visual and performing artists that produce outdoor installations and spectacle performances. Its mission is, in part, "[t]o bring art into community and community into art." Correspondingly, BareBones relies largely on volunteers for its yearly operations and to produce its premiere event, the Annual Halloween Extravaganza. Its website and social media are imperative to building and sustaining this community support.
 </div>
 
 <h4>SERVICES PROVIDED</h4>
 <div class="page-content-text">
-I became Web Administrator for BareBones Puppet Theatre (<a href="https://barebonespuppets.org/">barebonespuppets.org</a>) in July, 2021. I provided the following services: content strategy, web design, and web development. Upon first reviewing their existing site, I identified many opportunities for improving engagement, including but not limited to: responsive (e.g. mobile) design, content refresh (text and images), new landing pages, call to action prompts, updated navigation structure, newsletter/mailing list signups, and web accessibility.
+I became Web Administrator for BareBones Puppet Theatre (<a href="https://barebonespuppets.org/" target="_blank">barebonespuppets.org</a>) in July, 2021. I provided the following services: content strategy, web design, and web development. Upon first reviewing their existing site, I identified many opportunities for improving engagement, including but not limited to: responsive (e.g. mobile) design, content refresh (text and images), new landing pages, call to action prompts, updated navigation structure, newsletter/mailing list signups, and web accessibility.
 </div>
 
 <div class="page-content-text">
-I assessed what was needed to show visitors the best of what BareBones does and promote public support/engagement. All together, these updates constituted a full redesign of the site. The bulk of the changes were done and made live incrementally, between August and early October, 2021. Due to time constraints, updates to <a href="https://barebonespuppets.org/halloweens-past/">Past Show pages</a> were held off until after fall 2022: show pages for 2020 and prior will be redesigned.    
+I assessed what was needed to show visitors the best of what BareBones does and promote public support/engagement. All together, these updates constituted a full redesign of the site. The bulk of the changes were done and made live incrementally, between August and early October, 2021. Due to time constraints, updates to <a href="https://barebonespuppets.org/halloweens-past/" target="_blank">Past Show pages</a> were held off until after fall 2022: show pages for 2020 and prior will be redesigned.    
 </div>
 
 <h4>CASE STUDY</h4>
 <div class="page-content-text">
-A more comprehensive case study of the redesign will be posted this fall. Below is a summary of some of its key elements.
+A more comprehensive case study of the redesign will be posted this fall. Below is an outline of its main elements.
 </div>
 
 <div class="page-content-text">
@@ -79,7 +79,15 @@ The BareBones site was already on WordPress, and I stayed with the existing CMS 
 </ul>
 </div>
 
-<h4>KEY TAKEAWAY</h4>
+<h4>KEY COMPONENTS</h4>
+<div style="margin-bottom:.75cm"></div>
+
+<h5>UNDERSTAND THE BUSINESS</h5>
 <div class="page-content-text">
-There were several key takeaways from this project. Chief among them was the importance of understanding an organization and its community when shaping its communication platform. I have worked with multiple arts nonprofits since 2016 in a variety of roles (including several years of volunteering with BareBones). In designing site sections and tailoring content, I was able to rely on an understanding of business priorities, organizational voice, and target audience interests.
+There were several takeaways from this project. Chief among them was the importance of understanding an organization and its community when shaping its communication platform. I have worked with multiple arts nonprofits since 2016 in a variety of roles (including several years of volunteering with BareBones). In designing site sections and tailoring content, I was able to rely on an understanding of business priorities, organizational voice, and target audience interests.
 </div>
+
+<h5>IMAGE CONTENT</h5>
+<div class="page-content-text">
+BareBones is a visual arts organization. Financial and other support for its work is built around the <a href="https://barebonespuppets.org/halloween-show/" target="_blank">annual puppet spectacle</a>. Consequently, showcasing the best of the production's moments was a large part of content curation for the redesign. At the time, BareBones assets were in a number of places, and not easily searchable (that has since been resolved). Ultimately, I searched through thousands of photos from years of past shows to find images of the right quality (e.g. resolution) that showcased some of the most eye-catching moments. When called for, some images were also color corrected or otherwise enhanced in Photoshop. These photos were used across the site in page banners/headers, half image components, and (most prominently) in galleries on the <a href="https://barebonespuppets.org/" target="_blank">homepage</a> and <a href="https://barebonespuppets.org/halloween-show/" target="_blank">Extravaganza page</a>.   
+</div>  
