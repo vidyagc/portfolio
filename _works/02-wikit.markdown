@@ -8,7 +8,7 @@ img2: wikit-mon.png
 alt: Wikit logo, links to Wikit application writeup
 alt2: Wikit app view
 project-date: July 2017
-project-type: Academic
+project-type: Academic assignment
 project-name: Wikit
 client: Start Bootstrap
 category: Web Development

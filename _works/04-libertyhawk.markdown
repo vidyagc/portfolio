@@ -8,7 +8,7 @@ img2: libertyhawk-mon.png
 alt: Liberty Hawk logo, links to Liberty Hawk application writeup
 alt2: Liberty Hawk app view
 project-date: December 2017
-project-type: Academic
+project-type: Academic assignment
 project-name: Liberty Hawk
 client: Start Bootstrap
 category: Web Development

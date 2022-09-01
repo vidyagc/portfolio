@@ -8,7 +8,7 @@ img2: giterdone-mon.png
 alt: Giterdone logo, links to Giterdone application writeup
 alt2: Giterdone app view
 project-date: August 2017
-project-type: Academic
+project-type: Academic assignment
 project-name: Git'er Done!
 client: Personal Project
 category: Web Development
