@@ -1,7 +1,7 @@
 ---
 layout: work
 title: BareBones
-permalink: wikit
+permalink: barebones
 id: 4
 img: barebones-400.png
 img2: barebones-mon.png
