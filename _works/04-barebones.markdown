@@ -2,7 +2,7 @@
 layout: work
 title: BareBones
 permalink: wikit
-id: 1
+id: 4
 img: barebones-400.png
 img2: barebones-mon.png
 alt: BareBones
