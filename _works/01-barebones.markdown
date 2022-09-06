@@ -30,7 +30,7 @@ I assessed what was needed to show visitors the best of what BareBones does and 
 
 <h4>CASE STUDY</h4>
 <div class="page-content-text">
-A more comprehensive case study of the redesign will be posted this fall. Below is an outline of its main elements.
+A more comprehensive case study of the redesign may be posted this fall. Below is an outline of its main elements.
 </div>
 
 <div class="page-content-text">
@@ -55,7 +55,7 @@ A more comprehensive case study of the redesign will be posted this fall. Below 
 <li>Designed new landing pages (e.g. dedicated pages for donation, community, jobs, newsletter signup, and press)</li>
 <li>Incorporated CTA (call to action) prompts throughout the site, in areas targeted for various goals (e.g. donation and volunteering)</li>
 <li>Added newsletter signup prompts and CTAs throughout the site (in areas targeted for that engagement)</li>
-<li>Designed mobile layouts and tablet size layouts for all pages</li>
+<li>Designed mobile and tablet size layouts for all pages</li>
 <li>Designed mobile menu</li>
 <li>Restyled/customized The Events Calendar</li>
 <li>Enhanced/corrected event images in Photoshop</li>
