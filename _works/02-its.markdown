@@ -80,7 +80,7 @@ When designing the <a href="https://www.inthestreets.org/news-updates" target="_
 
 <h5>LIGHTBOX PLUGIN FOR BIO POPUPS</h5>
 <div class="page-content-text">
-For the <a href="https://www.inthestreets.org/our-team" target="_blank">Team page</a>, I wanted a layout with bio teasers and links that open the full personnel profile as a popup. Ideally, I would have had the bio images be clickable, but in using the built-in list feature for the teasers, this was not an option (even with custom coding). A popup feature was not available either, so I set up a third-party <a href="https://www.sqspthemes.com/plugins/ultimate-squarespace-lightbox-plugin" target="_blank">Lightbox plugin</a> to make that feature. For the popup content itself, I used the Image (overlap) element heavily modified with Site Styles to create the profile image with name and title section. I really liked the use of this element, because its default responsive (smaller screen size) behavior looked very good (open a popup and squeeze the window down to see for yourself - the name and tile fall under and slightly overlap the profile photo).
+For the <a href="https://www.inthestreets.org/our-team" target="_blank">Team page</a>, I wanted a layout with bio teasers and links that open the full personnel profile as a popup. Ideally, I would have had the bio images be clickable, but in using the built-in list feature for the teasers, this was not an option (even with custom coding). A popup feature was not available either, so I set up a third-party <a href="https://www.sqspthemes.com/plugins/ultimate-squarespace-lightbox-plugin" target="_blank">Lightbox plugin</a> to make that feature. For the popup content itself, I used the Image (overlap) element heavily modified with Site Styles to create the profile image with name and title section. I really liked the use of this element, because its default responsive (smaller screen size) behavior looked very good (open a popup and squeeze the window down to see for yourself - the name and title fall under and slightly overlap the profile photo).
 </div>
 
 <div class="page-content-text">
@@ -93,11 +93,11 @@ Adding custom CSS in Squarespace involves targeting the existing elements (pages
 </div>
 
 <div class="page-content-text">
-Every portion of the site had custom CSS applied. Here are a few examples (in addition to the code blocks mentioned previously):
+Every portion of the site had custom CSS applied. Here are a few examples of areas that required special consideration (in addition to the code blocks mentioned previously):
 <div style="margin-bottom:.25cm"></div>
 <ul>
 <li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> Structure and Theory chart (using the Simple List block)</li>
-<li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> Building Support, and similarly, the<a href="https://www.inthestreets.org/acknowledgements-partners" target="_blank">Acknowledgements</a> callouts</li>
+<li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> Building Support, and similarly, the <a href="https://www.inthestreets.org/acknowledgements-partners" target="_blank">Acknowledgements</a> callouts</li>
 <li><a href="https://www.inthestreets.org/provide-services" target="_blank">Provide Services</a> card list (using Image and Text blocks)</li>
 <li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> What We Do half image feature (using Image and Text blocks )</li>
 </ul>
