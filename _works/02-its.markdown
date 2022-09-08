@@ -103,6 +103,59 @@ Every portion of the site had custom CSS applied. Here are a few examples of are
 </ul>
 </div>
 
+<div class="file-path">CSS for Structure and Theory chart</div>
+<div style="max-height: 400px; overflow: auto;">
+{% highlight erb %}
+[data-section-id="61714f1a7094ed1b42dfc3a5"] {
+  margin-bottom:15px;
+  img {
+  }
+    li:nth-child(3) {
+      background-color: #9e6f59!important;
+      p {
+        color:white!important;
+        font-weight:600;
+        font-size:1.15rem;
+      }
+  }
+  li:nth-child(2) {
+      background-color: #405ebd!important;
+    p {
+      color:white!important;
+      font-weight:600;
+      font-size:1.15rem;
+    }
+    .sqs-block-button-element--medium {
+      background-color:white!important;
+      color:black!important;
+    }
+  }
+  li:nth-child(1) {
+      background-color:   #e8b923!important; /*#796dc5*/
+    p {
+      font-weight:600;
+      font-size:1.15rem;
+    }
+  }
+  .list-item {
+    /*border: 1px solid #000;*/
+  }
+
+  @media only screen and (min-width:650px){
+    .list-item {
+      min-height:37vh;
+    }
+  }
+
+  .list-item-content__button-container
+  {
+    margin-top:40px!important;
+  }
+}
+{% endhighlight %}
+</div>
+<div>&nbsp;</div>
+
 <h4>DESIGN CONSIDERATIONS</h4>
 <div style="margin-bottom:.75cm"></div>
 
@@ -122,7 +175,7 @@ After showing the site (pre-launch) to an associate who is a professional web de
 </div>  
 
 <h5>WITH A LITTLE HELP FROM MY FRIENDS</h5>
-<div class="page-content-text" style="max-height: 50px; overflow: auto;">
+<div class="page-content-text">
 I really appreciated Erika's generosity in reviewing the prototype site, and offering suggestions. In addition to the Theory infographic, she also mocked up the Title and tagline callout on the homepage banner. Prior to her design, I just had the title and text left-aligned on a semi-opaque purple background over the banner image. She suggested centering the content, so it would draw the eye down the center of the page. Her mockup also included all the primary site colors via the double-color line and X. She said it would help tie all the colors into the banner. This was a great suggestion, and did achieve a more cohesive look. And as before, she said to make this via code vs an image. Moral of the story? Don't hesitate to ask for a little advice when you're near an expert.    
 </div>  
 
