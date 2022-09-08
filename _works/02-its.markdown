@@ -122,7 +122,7 @@ After showing the site (pre-launch) to an associate who is a professional web de
 </div>  
 
 <h5>WITH A LITTLE HELP FROM MY FRIENDS</h5>
-<div class="page-content-text">
+<div class="page-content-text" style="max-height:50px;">
 I really appreciated Erika's generosity in reviewing the prototype site, and offering suggestions. In addition to the Theory infographic, she also mocked up the Title and tagline callout on the homepage banner. Prior to her design, I just had the title and text left-aligned on a semi-opaque purple background over the banner image. She suggested centering the content, so it would draw the eye down the center of the page. Her mockup also included all the primary site colors via the double-color line and X. She said it would help tie all the colors into the banner. This was a great suggestion, and did achieve a more cohesive look. And as before, she said to make this via code vs an image. Moral of the story? Don't hesitate to ask for a little advice when you're near an expert.    
 </div>  
 
