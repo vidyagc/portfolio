@@ -84,7 +84,7 @@ For the <a href="https://www.inthestreets.org/our-team" target="_blank">Team pag
 </div>
 
 <div class="page-content-text">
-For the popup content itself, I used the Image (overlap) element heavily modified with Site Styles to create the profile image with name and title section. I really liked the use of this element, because its default responsive (smaller screen size) behavior looked very good (open a popup and squeeze the window down to see for yourself - the name and title fall under and slightly overlap the profile photo). One of the more amusing parts of working on the Team page was getting some of the staff and one board member to provide headshots with matching backgrounds and similar poses: they were nice enough to take new photos when needed :-).  
+For the popup content itself, I used the Image (overlap) block heavily modified with Site Styles to create the profile image with name and title section. I really liked the use of this element, because its default responsive (smaller screen size) behavior looked very good (open a popup and squeeze the window down to see for yourself - the name and title fall under and slightly overlap the profile photo). One of the more amusing parts of working on the Team page was getting some of the staff and one board member to provide headshots with matching backgrounds and similar poses: they were nice enough to take new photos when needed :-).  
 </div>
 
 <h5>CUSTOM CSS: RESOURCES AND USE</h5>  
@@ -113,7 +113,7 @@ In regards to content layout, one of the more design-intensive sections was the 
 
 <div class="page-content-text">
 It was preferable to have something more engaging than just text, and I decided to use an infographic to summarize their approach. Originally, I made an image of a flow diagram with icons and had a button underneath linking to the Theory page.   
-<div style="margin-bottom:.75cm; text-align: left;">
+<div style="margin-bottom:.75cm; text-align: left; max-width:650px;">
 <img src="{{site.baseurl}}/img/portfolio/ITS-chart.jpeg">
 </div>
 
