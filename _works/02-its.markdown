@@ -80,11 +80,11 @@ When designing the <a href="https://www.inthestreets.org/news-updates" target="_
 
 <h5>LIGHTBOX PLUGIN FOR BIO POPUPS</h5>
 <div class="page-content-text">
-For the <a href="https://www.inthestreets.org/our-team" target="_blank">Team page</a>, I wanted a layout with bio teasers and links that open the full personnel profile as a popup. Ideally, I would have had the bio images be clickable, but in using the built-in list feature for the teasers, this was not an option (even with custom coding). A popup feature was not available either, so I set up a third-party <a href="https://www.sqspthemes.com/plugins/ultimate-squarespace-lightbox-plugin" target="_blank">Lightbox plugin</a> to make that feature. For the popup content itself, I used the Image (overlap) element heavily modified with Site Styles to create the profile image with name and title section. I really liked the use of this element, because its default responsive (smaller screen size) behavior looked very good (open a popup and squeeze the window down to see for yourself - the name and title fall under and slightly overlap the profile photo).
+For the <a href="https://www.inthestreets.org/our-team" target="_blank">Team page</a>, I wanted a layout with bio teasers and links that open the full personnel profile as a popup. Ideally, I would have had the bio images be clickable, but in using the built-in list feature for the teasers, this was not an option (even with custom coding). Also, a popup/lightbox feature was not available for a text link, so I set up a third-party <a href="https://www.sqspthemes.com/plugins/ultimate-squarespace-lightbox-plugin" target="_blank">Lightbox plugin</a> to make that.
 </div>
 
 <div class="page-content-text">
-One of the more amusing parts of working on the Team page was getting some of the staff and one board member to provide headshots with matching backgrounds and similar poses: they were nice enough to take new photos when needed :-).  
+For the popup content itself, I used the Image (overlap) element heavily modified with Site Styles to create the profile image with name and title section. I really liked the use of this element, because its default responsive (smaller screen size) behavior looked very good (open a popup and squeeze the window down to see for yourself - the name and title fall under and slightly overlap the profile photo). One of the more amusing parts of working on the Team page was getting some of the staff and one board member to provide headshots with matching backgrounds and similar poses: they were nice enough to take new photos when needed :-).  
 </div>
 
 <h5>CUSTOM CSS: RESOURCES AND USE</h5>  
