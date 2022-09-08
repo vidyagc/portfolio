@@ -103,59 +103,6 @@ Every portion of the site had custom CSS applied. Here are a few examples (in ad
 </ul>
 </div>
 
-<div class="file-path">CSS for Structure and Theory chart</div>
-<div style="max-height: 400px">
-{% highlight erb %}
-[data-section-id="61714f1a7094ed1b42dfc3a5"] {
-  margin-bottom:15px;
-  img {
-  }
-    li:nth-child(3) {
-      background-color: #9e6f59!important;
-      p {
-        color:white!important;
-        font-weight:600;
-        font-size:1.15rem;
-      }
-  }
-  li:nth-child(2) {
-      background-color: #405ebd!important;
-    p {
-      color:white!important;
-      font-weight:600;
-      font-size:1.15rem;
-    }
-    .sqs-block-button-element--medium {
-      background-color:white!important;
-      color:black!important;
-    }
-  }
-  li:nth-child(1) {
-      background-color:   #e8b923!important; /*#796dc5*/
-    p {
-      font-weight:600;
-      font-size:1.15rem;
-    }
-  }
-  .list-item {
-    /*border: 1px solid #000;*/
-  }
-
-  @media only screen and (min-width:650px){
-    .list-item {
-      min-height:37vh;
-    }
-  }
-
-  .list-item-content__button-container
-  {
-    margin-top:40px!important;
-  }
-}
-{% endhighlight %}
-</div>
-<div>&nbsp;</div>
-
 <h4>DESIGN CONSIDERATIONS</h4>
 <div style="margin-bottom:.75cm"></div>
 
