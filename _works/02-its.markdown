@@ -78,6 +78,10 @@ When not using the <a href="https://developers.squarespace.com/quick-start" targ
 When designing the <a href="https://www.inthestreets.org/news-updates" target="_blank">News & Updates page</a>, I wanted a way to highlight press features about the org. Squarespace didn't offer anything that seemed adequate for this. Ultimately, I decided on a quote callout, linking to the news piece, and looked for design examples to base this on. I found an example on <a href="https://codepen.io/" target="_blank">CodePen</a>, and modified it to match the look of the rest of the site. To implement it, I generated custom code and used <a href="https://support.squarespace.com/hc/en-us/articles/205815928-Adding-custom-code-to-your" target="_blank">Squarespace's Code block (basic) and CSS Editor</a> to add it to the page. The Code block and CSS Editor was also used to make the organization name and tagline callout on the homepage banner. The code for the <a href="https://codepen.io/vidyagc/pen/oNdjRqd" target="_blank">Press Highlight</a> can be viewed on my CodePen, so you can experiment with it, as well as viewing it. Below is the code for the hompage banner title element.  
 </div>
 
+<div style="margin-top:.50cm; margin-bottom:.75cm; justify-content: center;">
+<img src="{{site.baseurl}}/img/portfolio/banner-title.png" style="max-width:750px; height: auto;">
+</div>
+
 <div class="file-path">Code block content for homepage banner title callout</div>
 <div>
 {% highlight html+css %}
