@@ -104,7 +104,7 @@ Every portion of the site had custom CSS applied. Here are a few examples of are
 </div>
 
 <h4>DESIGN CONSIDERATIONS</h4>
-<div style="margin-bottom:.25cm"></div>
+<div style="margin-bottom:.75cm"></div>
 
 <div class="page-content-text">
 <h5>SUMMARIZING THE COMPLEX</h5>
