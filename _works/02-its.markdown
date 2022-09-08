@@ -104,7 +104,7 @@ Every portion of the site had custom CSS applied. Here are a few examples of are
 </div>
 
 <div class="file-path">CSS for Structure and Theory chart</div>
-<div style="max-height: 400px; overflow: auto;">
+<div style="max-height: 350px; overflow: scroll;">
 {% highlight css %}
 [data-section-id="61714f1a7094ed1b42dfc3a5"] {
   margin-bottom:15px;
