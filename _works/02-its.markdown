@@ -113,8 +113,8 @@ In regards to content layout, one of the more design-intensive sections was the 
 
 <div class="page-content-text">
 It was preferable to have something more engaging than just text, and I decided to use an infographic to summarize their approach. Originally, I made an image of a flow diagram with icons and had a button underneath linking to the Theory page.   
-<div style="margin-bottom:.75cm; text-align: left; max-width:650px;">
-<img src="{{site.baseurl}}/img/portfolio/ITS-chart.jpeg">
+<div style="margin-bottom:.75cm;">
+<img src="{{site.baseurl}}/img/portfolio/ITS-chart.jpeg" style="max-width:750px; height: auto;">
 </div>
 
 <div class="page-content-text">
