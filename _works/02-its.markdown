@@ -1,11 +1,11 @@
 ---
 layout: work
 title: In The Streets
-permalink: inthestreets
+permalink: in-the-streets
 id: 4
-img: its-400.png
-img2: its-mon.png
-alt: BareBones
+img: ITS-400.png
+img2: ITS-mon.png
+alt: In the Streets
 alt2: In the Streets news page desktop view
 project-date: July - October 2021
 project-type: Freelance web services - design and development
