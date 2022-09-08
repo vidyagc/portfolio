@@ -21,7 +21,7 @@ description: new website launch for In the Streets
 
 <h4>SERVICES PROVIDED</h4>
 <div class="page-content-text">
-I became Web Administrator In the Streets (<a href="https://www.inthestreets.org/" target="_blank">inthestreets.org/</a>) in June, 2021. I provided content strategy, web design, and web development services to launch a new website. In the summer of 2021, In the Streets was just getting off the ground and preparing for its first fundraising push (grants applications and private donations) in the fall. The push was timed with a Washington Post Local Perspectives article on the organization. They wanted to have the new site ready to show their work and call for donations by the time the article came out. This proved to be the right approach as traffic to the site, and consequently donations, saw a huge spike after the article was published.  
+I became Web Administrator In the Streets (<a href="https://www.inthestreets.org/" target="_blank">inthestreets.org/</a>) in June, 2021. I provided content strategy, web design, and web development services to launch a new site. In the summer of 2021, In the Streets was just getting off the ground and preparing for its first fundraising push (grants applications and private donations) in the fall. The push was timed with a Washington Post Local Perspectives article on the organization. They wanted to have the new site ready to show their work and call for donations by the time the article came out. This proved to be the right approach as traffic to the site, and consequently donations, saw a huge spike after the article was published.  
 </div>   
 
 <h4>CASE STUDY</h4>
@@ -107,7 +107,7 @@ Every portion of the site had custom CSS applied. Here are a few examples of are
 <div style="margin-bottom:.75cm"></div>
 
 <div class="page-content-text">
-<h5>SUMMARIZING THE COMPLEX</h5>
+<h5>CONDENSING THE COMPLEX</h5>
 In regards to content layout, one of the more design-intensive sections was the Structure and Theory of Change chart on the <a href="https://www.inthestreets.org/" target="_blank">homepage</a>. When I originally collected content from the client, it included the diagrams on the <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change page</a>. These diagrams were submitted in a grant application, and the client wanted them on the site to show their approach to addressing Trauma. As it is key to understanding the work of this new organization, I wanted to include a callout to <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change</a> on the homepage.         
 </div>
 
