@@ -84,7 +84,7 @@ When designing the <a href="https://www.inthestreets.org/news-updates" target="_
 
 <div class="file-path">Code block content for homepage banner title callout</div>
 <div>
-{% highlight html+css %}
+{% highlight html, css %}
 <div style="text-align:center; max-width:650px;" id="banner-text-box">
   <div style="">
     <h2 style="margin-bottom:-30px;  padding-top:18px!important;">In the Streets</h2>
