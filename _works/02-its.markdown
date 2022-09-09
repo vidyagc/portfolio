@@ -226,12 +226,12 @@ I really appreciated Erika's generosity in reviewing the prototype site and offe
 
 <h5>Icon Creation and Theme</h5>
 <div class="page-content-text">
-Part of making content more engaging is having icons to help convey the message. Due to a limited budget, I relied primarily on free vector image packs to create these. I was not able to find images that, in entirety, were what was needed: rather, I cut out and/or combined parts of the vector images to create the icons, and further edited them for color, etc..  
+Part of making content more engaging is having icons to help convey the message. Due to a limited budget, I relied primarily on free vector image packs to create these. I was not able to find images that, in entirety, were what was needed: rather, I cut out and/or combined parts of the vector images to create the icons, and further edited them for color, etc.  
 
 Because the organization's name is In the Streets, icons with a distressed look seemed appropriate. Likewise, I styled certain callouts (e.g. Building Support on the <a href="https://www.inthestreets.org/" target="_blank">homepage</a> and <a href="https://www.inthestreets.org/acknowledgements-partners" target="_blank">Acknowledgements</a>) with grunge/distressed borders.
 </div>  
 
 <h4>Additional Updates Needed</h4>
 <div class="page-content-text">
-As previously stated, the diagrams on <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change</a> need to be updated to be web-friendly. Instead of images, they should be made with real text (so the content is accessible), and they should be responsive (i.e. adapt to different screen sizes for readability). These updates will be made when time and/or budget become available. 
+As previously stated, the diagrams on <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change</a> need to be updated to be web-friendly. Instead of images, they should be made with real text (so the content is accessible), and they should be responsive (i.e. adapt to different screen sizes for readability). These updates will be made when time and/or budget become available.
 </div>  
