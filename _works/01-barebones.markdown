@@ -30,7 +30,7 @@ I assessed what was needed to show visitors the best of what BareBones does and 
 
 <h4>Services Outline</h4>
 <div class="page-content-text">
-A more comprehensive case study of the redesign may be posted this fall. Below is an outline of its main elements.
+Below is an outline of its main elements of the redesign, followed by a more in-depth discussion of specific topics.
 </div>
 
 <div class="page-content-text">
