@@ -97,6 +97,7 @@ In the <span class="terms">home</span> template, this list element contains two 
 <div class="file-path">app/templates/home.html</div>
 {% highlight html %}
 <button ng-show="newP" class="submit-with-icon" style="float: right !important;" ng-click="home.updateTask(task, newTitle, newPriority); newP=false; editP=false; oldT=false; newT=false;"><span class="glyphicon glyphicon-ok" style="vertical-align: middle;"></span></button>
+
 <button ng-hide="editP" type="button" class="submit-with-icon" style="float: right !important;"><span class="glyphicon glyphicon-pencil"  ng-click="newP=true; subP=true; editP=true; oldT=true; newT=true"></span></button>
 {% endhighlight %}
 
