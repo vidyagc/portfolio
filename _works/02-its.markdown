@@ -65,7 +65,7 @@ Below is an outline of the main elements of creating the new site, followed by a
 </ul>
 </div>
 
-<div class="page-content-text" style="margin-bottom:.50cm">
+<div class="page-content-text">
 <strong><em>Why Squarespace?</em></strong> Prior to my engagement, In the Streets had already set up an initial attempt at a site on Squarespace. I thought Squarespace would continue to be a good fit for several reasons - part of the consideration being that they might have to manage the site themselves in the future. These reasons were managed web hosting and security, lower threshold for page and form building by novices, built-in website analytics, and user support. The primary drawback of Squarespace (vs say WordPress) is that it is less customizable. I found this to be an issue particularly with regard to responsive design, but was ultimately able to implement the desired behavior.
 </div>
 
