@@ -75,7 +75,7 @@ When not using the <a href="https://developers.squarespace.com/quick-start" targ
 
 <h5>Code Block to Create News and Banner Elements</h5>
 <div class="page-content-text">
-When designing the <a href="https://www.inthestreets.org/news-updates" target="_blank">News & Updates page</a>, I wanted a way to highlight press features about the org. Squarespace didn't offer anything that seemed adequate for this. Ultimately, I decided on a quote callout, linking to the news piece, and looked for design examples to base this on. I found an example on <a href="https://codepen.io/" target="_blank">CodePen</a>, and modified it to match the look of the rest of the site. To implement it, I generated custom code and used <a href="https://support.squarespace.com/hc/en-us/articles/205815928-Adding-custom-code-to-your" target="_blank">Squarespace's Code block (basic) and CSS Editor</a> to add it to the page. The code for the <a href="https://codepen.io/vidyagc/pen/oNdjRqd" target="_blank">Press Highlight</a> can be viewed on my CodePen, so you can experiment with it, as well as viewing it.
+When designing <a href="https://www.inthestreets.org/news-updates" target="_blank">News & Updates</a>, I wanted a way to highlight press features. Squarespace didn't offer anything that seemed adequate for this. Ultimately, I decided on a quote callout, linking to the news piece, and looked for design examples to base this on. I found an example on <a href="https://codepen.io/" target="_blank">CodePen</a>, and modified it to match the look of the rest of the site. To implement it, I generated custom code and used <a href="https://support.squarespace.com/hc/en-us/articles/205815928-Adding-custom-code-to-your" target="_blank">Squarespace's Code block (basic) and CSS Editor</a> to add it. The code for the <a href="https://codepen.io/vidyagc/pen/oNdjRqd" target="_blank">Press Highlight</a> can be viewed on my CodePen, so you can experiment with it, as well as viewing it.
 
 The Code block and custom CSS was also used to make the organization name and tagline callout on the homepage banner.  Below is the code for that element.  
 </div>
@@ -84,7 +84,7 @@ The Code block and custom CSS was also used to make the organization name and ta
 <img src="{{site.baseurl}}/img/portfolio/banner-title.png" style="max-width:650px; height: auto;">
 </div>
 
-<div class="file-path">Code Block content for banner title callout</div>
+<div class="file-path">Code block content for banner title callout</div>
 <div>
 {% highlight html %}
 <div style="text-align:center; max-width:650px;" id="banner-text-box">
@@ -138,20 +138,20 @@ h2.background {
 
 <h5>Lightbox Plugin for Bio Popups</h5>
 <div class="page-content-text">
-For the <a href="https://www.inthestreets.org/our-team" target="_blank">Team page</a>, I wanted a layout with bio teasers and links that open the full personnel profile as a popup. Ideally, I would have had the bio images be clickable, but in using the built-in list feature for the teasers, this was not an option (even with custom coding). Also, a popup/lightbox feature was not available for a text link, so I set up a third-party <a href="https://www.sqspthemes.com/plugins/ultimate-squarespace-lightbox-plugin" target="_blank">Lightbox plugin</a> to make that.
+For the <a href="https://www.inthestreets.org/our-team" target="_blank">Team page</a>, I wanted a layout with bio teasers and links that open the full personnel profile as a popup. Ideally, I would have had the bio images be clickable, but in using the built-in list feature for the teasers, this was not an option (even with custom coding). Also, a popup/lightbox feature was not available for a text link, so I set up a third-party <a href="https://www.sqspthemes.com/plugins/ultimate-squarespace-lightbox-plugin" target="_blank">Lightbox plugin</a> for that.
 </div>
 
 <div class="page-content-text">
-For the popup content itself, I used the Image (overlap) block heavily modified with Site Styles to create the profile image with name and title section. I really liked the use of this element, because its default responsive (smaller screen size) behavior looked very good (open a popup and squeeze the window down to see for yourself - the name and title fall under and slightly overlap the profile photo). One of the more amusing parts of working on the Team page was getting some of the staff and one board member to provide headshots with matching backgrounds and similar poses: they were nice enough to take new photos when needed :-).  
+For the popup content itself, I used the Image (overlap) block, heavily modified with Site Styles, to create the section with profile image, name, and title. I really liked the use of this element, because its default responsive (smaller screen size) behavior looked good - open a popup and squeeze the window down to see for yourself (the name and title fall under, and slightly overlap, the profile photo). One of the more amusing parts of working on the Team page was getting some of the staff and one board member to provide headshots with matching backgrounds and similar poses: they were nice enough to take new photos when needed <i class="fa fa-smile-o" aria-hidden="true"></i>.  
 </div>
 
 <h5>Custom CSS: Resources and Use</h5>  
 <div class="page-content-text">
-Adding custom CSS in Squarespace involves targeting the existing elements (pages, section, selectors, etc.) and/or overriding their styles. There are many tutorials for this, but the resource I found most useful was <a href="https://insidethesquare.co/" target="_blank">Inside the Square's</a> YouTube <a href="https://www.youtube.com/c/InsideTheSquare" target="_blank">Channel</a>. I still had to use browser Developer Tools, but the Inside the Square Tutorials were a quick reference point for different elements (e.g. navigation, list cards, etc.).  
+Adding custom CSS in Squarespace involves targeting existing elements (pages, section, selectors, etc.) and overriding/appending their styles. There are many tutorials for this, but the resource I found most useful was <a href="https://insidethesquare.co/" target="_blank">Inside the Square's</a> YouTube <a href="https://www.youtube.com/c/InsideTheSquare" target="_blank">Channel</a>. I still had to use browser Developer Tools, but the Inside the Square Tutorials were a quick reference point for different selectors (e.g. navigation, list cards, etc.).  
 </div>
 
 <div class="page-content-text">
-Every portion of the site had custom CSS applied. Here are a few examples of areas that required special consideration (in addition to the code blocks mentioned previously):
+As aforementioned, every portion of the site had custom CSS applied. Here are a few examples of areas that required special consideration (in addition to the code blocks cited previously):
 <div style="margin-bottom:.25cm"></div>
 <ul>
 <li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> <strong>Structure and Theory</strong> (using the Simple List block)</li>
@@ -216,22 +216,22 @@ It was preferable to have something more engaging than just text, and I decided 
 </div>
 
 <div class="page-content-text">
-After showing the site (pre-launch) to an associate who is a professional web designer, however, she had some great suggestions for this section. She, Erika, mocked up the three box layout with the button and icons inside the boxes. Additionally, she said to make it via code vs an image, so that it would be responsive and accessible (readable by assistive technology). Her rough mockup included the other site colors (blue, brown, and yellow) for the boxes. This was a great touch to tie together the overall look of the homepage. I made a couple changes as far as the order of the colors, and updating the icon colors to "pop" more on the new backgrounds. Then, as aforementioned, I created the infographic with custom code. Erika and I had a related (brief) discussion about the need to adapt the diagram images on the <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory page</a> to be more web-friendly also, but due to time and budget constraints, I have not yet been able to consider updates for those.    
+After showing the site (pre-launch) to an associate who is a professional web designer, however, she had some great suggestions for this section. She, Erika, mocked up the three box layout with the button and icons inside the boxes. Additionally, she said to make it via code vs an image, so that it would be responsive and accessible (readable by assistive technology). Her rough mockup included the other site colors (blue, brown, and yellow) for the boxes. This was a great touch to tie together the overall look of the homepage. I made a couple changes as far as the order of the colors, and updating the icons to "pop" more on the new backgrounds. Then, I created the infographic with custom code. Erika and I had a related (brief) discussion about the need to adapt the diagram images on the <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory page</a> to also be more web-friendly, but due to time and budget constraints, I have not yet been able to consider updates for those.    
 </div>  
 
 <h5><i class="fa fa-music" aria-hidden="true"></i> "With a Little Help From My Friends" <i class="fa fa-music" aria-hidden="true"></i></h5>
 <div class="page-content-text">
-I really appreciated Erika's generosity in reviewing the prototype site, and offering suggestions. In addition to the Theory infographic, she also mocked up the aforementioned title and tagline callout on the homepage banner. Prior to her design, I just had the title and text left-aligned on a semi-opaque purple background over the banner image. She suggested centering the content, so it would draw the eye down the center of the page. Her mockup also included all the primary site colors via the double-color line and X. She said it would help tie all the colors into the banner. This was a great suggestion, and did achieve a more cohesive look. And as before, she said to make this via code vs an image. Moral of the story? Don't hesitate to ask for a little advice when you're near an expert.    
+I really appreciated Erika's generosity in reviewing the prototype site and offering suggestions. In addition to the Theory infographic, she also mocked up the aforementioned title and tagline callout on the homepage banner. Prior to her design, I just had the title and text left-aligned on a semi-opaque purple background over the banner image. She suggested centering the content, so it would draw the eye down the center of the page. Her mockup also included the double-color line with X, made with all the primary site colors. She said it would help tie all the colors into the banner. This did, in fact, achieve a more cohesive look. And as before, she said to make this via code vs an image. Moral of the story? Don't hesitate to ask for a little advice when you're near an expert.    
 </div>  
 
 <h5>Icon Creation and Theme</h5>
 <div class="page-content-text">
-Part of making content more engaging is having icons to help convey the message. Due to a limited budget, I relied primarily on free vector image packs to create these. I was not able to find images that, in entirety, were what was needed: rather, I cut out and/or combined parts of them to create the icons. I then edited them further (color, etc.) in Photoshop.  
+Part of making content more engaging is having icons to help convey the message. Due to a limited budget, I relied primarily on free vector image packs to create these. I was not able to find images that, in entirety, were what was needed: rather, I cut out and/or combined parts of the vector images to create the icons, and further edited them for color, etc..  
 
-Because the organization's name is In the Streets, icons with a distressed look seemed appropriate. Likewise, I styled certain callouts (e.g. Building Support on the <a href="https://www.inthestreets.org/" target="_blank">homepage</a> and <a href="https://www.inthestreets.org/acknowledgements-partners" target="_blank">Acknowledgements</a>) with grunge/distressed borders as well.
+Because the organization's name is In the Streets, icons with a distressed look seemed appropriate. Likewise, I styled certain callouts (e.g. Building Support on the <a href="https://www.inthestreets.org/" target="_blank">homepage</a> and <a href="https://www.inthestreets.org/acknowledgements-partners" target="_blank">Acknowledgements</a>) with grunge/distressed borders.
 </div>  
 
 <h4>Additional Updates Needed</h4>
 <div class="page-content-text">
-As aforementioned, the diagram images on <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change</a> need to be updated to be web-friendly. Instead of images, have these diagrams with real text (so the content is accessible), and have them be responsive (i.e. adapt to different screen sizes for readability).
+As previously stated, the diagrams on <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change</a> need to be updated to be web-friendly. Instead of images, they should be made with real text (so the content is accessible), and they should be responsive (i.e. adapt to different screen sizes for readability). These updates will be made when time and/or budget become available. 
 </div>  
