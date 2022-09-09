@@ -154,10 +154,10 @@ Adding custom CSS in Squarespace involves targeting the existing elements (pages
 Every portion of the site had custom CSS applied. Here are a few examples of areas that required special consideration (in addition to the code blocks mentioned previously):
 <div style="margin-bottom:.25cm"></div>
 <ul>
-<li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> Structure and Theory chart (using the Simple List block)</li>
-<li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> Building Support, and similarly, the <a href="https://www.inthestreets.org/acknowledgements-partners" target="_blank">Acknowledgements</a> callouts</li>
+<li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> <strong>Structure and Theory</strong> (using the Simple List block)</li>
+<li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> <strong>Building Support</strong>, and similarly, the <a href="https://www.inthestreets.org/acknowledgements-partners" target="_blank">Acknowledgements</a> callouts</li>
 <li><a href="https://www.inthestreets.org/provide-services" target="_blank">Provide Services</a> card list (using Image and Text blocks)</li>
-<li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> What We Do half image feature (using Image and Text blocks )</li>
+<li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> <strong>What We Do half</strong> (using Image and Text blocks )</li>
 </ul>
 </div>
 
