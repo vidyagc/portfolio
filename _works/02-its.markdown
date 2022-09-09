@@ -68,7 +68,7 @@ Prior to my engagement, In the Streets had already set up an initial attempt at 
 </ul>
 </div>
 
-<h4>Development - Customization in Square</h4>
+<h4>Development: Customization in Square</h4>
 <div class="page-content-text">
 When not using the <a href="https://developers.squarespace.com/quick-start" target="_blank">Developer Platform</a> to modify templates, customization in Squarespace is more limited compared to some other web builders. There are, however, options to go beyond just the built-in Site Styles feature (which requires no coding). These options include, but are not limited to, the code block, custom CSS, and third-party plugins.   Every element of the In the Streets site was customized, as the built-in blocks and Site Styles were not sufficient to implement the desired design/user experience. Below are just a few examples of these customizations.   
 </div>
