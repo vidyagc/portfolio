@@ -86,7 +86,7 @@ The Code block and custom CSS was also used to make the organization name and ta
 
 <div class="file-path">Code Block content for banner title callout</div>
 <div>
-{% highlight html, css %}
+{% highlight html %}
 <div style="text-align:center; max-width:650px;" id="banner-text-box">
   <div style="">
     <h2 style="margin-bottom:-30px;  padding-top:18px!important;">In the Streets</h2>
