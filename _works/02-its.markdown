@@ -147,7 +147,7 @@ For the popup content itself, I used the Image (overlap) block heavily modified 
 
 <h5>Custom CSS: Resources and Use</h5>  
 <div class="page-content-text">
-Adding custom CSS in Squarespace involves targeting the existing elements (pages, section, selectors, etc.) and/or overriding their styles. There are many tutorials for this, but the resource I found most useful was <a href="https://insidethesquare.co/" target="_blank">Inside the Square's</a> YouTube <a href="https://www.youtube.com/c/InsideTheSquare" target="_blank">Channel</a>. I still had to use browser Developer Tools to identify things, but the Inside the Square Tutorials were a quick reference point for different elements (e.g. navigation, list cards, etc.).  
+Adding custom CSS in Squarespace involves targeting the existing elements (pages, section, selectors, etc.) and/or overriding their styles. There are many tutorials for this, but the resource I found most useful was <a href="https://insidethesquare.co/" target="_blank">Inside the Square's</a> YouTube <a href="https://www.youtube.com/c/InsideTheSquare" target="_blank">Channel</a>. I still had to use browser Developer Tools, but the Inside the Square Tutorials were a quick reference point for different elements (e.g. navigation, list cards, etc.).  
 </div>
 
 <div class="page-content-text">
