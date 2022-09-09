@@ -14,23 +14,23 @@ client: In the Streets
 category: Web Development
 description: new website launch for In the Streets
 ---
-<h4>CLIENT</h4>
+<h4>Client</h4>
 <div class="page-content-text">
 <a href="https://www.inthestreets.org/" target="_blank">In the Streets</a> is a Washington D.C. based 501(c)(3) social services nonprofit. It serves communities affected by generational trauma - working to heal that trauma via physical and mental health resources that prepare community members to support their own neighborhoods. Its "building "meaningful livelihoods" through mentoring, restorative yoga, and participatory action groups.
 </div>
 
-<h4>SERVICES PROVIDED</h4>
+<h4>Services Provided</h4>
 <div class="page-content-text">
 I became Web Administrator In the Streets (<a href="https://www.inthestreets.org/" target="_blank">inthestreets.org/</a>) in June, 2021. I provided content strategy, web design, and web development services to launch a new site. In the summer of 2021, In the Streets was just getting off the ground and preparing for its first fundraising push (grants applications and private donations) in the fall. The push was timed with a Washington Post Local Perspectives article on the organization. They wanted to have the new site ready to show their work and call for donations by the time the article came out. This proved to be the right approach as traffic to the site, and consequently donations, saw a huge spike after the article was published.  
 </div>   
 
-<h4>CASE STUDY</h4>
+<h4>Services Outline</h4>
 <div class="page-content-text">
 Below is an outline of the main elements of the redesign, followed by a more detailed discussion of certain elements of content strategy, design, and development.
 </div>
 
 <div class="page-content-text">
-<h5>CONTENT STRATEGY</h5>
+<h5>Content Strategy</h5>
 <ul>
 <li>Generated a sitemap (a list of all the pages on the site and how they relate to each other)</li>
 <li>Defined site goals: what are the business objectives we want to achieve with the site?</li>
@@ -40,7 +40,7 @@ Below is an outline of the main elements of the redesign, followed by a more det
 </div>
 
 <div class="page-content-text">
-<h5>DESIGN</h5>
+<h5>Design</h5>
 <ul>
 <li>Created a color palette. The org did not have a pre-existing logo or branding, so we were free to explore any option with the site's look. The only request of the Streets team was that it be "colorful"</li>
 <li>Designed all pages</li>
@@ -53,7 +53,7 @@ Below is an outline of the main elements of the redesign, followed by a more det
 </div>
 
 <div class="page-content-text">
-<h5>DEVELOPMENT</h5>
+<h5>Development</h5>
 Prior to my engagement, In the Streets had already set up an initial attempt at a site on Squarespace. I thought Squarespace would continue to be a good fit for several reasons - part of the consideration being that they might have to manage the site themselves in the future. These reasons were managed web hosting and security, lower threshold for page and form building by novices, built-in website analytics, and user support. The primary drawback of Squarespace (vs say WordPress) is that it is less customizable. I found this to be an issue particularly with regard to responsive design, but was ultimately able to implement the desired behavior.
 
 <div style="margin-bottom:.25cm"></div>
@@ -68,12 +68,12 @@ Prior to my engagement, In the Streets had already set up an initial attempt at 
 </ul>
 </div>
 
-<h4>DEVELOPMENT - CUSTOMIZATION IN SQUARE</h4>
+<h4>Development - Customization in Square</h4>
 <div class="page-content-text">
 When not using the <a href="https://developers.squarespace.com/quick-start" target="_blank">Developer Platform</a> to modify templates, customization in Squarespace is more limited compared to some other web builders. There are, however, options to go beyond just the built-in Site Styles feature (which requires no coding). These options include, but are not limited to, the code block, custom CSS, and third-party plugins.   Every element of the In the Streets site was customized, as the built-in blocks and Site Styles were not sufficient to implement the desired design/user experience. Below are just a few examples of these customizations.   
 </div>
 
-<h5>CREATING NEWS AND BANNER HIGHLIGHTS WITH CODE BLOCK</h5>
+<h5>Code Block to Create News and Banner Elements</h5>
 <div class="page-content-text">
 When designing the <a href="https://www.inthestreets.org/news-updates" target="_blank">News & Updates page</a>, I wanted a way to highlight press features about the org. Squarespace didn't offer anything that seemed adequate for this. Ultimately, I decided on a quote callout, linking to the news piece, and looked for design examples to base this on. I found an example on <a href="https://codepen.io/" target="_blank">CodePen</a>, and modified it to match the look of the rest of the site. To implement it, I generated custom code and used <a href="https://support.squarespace.com/hc/en-us/articles/205815928-Adding-custom-code-to-your" target="_blank">Squarespace's Code block (basic) and CSS Editor</a> to add it to the page. The code for the <a href="https://codepen.io/vidyagc/pen/oNdjRqd" target="_blank">Press Highlight</a> can be viewed on my CodePen, so you can experiment with it, as well as viewing it.
 
@@ -136,7 +136,7 @@ h2.background {
 </div>
 <div style="margin-bottom:.75cm">&nbsp;</div>
 
-<h5>LIGHTBOX PLUGIN FOR BIO POPUPS</h5>
+<h5>Lightbox Plugin for Bio Popups</h5>
 <div class="page-content-text">
 For the <a href="https://www.inthestreets.org/our-team" target="_blank">Team page</a>, I wanted a layout with bio teasers and links that open the full personnel profile as a popup. Ideally, I would have had the bio images be clickable, but in using the built-in list feature for the teasers, this was not an option (even with custom coding). Also, a popup/lightbox feature was not available for a text link, so I set up a third-party <a href="https://www.sqspthemes.com/plugins/ultimate-squarespace-lightbox-plugin" target="_blank">Lightbox plugin</a> to make that.
 </div>
@@ -145,7 +145,7 @@ For the <a href="https://www.inthestreets.org/our-team" target="_blank">Team pag
 For the popup content itself, I used the Image (overlap) block heavily modified with Site Styles to create the profile image with name and title section. I really liked the use of this element, because its default responsive (smaller screen size) behavior looked very good (open a popup and squeeze the window down to see for yourself - the name and title fall under and slightly overlap the profile photo). One of the more amusing parts of working on the Team page was getting some of the staff and one board member to provide headshots with matching backgrounds and similar poses: they were nice enough to take new photos when needed :-).  
 </div>
 
-<h5>CUSTOM CSS: RESOURCES AND USE</h5>  
+<h5>Custom CSS: Resources and Use</h5>  
 <div class="page-content-text">
 Adding custom CSS in Squarespace involves targeting the existing elements (pages, section, selectors, etc.) and/or overriding their styles. There are many tutorials for this, but the resource I found most useful was <a href="https://insidethesquare.co/" target="_blank">Inside the Square's</a> YouTube <a href="https://www.youtube.com/c/InsideTheSquare" target="_blank">Channel</a>. I still had to use browser Developer Tools to identify things, but the Inside the Square Tutorials were a quick reference point for different elements (e.g. navigation, list cards, etc.).  
 </div>
@@ -201,7 +201,7 @@ Every portion of the site had custom CSS applied. Here are a few examples of are
 </div>
 <div style="margin-bottom:.75cm">&nbsp;</div>
 
-<h4>DESIGN CONSIDERATIONS</h4>
+<h4>Design Considerations</h4>
 <div style="margin-bottom:.75cm"></div>
 
 <div class="page-content-text">
@@ -224,7 +224,7 @@ After showing the site (pre-launch) to an associate who is a professional web de
 I really appreciated Erika's generosity in reviewing the prototype site, and offering suggestions. In addition to the Theory infographic, she also mocked up the Title and tagline callout on the homepage banner. Prior to her design, I just had the title and text left-aligned on a semi-opaque purple background over the banner image. She suggested centering the content, so it would draw the eye down the center of the page. Her mockup also included all the primary site colors via the double-color line and X. She said it would help tie all the colors into the banner. This was a great suggestion, and did achieve a more cohesive look. And as before, she said to make this via code vs an image. Moral of the story? Don't hesitate to ask for a little advice when you're near an expert.    
 </div>  
 
-<h5>ICON CREATION AND THEME</h5>
+<h5>Icon Creation and Theme</h5>
 <div class="page-content-text">
 Part of making content more engaging is having icons to help convey the message. Due to a limited budget, I relied primarily on free vector image packs to create these. I was not able to find images that, in entirety, were what was needed: rather, I cut out and/or combined parts of them to create the icons. I then edited them further (color, etc.) in Photoshop.  
 
