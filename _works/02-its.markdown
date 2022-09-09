@@ -81,8 +81,8 @@ When designing <a href="https://www.inthestreets.org/news-updates" target="_blan
 The Code block and custom CSS was also used to make the organization name and tagline callout on the homepage banner.  Below is the code for that element.  
 </div>
 
-<div style="margin-top:.50cm; justify-content: center;">
-<img src="{{site.baseurl}}/img/portfolio/banner-title.png" style="max-width:650px; height: auto;">
+<div style="margin-top:.50cm;">
+<img src="{{site.baseurl}}/img/portfolio/banner-title.png" style="max-width:650px; height: auto; margin: auto; display: block;">
 </div>
 <div>&nbsp;</div>
 <div class="file-path">Code block content for banner title callout</div>
@@ -213,7 +213,7 @@ In regards to content layout, one of the more design-intensive sections was the 
 <div class="page-content-text">
 It was preferable to have something more engaging than just text, and I decided to use an infographic to summarize their approach. Originally, I made an image of a flow diagram with icons and had a button underneath linking to the Theory page.   
 <div style="margin-top:.50cm; margin-bottom:.75cm; justify-content: center;">
-<img src="{{site.baseurl}}/img/portfolio/ITS-chart.jpeg" style="max-width:750px; height: auto;">
+<img src="{{site.baseurl}}/img/portfolio/ITS-chart.jpeg" style="max-width:750px; height: auto; margin: auto; display: block;">
 </div>
 
 <div class="page-content-text">
