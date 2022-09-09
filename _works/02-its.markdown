@@ -155,7 +155,7 @@ Every portion of the site had custom CSS applied. Here are a few examples of are
 <div style="margin-bottom:.25cm"></div>
 <ul>
 <li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> <strong>Structure and Theory</strong> (using the Simple List block)</li>
-<li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> <strong>Building Support</strong>, and similarly, the <a href="https://www.inthestreets.org/acknowledgements-partners" target="_blank">Acknowledgements</a> callouts</li>
+<li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> <strong>Building Support</strong>, and similarly, <a href="https://www.inthestreets.org/acknowledgements-partners" target="_blank">Acknowledgements</a></li>
 <li><a href="https://www.inthestreets.org/provide-services" target="_blank">Provide Services</a> card list (using Image and Text blocks)</li>
 <li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> <strong>What We Do half</strong> (using Image and Text blocks )</li>
 </ul>
