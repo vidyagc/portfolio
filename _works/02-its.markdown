@@ -206,7 +206,7 @@ As aforementioned, every portion of the site had custom CSS applied. Here are a 
 
 <div class="page-content-text">
 <h5>CONDENSING THE COMPLEX</h5>
-In regards to content layout, one of the more design-intensive sections was the Structure and Theory of Change chart on the <a href="https://www.inthestreets.org/" target="_blank">homepage</a>. When I originally collected content from the client, it included the diagrams on the <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change page</a>. These diagrams were submitted in a grant application, and the client wanted them on the site to show their approach to addressing Trauma. As it is key to understanding the work of this new organization, I wanted to include a callout to <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change</a> on the homepage.         
+In regards to content layout, one of the more design-intensive sections was the <strong>Structure and Theory of Change</strong> chart on the <a href="https://www.inthestreets.org/" target="_blank">homepage</a>. When I originally collected content from the client, it included the diagrams on the <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change page</a>. These diagrams were submitted in a grant application, and the client wanted them on the site to show their approach to addressing Trauma. As it is key to understanding the work of this new organization, I wanted to include a callout to <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change</a> on the homepage.         
 </div>
 
 <div class="page-content-text">
