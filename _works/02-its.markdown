@@ -21,12 +21,12 @@ description: new website launch for In the Streets
 
 <h4>Services Provided</h4>
 <div class="page-content-text">
-I became Web Administrator In the Streets (<a href="https://www.inthestreets.org/" target="_blank">inthestreets.org/</a>) in June, 2021. I provided content strategy, web design, and web development services to launch a new site. In the summer of 2021, In the Streets was just getting off the ground and preparing for its first fundraising push (grants applications and private donations) in the fall. The push was timed with a Washington Post Local Perspectives article on the organization. They wanted to have the new site ready to show their work and call for donations by the time the article came out. This proved to be the right approach as traffic to the site, and consequently donations, saw a huge spike after the article was published.  
+I became Web Administrator for In the Streets (<a href="https://www.inthestreets.org/" target="_blank">inthestreets.org/</a>) in June, 2021. I provided content strategy, web design, and web development services to launch a new site. In the summer of 2021, In the Streets was just getting off the ground and preparing for its first fundraising push in the fall (grants applications and private donations). This push was timed with a Washington Post Local Perspectives article on the organization. They wanted to have the new site ready to show their work and call for donations by the time the article came out. This proved to be the right approach as traffic to the site, and consequently donations, saw a huge spike after the Post article was published.  
 </div>   
 
 <h4>Services Outline</h4>
 <div class="page-content-text">
-Below is an outline of the main elements of the redesign, followed by a more detailed discussion of certain elements of content strategy, design, and development.
+Below is an outline of the main elements of creating the new site, followed by a more in-depth discussion of specific development and design topics.
 </div>
 
 <div class="page-content-text">
