@@ -16,7 +16,7 @@ description: new website launch for In the Streets
 ---
 <h4>CLIENT</h4>
 <div class="page-content-text">
-<a href="https://www.inthestreets.org/" target="_blank">In the Streets</a> is a Washington D.C. based 501(c)(3) social services nonprofit. It serves communities affected by generational trauma, working to heal that trauma via physical and mental health resources that prepare community members to support their own neighborhoods. Its "building "meaningful livelihoods" through mentoring, restorative yoga, and participatory action groups.
+<a href="https://www.inthestreets.org/" target="_blank">In the Streets</a> is a Washington D.C. based 501(c)(3) social services nonprofit. It serves communities affected by generational trauma - working to heal that trauma via physical and mental health resources that prepare community members to support their own neighborhoods. Its "building "meaningful livelihoods" through mentoring, restorative yoga, and participatory action groups.
 </div>
 
 <h4>SERVICES PROVIDED</h4>
