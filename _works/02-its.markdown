@@ -81,10 +81,10 @@ When designing <a href="https://www.inthestreets.org/news-updates" target="_blan
 The Code block and custom CSS was also used to make the organization name and tagline callout on the homepage banner.  Below is the code for that element.  
 </div>
 
-<div style="margin-top:.50cm; margin-bottom:.75cm; justify-content: center;">
+<div style="margin-top:.50cm; justify-content: center;">
 <img src="{{site.baseurl}}/img/portfolio/banner-title.png" style="max-width:650px; height: auto;">
 </div>
-
+<div>&nbsp;</div>
 <div class="file-path">Code block content for banner title callout</div>
 <div>
 {% highlight html %}
