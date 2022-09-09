@@ -233,5 +233,5 @@ Because the organization's name is In the Streets, icons with a distressed look 
 
 <h4>Additional Updates Needed</h4>
 <div class="page-content-text">
-As previously stated, the diagrams on <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change</a> need to be updated to be web-friendly. Instead of images, they should be made with real text (so the content is accessible), and they should be responsive (i.e. adapt to different screen sizes for readability). These updates will be made when time and/or budget become available.
+As previously stated, the diagrams on <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change</a> need to be translated into web-friendly content. Instead of images, infographics should be made with real text (so the content is accessible), and they should be responsive (i.e. adapt to different screen sizes for readability). These updates will be made when time and/or budget become available.
 </div>  
