@@ -200,7 +200,7 @@ As aforementioned, every portion of the site had custom CSS applied. Here are a 
 <div style="margin-bottom:.75cm"></div>
 
 <h4>Design Considerations</h4>
-<div style="margin-bottom:.50cm"></div>
+<div style="margin-bottom:.75cm"></div>
 
 <div class="page-content-text">
 <h5>CONDENSING THE COMPLEX</h5>
