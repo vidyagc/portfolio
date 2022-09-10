@@ -87,7 +87,7 @@ The BareBones site was already on WordPress, and I stayed with the existing CMS 
 There were several takeaways from this project. Chief among them was the importance of understanding an organization and its community when shaping its communication platform. I have worked with multiple arts nonprofits since 2016 in a variety of roles (including several years of volunteering with BareBones). In designing site sections and tailoring content, I was able to rely on an understanding of business priorities, organizational voice, and target audience interests.
 </div>
 
-<h5>Image and Content</h5>
+<h5>Image and Video Content</h5>
 <div class="page-content-text">
 BareBones is a visual arts organization. Financial and other support for its work is built around the <a href="https://barebonespuppets.org/halloween-show/" target="_blank">annual puppet spectacle</a>. Consequently, showcasing the best of the production's moments was a large part of content curation for the redesign. At the time, BareBones assets were in a number of places, and not easily searchable (that has since been resolved). Ultimately, I looked through thousands of photos from years of past shows to find images of the right quality (e.g. resolution) that showcased some of the most eye-catching moments. When called for, some images were also color corrected or otherwise enhanced in Photoshop.  
 </div>  
