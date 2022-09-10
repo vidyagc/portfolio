@@ -104,3 +104,12 @@ Pinpointing the factors contributing to changes in web and social media engageme
 <div class="page-content-text">
 There were a handful of volunteer inquiries (interest in participating in 2022) after the 2021 show. These came in during Nov-Dec 2021 and Jan 2022. In the spring and summer lead-up to the 2022 production, however, volunteer inquiries spiked significantly (many more inquiries than previous years), and they were coming into the email address listed on the new Volunteer landing page. In fall of 2022, I'll be adding Google Analytics tracking to the site, so we can begin tracking this and other conversations.  
 </div>
+
+<h4>It Takes a Village <i class="fa fa-globe" aria-hidden="true" style="color:#07335e;"></i></h4>
+<div class="page-content-text">
+Small arts organizations like BareBones could not survive and thrive without community support. Outside of the dozens of volunteers who help create its annual show, it's volunteer board and committee members who keep the organization running the rest of the year. When I became Web Admin for BareBones in 2021, I was taking over from the previous Admin, Nick, who wanted to retire. My compensation structure was very different, but Nick set up and supported the site for over a decade at a practically pro bono level. He was basically doing it a favor to the organization, as a supporter of the local theatre community. Nick is an artist himself and he was supporting fellow artists.  
+</div>
+
+<div class="page-content-text">
+Likewise, almost all of the beautiful photos on the site, that show the Extravaganza's magic, were taken by another artist and community member, Max Haynes. Among other things, he was a photographer and fixture in the local art scene. Max photographed BareBones events that he wasn't even hired for, and always made the photos easily available for anyone who wanted them. When I first started collecting images for the redesign, I reached out to him to let him know that I would make sure to credit his work on the site. He was so gracious. His response, "I don't care about rights, or credit, have at it, make it work" and "I have probably already said that I capture pictures rather than shoot them. That way, I can release them back into the wild unharmed." It takes a village.     
+</div>
