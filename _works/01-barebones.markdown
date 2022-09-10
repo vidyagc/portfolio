@@ -107,7 +107,7 @@ There were a handful of volunteer inquiries (interest in participating in 2022) 
 
 <h4><i class="fa fa-heart-o" aria-hidden="true" style="color:#dd6060; font-weight:bold;"></i> It Takes a Village</h4>
 <div class="page-content-text">
-Small arts organizations like BareBones could not survive and thrive without community support. Outside of the dozens of volunteers who help create its annual show, it is volunteer board and committee members who keep the organization running the rest of the year. When I became Web Admin for BareBones in 2021, I was taking over from the previous Admin, Nick, who wanted to retire. My compensation structure was very different, but Nick set up and supported the site for over a decade at a practically pro bono level. He was basically doing it as a favor to the organization - as a supporter of the local theatre community. Nick is an artist himself and he was supporting fellow artists.  
+Small organizations like BareBones could not survive and thrive without community support. Outside of the dozens of volunteers who help create its annual show, it is volunteer board and committee members who keep the organization running the rest of the year. When I became Web Admin for BareBones in 2021, I was taking over from the previous Admin, Nick, who wanted to retire. My compensation structure was very different, but Nick set up and supported the site for over a decade at a practically pro bono level. He was basically doing it as a favor to the organization - as a supporter of the local theatre community. Nick is an artist himself and he was supporting fellow artists.  
 </div>
 
 <div class="page-content-text">
