@@ -46,7 +46,7 @@ Below is an outline of the main elements of creating the new site, followed by a
 <li>Designed all pages</li>
 <li>Incorporated CTA (call to action) prompts throughout the site, in areas targeted for various goals (e.g. donation and becoming a service provider)</li>
 <li>Enhanced and corrected images in Photoshop. Pre-launch, In the Streets did not have many photo assets. The handful that were available need to be color-corrected and/or sharpened prior to use on the site. Since launch, we have replaced all the photos used on the site with great new images of community activities.</li>
-<li>Created icons (for budget considerations, used free vector image packs and customized those for color, etc. in PS)</li>
+<li>Created icons (for budget considerations, used free vector image packs and edited/customized those to create the icons)</li>
 <li>Designed mobile and tablet size layouts for all pages</li>
 <li>Designed mobile menu</li>
 </ul>
