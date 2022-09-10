@@ -21,7 +21,7 @@ description: redesign of the BareBones website
 
 <h4>Services Provided</h4>
 <div class="page-content-text">
-I became Web Administrator for BareBones Puppet Theatre (<a href="https://barebonespuppets.org/" target="_blank">barebonespuppets.org</a>) in July, 2021. I provided the following services: content strategy, web design, and web development. Upon first reviewing their existing site, I identified many opportunities for improving engagement, including but not limited to: responsive (e.g. mobile) design, content refresh (text and images), new landing pages, call to action prompts, updated navigation structure, newsletter/mailing list signups, and web accessibility. These are listed in more detail in the "Services Outline" section below. 
+I became Web Administrator for BareBones Puppet Theatre (<a href="https://barebonespuppets.org/" target="_blank">barebonespuppets.org</a>) in July, 2021. I provided the following services: content strategy, web design, and web development. Upon first reviewing their existing site, I identified many opportunities for improving engagement, including but not limited to: responsive (e.g. mobile) design, content refresh (text and images), new landing pages, call to action prompts, updated navigation structure, newsletter/mailing list signups, and web accessibility. These are listed in more detail in the "Services Outline" section below.
 </div>
 
 <div class="page-content-text">
@@ -107,7 +107,7 @@ There were a handful of volunteer inquiries (interest in participating in 2022) 
 
 <h4><i class="fa fa-heart-o" aria-hidden="true" style="color:#dd6060; font-weight:bold;"></i> It Takes a Village</h4>
 <div class="page-content-text">
-Small arts organizations like BareBones could not survive and thrive without community support. Outside of the dozens of volunteers who help create its annual show, it's volunteer board and committee members who keep the organization running the rest of the year. When I became Web Admin for BareBones in 2021, I was taking over from the previous Admin, Nick, who wanted to retire. My compensation structure was very different, but Nick set up and supported the site for over a decade at a practically pro bono level. He was basically doing it as a favor to the organization - as a supporter of the local theatre community. Nick is an artist himself and he was supporting fellow artists.  
+Small arts organizations like BareBones could not survive and thrive without community support. Outside of the dozens of volunteers who help create its annual show, it is volunteer board and committee members who keep the organization running the rest of the year. When I became Web Admin for BareBones in 2021, I was taking over from the previous Admin, Nick, who wanted to retire. My compensation structure was very different, but Nick set up and supported the site for over a decade at a practically pro bono level. He was basically doing it as a favor to the organization - as a supporter of the local theatre community. Nick is an artist himself and he was supporting fellow artists.  
 </div>
 
 <div class="page-content-text">
