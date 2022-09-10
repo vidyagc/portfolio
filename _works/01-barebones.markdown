@@ -80,7 +80,7 @@ The BareBones site was already on WordPress, and I stayed with the existing CMS 
 </div>
 
 <h4>Key Components</h4>
-<div style="margin-bottom:.75cm"></div>
+<div style="margin-bottom:.50cm"></div>
 
 <h5>Understand the Business</h5>
 <div class="page-content-text">
