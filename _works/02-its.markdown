@@ -63,9 +63,7 @@ Below is an outline of the main elements of creating the new site, followed by a
 <li>Set default Open Graph image (for social sharing image previews)</li>
 <li>Set individual Page SEO settings</li>
 </ul>
-</div>
 
-<div class="page-content-text">
 <strong><em>Why Squarespace?</em></strong> Prior to my engagement, In the Streets had already set up an initial attempt at a site on Squarespace. I thought Squarespace would continue to be a good fit for several reasons - part of the consideration being that they might have to manage the site themselves in the future. These reasons were managed web hosting and security, lower threshold for page and form building by novices, built-in website analytics, and user support. The primary drawback of Squarespace (vs say WordPress) is that it is less customizable. I found this to be an issue particularly with regard to responsive design, but was ultimately able to implement the desired behavior.
 </div>
 
@@ -84,7 +82,7 @@ The Code block and custom CSS was also used to make the organization name and ta
 <div style="margin-top:.50cm;">
 <img src="{{site.baseurl}}/img/portfolio/banner-title.png" style="max-width:650px; height: auto; margin: auto; display: block;">
 </div>
-<div>&nbsp;</div>
+<div style="margin-bottom:.5cm"></div>
 <div class="file-path">Code block content for banner title callout</div>
 <div>
 {% highlight html %}
@@ -135,7 +133,7 @@ h2.background {
 }
 {% endhighlight %}
 </div>
-<div style="margin-bottom:.75cm">&nbsp;</div>
+<div style="margin-bottom:.75cm"></div>
 
 <h5>Lightbox Plugin for Bio Popups</h5>
 <div class="page-content-text">
@@ -200,10 +198,10 @@ As aforementioned, every portion of the site had custom CSS applied. Here are a 
   }
 {% endhighlight %}
 </div>
-<div style="margin-bottom:.75cm">&nbsp;</div>
+<div style="margin-bottom:.75cm"></div>
 
 <h4>Design Considerations</h4>
-<div style="margin-bottom:.75cm"></div>
+<div style="margin-bottom:.50cm"></div>
 
 <div class="page-content-text">
 <h5>CONDENSING THE COMPLEX</h5>
