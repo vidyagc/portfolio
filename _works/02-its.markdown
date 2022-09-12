@@ -8,7 +8,7 @@ img2: ITS-mon.png
 alt: In the Streets
 alt2: In the Streets news page desktop view
 project-date: July - October 2021
-project-type: Freelance web services (pro bono)- design and development
+project-type: Freelance web services (pro bono) - design and development
 project-name: In the Streets
 client: In the Streets
 category: Web Development
