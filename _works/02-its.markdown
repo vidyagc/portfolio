@@ -8,7 +8,7 @@ img2: ITS-mon.png
 alt: In the Streets
 alt2: In the Streets news page desktop view
 project-date: July - October 2021
-project-type: Freelance web services - design and development
+project-type: Freelance web services (pro bono)- design and development
 project-name: In the Streets
 client: In the Streets
 category: Web Development
@@ -214,7 +214,7 @@ It was preferable to have something more engaging than just text, and I decided 
 </div>
 
 <div class="page-content-text">
-After showing the site (pre-launch) to an associate who is a professional web designer, however, she had some great suggestions for this section. She, Erika, mocked up the three box layout with the button and icons inside the boxes. Additionally, she said to make it via code vs an image, so that it would be responsive and accessible (readable by assistive technology). Her rough mockup included the other site colors (blue, brown, and yellow) for the boxes. This was a great touch to tie together the overall look of the homepage. I made a couple changes as far as the order of the colors, and updating the icons to "pop" more on the new backgrounds. Then, I created the infographic with custom code. Erika and I had a related (brief) discussion about the need to adapt the diagram images on the <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory page</a> to also be more web-friendly, but due to time and budget constraints, I have not yet been able to consider updates for those.    
+After showing the site (pre-launch) to an associate who is a professional web designer, however, she had some great suggestions for this section. She, Erika, mocked up the three box layout with the button and icons inside the boxes. Additionally, she said to make it via code vs an image, so that it would be responsive and accessible (readable by assistive technology). Her rough mockup included the other site colors (blue, brown, and yellow) for the boxes. This was a great touch to tie together the overall look of the homepage. I made a couple changes as far as the order of the colors, and updating the icons to "pop" more on the new backgrounds. Then, I created the infographic with custom code. Erika and I had a related (brief) discussion about the need to adapt the diagram images on the <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory page</a> to also be more web-friendly, but due to time constraints, I have not yet been able to consider updates for those.    
 </div>  
 
 <h5><i class="fa fa-music" aria-hidden="true" style="color:#dd6060;"></i>&nbsp;&nbsp;'With a Little Help From My Friends' <i class="fa fa-music" aria-hidden="true" style="color:#dd6060;"></i></h5>
@@ -231,5 +231,5 @@ Because the organization's name is In the Streets, icons with a distressed look 
 
 <h4>Additional Updates Needed</h4>
 <div class="page-content-text">
-As previously stated, the diagrams on <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change</a> need to be translated into web-friendly content. Instead of images, infographics should be made with real text (so the content is accessible), and they should be responsive (i.e. adapt to different screen sizes for readability). These updates will be made when time and/or budget become available.
+As previously stated, the diagrams on <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change</a> need to be translated into web-friendly content. Instead of images, infographics should be made with real text (so the content is accessible), and they should be responsive (i.e. adapt to different screen sizes for readability). These updates will be made when time becomes available.
 </div>  
