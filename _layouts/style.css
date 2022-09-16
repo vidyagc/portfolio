@@ -400,6 +400,12 @@ section a:hover {
   }
 }
 
+.port-grid img {
+    transition-duration: .8s;
+    margin: 0 auto;
+    display: block;
+}
+
 .port-grid img:hover {
     transform: scale(1.05);
     -webkit-transform: scale(1.05);
