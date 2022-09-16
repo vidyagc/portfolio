@@ -407,9 +407,9 @@ section a:hover {
 }
 
 .port-grid img:hover {
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
     z-index: 0;
 }
 
