@@ -399,3 +399,14 @@ section a:hover {
     margin-bottom: 10px;
   }
 }
+
+.port-grid img:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    z-index: 0;
+}
+
+.port-grid {
+    overflow: hidden;
+}
