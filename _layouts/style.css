@@ -454,7 +454,6 @@ section a:hover {
   top:-30px;
   left:20px;
   line-height:100px;
-  font-weight:semi-bold;
 }
 
 .quote1::after{
@@ -462,7 +461,6 @@ section a:hover {
   bottom:-30px;
   right:20px;
   line-height: 60px;
-  font-weight:semi-bold; 
 }
 
 .quote1 .txt{
@@ -474,7 +472,8 @@ section a:hover {
 
 .quote1 .from{
   text-align:center;
-  font-size:15px;
+  font-size:13px;
   text-transform: uppercase;
   color: #d47311;
+  font-weight: bold
 }
