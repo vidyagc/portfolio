@@ -438,7 +438,7 @@ section a:hover {
   margin:20px;
 }
 
-.quote1::before, .quote1::after{
+.quote1::before {
   position:absolute;
   font-size:120px;
   background:#fff;
@@ -454,7 +454,7 @@ section a:hover {
   top:-30px;
   left:20px;
   line-height:100px;
-  font-weight: bold;
+  //font-weight: bold;
 }
 /*
 .quote1::after{
@@ -476,6 +476,6 @@ section a:hover {
   text-align:center;
   font-size:14px;
   text-transform: uppercase;
-  color: #d47311;
+  color: #ec8013;
   font-weight: bold
 }
