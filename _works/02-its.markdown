@@ -14,7 +14,7 @@ client: In the Streets
 category: Web Development
 description: new website launch for In the Streets
 ---
-<div class="center-q" style="font-family:  'Montserrat', sans-serif; margin-top:50px; margin-bottom:50px;">
+<div class="center-q" style="font-family:  'Montserrat', sans-serif; margin-bottom:50px;">
   <div class="quote1" style="background-color:#FCF5B8">
     <div class="first"><i></i></div>
     <div class="txt">Vidya was responsive and dedicated to developing a site that worked well for us as a relatively new nonprofit and could change with us as we grew. She was also willing to train staff, so that we could make changes as needed. I recommend Vidya to any nonprofit without hesitation.</div>
