@@ -14,6 +14,15 @@ client: In the Streets
 category: Web Development
 description: new website launch for In the Streets
 ---
+<div style="margin-top:50px; margin-bottom:50px;"></div>
+<div class="center-q" style="font-family:  'Montserrat', sans-serif;">
+  <div class="quote1" style="background-color:#FCF5B8">
+    <div class="first"><i></i></div>
+    <div class="txt">Vidya was responsive and dedicated to developing a site that worked well for us as a relatively new nonprofit and could change with us as we grew. She was also willing to train staff, so that we could make changes as needed. I recommend Vidya to any nonprofit without hesitation.</div>
+    <div class="from">Sangeeta Prasad - Co-Founder, In the Streets</div>
+    </div>
+</div>
+
 <h4>Client</h4>
 <div class="page-content-text">
 <a href="https://www.inthestreets.org/" target="_blank">In the Streets</a> is a Washington D.C. based 501(c)(3) social services nonprofit. It assists communities affected by generational trauma - working to heal that trauma via physical and mental health resources that prepare community members to support their own neighborhoods. It's "building meaningful livelihoods" through mentoring, restorative yoga, and participatory action groups.

@@ -416,3 +416,73 @@ section a:hover {
 .port-grid {
     overflow: hidden;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.center-q {
+  display: flex;
+  justify-content: center;
+  margin-bottom:55px;
+  @media screen and (max-width:1245px) {
+    margin-top:25px!important;
+  }
+  @media screen and (max-width:1122px) {
+    margin-bottom:25px!important;
+  }
+}
+
+.quote1{
+  color:#fff;
+  max-width:750px;
+  //border: 5px solid #798ed0;
+  padding:20px;
+  position:relative;
+  margin:20px;
+}
+
+.quote1::before, .quote1::after{
+  position:absolute;
+  font-size:120px;
+  background:#fff;
+  display:block;
+  height:30px;
+  width:45px;
+  text-align:center;
+  color:#0da5a5;
+}
+
+.quote1::before{
+  content:"“";
+  top:-30px;
+  left:20px;
+  line-height:100px;
+}
+
+.quote1::after{
+  content:"”";
+  bottom:-30px;
+  right:20px;
+  line-height: 60px;
+}
+
+.quote1 .first{
+  text-transform: uppercase;
+  font-size:26px;
+  font-weight:bold;
+  color: #798ed0;
+}
+
+.quote1 .txt{
+  font-size:20px;
+  margin:10px 0px;
+  color: #000;
+  text-align:center;
+}
+
+.quote1 .from{
+  text-align:center;
+  font-size:15px;
+  text-transform: uppercase;
+  font-weight:100;
+  color: #d47311;
+}
