@@ -432,7 +432,7 @@ section a:hover {
 .quote1{
   color:#fff;
   max-width:750px;
-  //border: 5px solid #798ed0;
+  border: 5px solid #d47311;
   padding:20px;
   position:relative;
   margin:20px;
@@ -454,14 +454,16 @@ section a:hover {
   top:-30px;
   left:20px;
   line-height:100px;
+  font-weight: bold;
 }
-
+/*
 .quote1::after{
   content:"”";
   bottom:-30px;
   right:20px;
   line-height: 60px;
 }
+*/
 
 .quote1 .txt{
   font-size:18px;
@@ -472,7 +474,7 @@ section a:hover {
 
 .quote1 .from{
   text-align:center;
-  font-size:13px;
+  font-size:14px;
   text-transform: uppercase;
   color: #d47311;
   font-weight: bold
