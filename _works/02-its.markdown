@@ -86,7 +86,60 @@ When designing <a href="https://www.inthestreets.org/news-updates" target="_blan
 The Code block and custom CSS was also used to make the organization name and tagline callout on the homepage banner.  Below is the code for that element.  
 </div>
 
+<div style="margin-top:.50cm; margin-bottom:1cm">
+<img src="{{site.baseurl}}/img/portfolio/banner-title.png" style="max-width:650px; height: auto; margin: auto; display: block;">
+</div>
+<div class="file-path">Code block content for banner title callout</div>
+<div>
+{% highlight html %}
+<div style="text-align:center; max-width:650px;" id="banner-text-box">
+  <div style="">
+    <h2 style="margin-bottom:-30px;  padding-top:18px!important;">In the Streets</h2>
+    <h2 class="background" style="font-size:25px;color: transparent;  text-shadow: 0 0 0 rgb(232,185,35);">&#10060;</h2>
+    <p class="sqsrte-large" style="white-space:pre-wrap;margin-top:-30px;"><strong>Building meaningful livelihoods and disrupting generational trauma in Columbia Heights, Washington DC </strong></p>
+  </div>
+</div>
+{% endhighlight %}
+</div>
+<div>&nbsp;</div>
 
+<div class="file-path">CSS for banner title callout</div>
+<div style="max-height: 350px; overflow: scroll;">
+{% highlight css %}
+h2.background {
+  position: relative;
+  z-index: 1;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:400px;
+
+  &:before {
+    background:linear-gradient(to right, #796DC5 50%, #405ebd 50%) bottom;
+    height: 6px;
+    content:"";
+    margin: 0 auto;
+    position: absolute;
+    top: 40%; left: 0; right: 0; bottom: 0;
+    width: 95%;
+    z-index: -1;
+  }
+
+  span {
+    background: #fff;
+    padding: 0 15px;
+  }
+}
+
+#banner-text-box {
+  padding-left:15px!important;
+  padding-right:15px!important;
+  background-color:rgba(0,0,0, .7);
+  margin-bottom:-40px!important;
+  padding-bottom:15px!important;
+}
+{% endhighlight %}
+</div>
+<div style="margin-bottom:.75cm"></div>
 
 <h5>Lightbox Plugin for Bio Popups</h5>
 <div class="page-content-text">
