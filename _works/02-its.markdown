@@ -86,7 +86,7 @@ When designing <a href="https://www.inthestreets.org/news-updates" target="_blan
 
 The Code block and custom CSS was also used to make the organization name and tagline callout on the homepage banner.  Below is the code for that element.  
 </div>
-<img src="{{site.baseurl}}/img/portfolio/ITS-chart.jpeg" style="max-width:750px;">
+<img src="{{site.baseurl}}/img/portfolio/banner-title.png" style="max-width:750px;">
 <div style="margin-top:.50cm; margin-bottom:1cm">
 </div>
 <div class="file-path">Code block content for banner title callout</div>
@@ -237,4 +237,4 @@ Because the organization's name is In the Streets, icons with a distressed look 
 <h4>Additional Updates Needed</h4>
 <div class="page-content-text">
 As previously stated, the diagrams on <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change</a> need to be translated into web-friendly content. Instead of images, infographics should be made with real text (so the content is accessible), and they should be responsive (i.e. adapt to different screen sizes for readability). These updates will be made when time becomes available.
-</div> 
+</div>
