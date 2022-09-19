@@ -428,3 +428,55 @@ section a:hover {
     margin-bottom:25px!important;
   }
 }
+
+.quote1{
+  color:#fff;
+  max-width:750px;
+  border: 5px solid #d47311;
+  padding:20px;
+  position:relative;
+  margin:20px;
+}
+
+.quote1::before, .quote::after{
+  position:absolute;
+  font-size:120px;
+  background:#fff;
+  display:block;
+  height:30px;
+  width:45px;
+  text-align:center;
+  color:#0da5a5;
+}
+
+.quote1::before{
+  content:"“";
+  top:-30px;
+  left:20px;
+  line-height:100px;
+  font-weight: 600;
+}
+
+.quote1::after{
+  content:"”";
+  bottom:-30px;
+  right:20px;
+  line-height: 60px;
+  font-weight: 600;
+}
+
+
+.quote1 .txt{
+  font-size:18px;
+  margin:10px 0px;
+  color: #07335e;
+  text-align:center;
+}
+
+.quote1 .from{
+  text-align:center;
+  font-size:14px;
+  text-transform: uppercase;
+  color: #ec8013;
+  font-weight: bold;
+}
