@@ -86,7 +86,7 @@ When designing <a href="https://www.inthestreets.org/news-updates" target="_blan
 
 The Code block and custom CSS was also used to make the organization name and tagline callout on the homepage banner.  Below is the code for that element.  
 </div>
-
+<img src="{{site.baseurl}}/img/portfolio/ITS-chart.jpeg" style="max-width:750px;">
 <div style="margin-top:.50cm; margin-bottom:1cm">
 </div>
 <div class="file-path">Code block content for banner title callout</div>
@@ -210,4 +210,10 @@ As aforementioned, every portion of the site had custom CSS applied. Here are a 
 <div class="page-content-text">
 <h5>CONDENSING THE COMPLEX</h5>
 In regards to content layout, one of the more design-intensive sections was the <strong>Structure and Theory of Change</strong> chart on the <a href="https://www.inthestreets.org/" target="_blank">homepage</a>. When I originally collected content from the client, it included the diagrams on the <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change page</a>. These diagrams were submitted in a grant application, and the client wanted them on the site to show their approach to addressing Trauma. As it is key to understanding the work of this new organization, I wanted to include a callout to <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change</a> on the homepage.         
+</div>
+
+<div class="page-content-text">
+It was preferable to have something more engaging than just text, and I decided to use an infographic to summarize their approach. Originally, I made an image of a flow diagram with icons and had a button underneath linking to the Theory page.   
+<div style="margin-top:.50cm; margin-bottom:.75cm; justify-content: center;">
+<img src="{{site.baseurl}}/img/portfolio/ITS-chart.jpeg" style="max-width:750px;">
 </div>
