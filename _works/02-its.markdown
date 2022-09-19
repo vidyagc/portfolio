@@ -87,8 +87,7 @@ When designing <a href="https://www.inthestreets.org/news-updates" target="_blan
 The Code block and custom CSS was also used to make the organization name and tagline callout on the homepage banner.  Below is the code for that element.  
 </div>
 
-<div style="max-width:650px; height: auto; margin: auto; display: block; margin-top:.50cm; margin-bottom:1cm">
-<img src="{{site.baseurl}}/img/portfolio/banner-title.png">
+<div style="margin-top:.50cm; margin-bottom:1cm">
 </div>
 <div class="file-path">Code block content for banner title callout</div>
 {% highlight html %}
@@ -101,3 +100,114 @@ The Code block and custom CSS was also used to make the organization name and ta
 </div>
 {% endhighlight %}
 <div>&nbsp;</div>
+
+<div class="file-path">CSS for banner title callout</div>
+<div style="max-height: 350px; overflow: scroll;">
+{% highlight css %}
+h2.background {
+  position: relative;
+  z-index: 1;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:400px;
+
+  &:before {
+    background:linear-gradient(to right, #796DC5 50%, #405ebd 50%) bottom;
+    height: 6px;
+    content:"";
+    margin: 0 auto;
+    position: absolute;
+    top: 40%; left: 0; right: 0; bottom: 0;
+    width: 95%;
+    z-index: -1;
+  }
+
+  span {
+    background: #fff;
+    padding: 0 15px;
+  }
+}
+
+#banner-text-box {
+  padding-left:15px!important;
+  padding-right:15px!important;
+  background-color:rgba(0,0,0, .7);
+  margin-bottom:-40px!important;
+  padding-bottom:15px!important;
+}
+{% endhighlight %}
+</div>
+<div style="margin-bottom:.75cm"></div>
+
+<h5>Lightbox Plugin for Bio Popups</h5>
+<div class="page-content-text">
+For the <a href="https://www.inthestreets.org/our-team" target="_blank">Team page</a>, I wanted a layout with bio teasers and links that open the full personnel profile as a popup. Ideally, I would have had the bio images be clickable, but in using the built-in list feature for the teasers, this was not an option (even with custom coding). Also, a popup/lightbox feature was not available for a text link, so I set up a third-party <a href="https://www.sqspthemes.com/plugins/ultimate-squarespace-lightbox-plugin" target="_blank">Lightbox plugin</a> for that.
+</div>
+
+<div class="page-content-text">
+For the popup content itself, I used the Image (overlap) block, heavily modified with Site Styles, to create the section with profile image, name, and title. I really liked the use of this element, because its default responsive (smaller screen size) behavior looked good - open a popup and squeeze the window down to see for yourself (the name and title fall under, and slightly overlap, the profile photo). One of the more amusing parts of working on the Team page was getting some of the staff and one board member to provide headshots with matching backgrounds and similar poses: they were nice enough to take new photos when needed <i class="fa fa-smile-o" aria-hidden="true"></i>.  
+</div>
+
+<h5>Custom CSS: Resources and Use</h5>  
+<div class="page-content-text">
+Adding custom CSS in Squarespace involves targeting existing elements (pages, section, selectors, etc.) and overriding/appending their styles. There are many tutorials for this, but the resource I found most useful was <a href="https://insidethesquare.co/" target="_blank">Inside the Square's</a> YouTube <a href="https://www.youtube.com/c/InsideTheSquare" target="_blank">Channel</a>. I still had to use browser Developer Tools, but the Inside the Square Tutorials were a quick reference point for different selectors (e.g. navigation, list cards, etc.).  
+</div>
+
+<div class="page-content-text">
+As aforementioned, every portion of the site had custom CSS applied. Here are a few examples of areas that required special consideration (in addition to the code blocks cited previously):
+<div style="margin-bottom:.25cm"></div>
+<ul>
+<li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> <strong>Structure and Theory</strong> (using the Simple List block)</li>
+<li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> <strong>Building Support</strong>, and similarly, <a href="https://www.inthestreets.org/acknowledgements-partners" target="_blank">Acknowledgements</a></li>
+<li><a href="https://www.inthestreets.org/provide-services" target="_blank">Provide Services</a> service areas list (using Image and Text blocks)</li>
+<li><a href="https://www.inthestreets.org/" target="_blank">Homepage</a> <strong>What We Do half</strong> (using Image and Text blocks )</li>
+</ul>
+</div>
+
+<div class="file-path">CSS for Structure and Theory chart</div>
+<div style="max-height: 350px; overflow: scroll;">
+{% highlight css %}
+[data-section-id="61714f1a7094ed1b42dfc3a5"] {
+  margin-bottom:15px;
+  li:nth-child(1) p, li:nth-child(2) p, li:nth-child(3) p {
+    font-weight:600;
+    font-size:1.15rem;
+    color:white;
+  }
+  li:nth-child(3) {
+    background-color: #9e6f59!important;
+  }
+  li:nth-child(2) {
+    background-color: #405ebd!important;
+    .sqs-block-button-element--medium {
+      background-color:white!important;
+      color:black!important;
+    }
+  }
+  li:nth-child(1) {
+    background-color: #e8b923!important;
+    p {
+      color:#000000;
+    }
+  }
+
+  @media only screen and (min-width:650px) {
+    .list-item {
+      min-height:37vh;
+    }
+  }
+  .list-item-content__button-container {
+      margin-top:40px!important;
+    }
+  }
+{% endhighlight %}
+</div>
+<div style="margin-bottom:1cm"></div>
+
+<h4>Design Considerations</h4>
+<div style="margin-bottom:.5cm"></div>
+
+<div class="page-content-text">
+<h5>CONDENSING THE COMPLEX</h5>
+In regards to content layout, one of the more design-intensive sections was the <strong>Structure and Theory of Change</strong> chart on the <a href="https://www.inthestreets.org/" target="_blank">homepage</a>. When I originally collected content from the client, it included the diagrams on the <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change page</a>. These diagrams were submitted in a grant application, and the client wanted them on the site to show their approach to addressing Trauma. As it is key to understanding the work of this new organization, I wanted to include a callout to <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change</a> on the homepage.         
+</div>
