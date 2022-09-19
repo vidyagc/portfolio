@@ -74,3 +74,32 @@ Below is an outline of the main elements of creating the new site, followed by a
 
 <strong><em>Why Squarespace?</em></strong> Prior to my engagement, In the Streets had already set up an initial attempt at a site on Squarespace. I thought Squarespace would continue to be a good fit for several reasons - part of the consideration being that they might have to manage the site themselves in the future. These reasons were managed web hosting and security, lower threshold for page and form building by novices, built-in website analytics, and user support. The primary drawback of Squarespace (vs say WordPress) is that it is less customizable. I found this to be an issue particularly with regard to responsive design, but was ultimately able to implement the desired behavior.
 </div>
+
+<h4>Development: Customization in Square</h4>
+<div class="page-content-text">
+When not using the <a href="https://developers.squarespace.com/quick-start" target="_blank">Developer Platform</a> to modify templates, customization in Squarespace is more limited compared to some other web builders. There are, however, options to go beyond just the built-in Site Styles feature (which requires no coding). These options include, but are not limited to, the code block, custom CSS, and third-party plugins.   Every element of the In the Streets site was customized, as the built-in blocks and Site Styles were not sufficient to implement the desired design/user experience. Below are just a few examples of these customizations.   
+</div>
+
+<h5>Code Block to Create News and Banner Elements</h5>
+<div class="page-content-text">
+When designing <a href="https://www.inthestreets.org/news-updates" target="_blank">News & Updates</a>, I wanted a way to highlight press features. Squarespace didn't offer anything that seemed adequate for this. Ultimately, I decided on a quote callout, linking to the news piece, and looked for design examples to base this on. I found an example on CodePen, and modified it to match the look of the rest of the site. To implement it, I generated custom code and added it with <a href="https://support.squarespace.com/hc/en-us/articles/205815928-Adding-custom-code-to-your" target="_blank">Squarespace's Code block (basic) and CSS Editor</a>. The code for the press highlight can be viewed on <a href="https://codepen.io/vidyagc/pen/oNdjRqd" target="_blank">my CodePen</a>, so you can experiment with it, as well as viewing it.
+
+The Code block and custom CSS was also used to make the organization name and tagline callout on the homepage banner.  Below is the code for that element.  
+</div>
+
+<div style="margin-top:.50cm; margin-bottom:1cm">
+<img src="{{site.baseurl}}/img/portfolio/banner-title.png" style="max-width:650px; height: auto; margin: auto; display: block;">
+</div>
+<div class="file-path">Code block content for banner title callout</div>
+<div>
+{% highlight html %}
+<div style="text-align:center; max-width:650px;" id="banner-text-box">
+  <div style="">
+    <h2 style="margin-bottom:-30px;  padding-top:18px!important;">In the Streets</h2>
+    <h2 class="background" style="font-size:25px;color: transparent;  text-shadow: 0 0 0 rgb(232,185,35);">&#10060;</h2>
+    <p class="sqsrte-large" style="white-space:pre-wrap;margin-top:-30px;"><strong>Building meaningful livelihoods and disrupting generational trauma in Columbia Heights, Washington DC </strong></p>
+  </div>
+</div>
+{% endhighlight %}
+</div>
+<div>&nbsp;</div>
