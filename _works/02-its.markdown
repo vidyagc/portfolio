@@ -21,7 +21,7 @@ description: new website launch for In the Streets
     </div>
 </div>
 
-
+<div>
 <h4>Client</h4>
 <div class="page-content-text">
 <a href="https://www.inthestreets.org/" target="_blank">In the Streets</a> is a Washington D.C. based 501(c)(3) social services nonprofit. It assists communities affected by generational trauma - working to heal that trauma via physical and mental health resources that prepare community members to support their own neighborhoods. It's "building meaningful livelihoods" through mentoring, restorative yoga, and participatory action groups.
@@ -241,3 +241,4 @@ Because the organization's name is In the Streets, icons with a distressed look 
 <div class="page-content-text">
 As previously stated, the diagrams on <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change</a> need to be translated into web-friendly content. Instead of images, infographics should be made with real text (so the content is accessible), and they should be responsive (i.e. adapt to different screen sizes for readability). These updates will be made when time becomes available.
 </div>  
+</div>
