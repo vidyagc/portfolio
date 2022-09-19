@@ -86,20 +86,3 @@ When designing <a href="https://www.inthestreets.org/news-updates" target="_blan
 
 The Code block and custom CSS was also used to make the organization name and tagline callout on the homepage banner.  Below is the code for that element.  
 </div>
-
-<div style="margin-top:.50cm; margin-bottom:1cm">
-<img src="{{site.baseurl}}/img/portfolio/banner-title.png" style="max-width:650px; height: auto; margin: auto; display: block;">
-</div>
-<div class="file-path">Code block content for banner title callout</div>
-<div>
-{% highlight html %}
-<div style="text-align:center; max-width:650px;" id="banner-text-box">
-  <div style="">
-    <h2 style="margin-bottom:-30px;  padding-top:18px!important;">In the Streets</h2>
-    <h2 class="background" style="font-size:25px;color: transparent;  text-shadow: 0 0 0 rgb(232,185,35);">&#10060;</h2>
-    <p class="sqsrte-large" style="white-space:pre-wrap;margin-top:-30px;"><strong>Building meaningful livelihoods and disrupting generational trauma in Columbia Heights, Washington DC </strong></p>
-  </div>
-</div>
-{% endhighlight %}
-</div>
-<div>&nbsp;</div>
