@@ -217,3 +217,24 @@ It was preferable to have something more engaging than just text, and I decided 
 <div style="margin-top:.50cm; margin-bottom:.75cm; justify-content: center;">
 <img src="{{site.baseurl}}/img/portfolio/ITS-chart.jpeg" style="max-width:750px;">
 </div>
+
+<div class="page-content-text">
+After showing the site (pre-launch) to an associate who is a professional web designer, however, she had some great suggestions for this section. She, Erika, mocked up the three box layout with the button and icons inside the boxes. Additionally, she said to make it via code vs an image, so that it would be responsive and accessible (readable by assistive technology). Her rough mockup included the other site colors (blue, brown, and yellow) for the boxes. This was a great touch to tie together the overall look of the homepage. I made a couple changes as far as the order of the colors, and updating the icons to "pop" more on the new backgrounds. Then, I created the infographic with custom code. Erika and I had a related (brief) discussion about the need to adapt the diagram images on the <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory page</a> to also be more web-friendly, but due to time constraints, I have not yet been able to consider updates for those.    
+</div>  
+
+<h5><i class="fa fa-music" aria-hidden="true" style="color:#dd6060;"></i>&nbsp;&nbsp;'With a Little Help From My Friends' <i class="fa fa-music" aria-hidden="true" style="color:#dd6060;"></i></h5>
+<div class="page-content-text">
+I really appreciated Erika's generosity in reviewing the prototype site and offering suggestions. In addition to the Theory infographic, she also mocked up the aforementioned title and tagline callout on the homepage banner. Prior to her design, I just had the title and text left-aligned on a semi-opaque purple background over the banner image. She suggested centering the content, so it would draw the eye down the center of the page. Her mockup also included the double-color line with the X in the middle (made with all the primary site colors). She said it would help tie all the colors into the banner. This did, in fact, achieve a more cohesive look. And as before, she said to make this via code vs an image. Moral of the story? Don't hesitate to ask for a little advice when you're near an expert.    
+</div>  
+
+<h5>Icon Creation and Theme</h5>
+<div class="page-content-text">
+Part of making content more engaging is having icons to help convey the message. Due to a limited budget, I relied primarily on free vector image packs to create these. I was not able to find images that, in entirety, were what was needed: rather, I cut out and/or combined parts of the vector images to create the icons, and further edited them for color, etc.  
+
+Because the organization's name is In the Streets, icons with a distressed look seemed appropriate. Likewise, I styled certain callouts (e.g. Building Support on the <a href="https://www.inthestreets.org/" target="_blank">homepage</a> and <a href="https://www.inthestreets.org/acknowledgements-partners" target="_blank">Acknowledgements</a>) with grunge/distressed borders.
+</div>  
+
+<h4>Additional Updates Needed</h4>
+<div class="page-content-text">
+As previously stated, the diagrams on <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory of Change</a> need to be translated into web-friendly content. Instead of images, infographics should be made with real text (so the content is accessible), and they should be responsive (i.e. adapt to different screen sizes for readability). These updates will be made when time becomes available.
+</div> 
