@@ -444,7 +444,7 @@ section a:hover {
 .quote1{
   color:#fff;
   max-width:750px;
-  border: 5px solid #0da5a5;
+  border: 5px solid #bdbe32;
   padding:20px;
   position:relative;
   margin:20px;
@@ -458,7 +458,7 @@ section a:hover {
   height:30px;
   width:45px;
   text-align:center;
-  color:#bdbe32;
+  color:#0da5a5;
   font-weight:600;
 }
 
