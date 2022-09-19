@@ -429,16 +429,28 @@ section a:hover {
   }
 }
 
+.center-q {
+  display: flex;
+  justify-content: center;
+  margin-bottom:55px;
+  @media screen and (max-width:1245px) {
+    margin-top:25px!important;
+  }
+  @media screen and (max-width:1122px) {
+    margin-bottom:25px!important;
+  }
+}
+
 .quote1{
   color:#fff;
   max-width:750px;
-  border: 5px solid #d47311;
+  border: 5px solid #bdbe32;
   padding:20px;
   position:relative;
   margin:20px;
 }
 
-.quote1::before, .quote::after{
+.quote1::before, .quote1::after{
   position:absolute;
   font-size:120px;
   background:#fff;
@@ -447,6 +459,7 @@ section a:hover {
   width:45px;
   text-align:center;
   color:#0da5a5;
+  font-weight:600;
 }
 
 .quote1::before{
@@ -454,23 +467,26 @@ section a:hover {
   top:-30px;
   left:20px;
   line-height:100px;
-  font-weight: 600;
 }
 
 .quote1::after{
   content:"”";
-  bottom:-30px;
+  bottom:-25px;
   right:20px;
   line-height: 60px;
-  font-weight: 600;
 }
 
+.quote1 .first{
+  text-transform: uppercase;
+  font-size:26px;
+  font-weight:bold;
+  color: #798ed0;
+}
 
 .quote1 .txt{
   font-size:18px;
   margin:10px 0px;
   color: #07335e;
-  text-align:center;
 }
 
 .quote1 .from{
