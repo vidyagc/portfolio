@@ -88,7 +88,7 @@ The Code block and custom CSS was also used to make the organization name and ta
 </div>
 
 <div class="row">
-    <div class="col-md-12">
+    <div class="col-sm-12">
         <div class="resp-img-page" style="display:table; margin: auto">
         <img src="{{site.baseurl}}/img/portfolio/banner-title.png" style="display:inline; margin-right:15px" class="img-responsive img-centered img-padded">
         </div>
@@ -222,8 +222,14 @@ In regards to content layout, one of the more design-intensive sections was the 
 
 <div class="page-content-text">
 It was preferable to have something more engaging than just text, and I decided to use an infographic to summarize their approach. Originally, I made an image of a flow diagram with icons and had a button underneath linking to the Theory page.   
-<div style="margin-top:.50cm; margin-bottom:.75cm; justify-content: center;">
+</div>
 
+<div class="row">
+    <div class="col-md-12">
+        <div class="resp-img-page" style="display:table; margin: auto">
+        <img src="{{site.baseurl}}/img/portfolio/ITS-chart.jpeg" style="display:inline; margin-right:15px" class="img-responsive img-centered img-padded">
+        </div>
+    </div>
 </div>
 
 <div class="page-content-text">
