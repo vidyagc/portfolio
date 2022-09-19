@@ -36,3 +36,41 @@ I became Web Administrator for In the Streets (<a href="https://www.inthestreets
 <div class="page-content-text">
 Below is an outline of the main elements of creating the new site, followed by a more in-depth discussion of specific development and design topics.
 </div>
+
+<div class="page-content-text">
+<h5>Content Strategy</h5>
+<ul>
+<li>Generated a sitemap (a list of all the pages on the site and how they relate to each other)</li>
+<li>Defined site goals: what are the business objectives we want to achieve with the site?</li>
+<li>Identified target audiences, based on audience values and interests</li>
+<li>Created content for SEO settings</li>
+</ul>   
+</div>
+
+<div class="page-content-text">
+<h5>Design</h5>
+<ul>
+<li>Created a color palette. The org did not have a pre-existing logo or branding, so we were free to explore any option with the site's look. The only request of the Streets team was that it be "colorful"</li>
+<li>Designed all pages</li>
+<li>Incorporated CTA (call to action) prompts throughout the site, in areas targeted for various goals (e.g. donation and becoming a service provider)</li>
+<li>Enhanced and corrected images in Photoshop. Pre-launch, In the Streets did not have many photo assets. The handful that were available need to be color-corrected and/or sharpened prior to use on the site. Since launch, we have replaced all the photos used on the site with great new images of community activities.</li>
+<li>Created icons (for budget considerations, used free vector image packs and edited/customized those to create icons)</li>
+<li>Designed mobile and tablet size layouts for all pages</li>
+<li>Designed mobile menu</li>
+</ul>
+</div>
+
+<div class="page-content-text">
+<h5>Development</h5>
+<ul>
+<li>Technologies used: Squarespace, HTML/CSS, Photoshop</li>
+<li>Built new pages and sections</li>
+<li>Implemented custom styles (CSS) for all site components</li>
+<li>Responsive testing of entire site (including testing pages in non-device specific screen sizes)</li>
+<li>Cross browser testing of entire site</li>
+<li>Set default Open Graph image (for social sharing image previews)</li>
+<li>Set individual Page SEO settings</li>
+</ul>
+
+<strong><em>Why Squarespace?</em></strong> Prior to my engagement, In the Streets had already set up an initial attempt at a site on Squarespace. I thought Squarespace would continue to be a good fit for several reasons - part of the consideration being that they might have to manage the site themselves in the future. These reasons were managed web hosting and security, lower threshold for page and form building by novices, built-in website analytics, and user support. The primary drawback of Squarespace (vs say WordPress) is that it is less customizable. I found this to be an issue particularly with regard to responsive design, but was ultimately able to implement the desired behavior.
+</div>
