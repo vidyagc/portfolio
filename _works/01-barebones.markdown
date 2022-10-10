@@ -17,7 +17,7 @@ description: redesign of the BareBones website
 <div class="center-q" style="font-family: 'Montserrat',sans-serif;">
   <div class="quote1" style="background-color:#f8f8f8">
     <div class="txt">Vidya Neni transformed our website into an easy to navigate, aesthetically consistent site which functions for fundraising, recruiting and giving the public access to a lot of very detailed information about upcoming events, while also storing some organizational history in an easy to find/read format. Barebones is a collective of artists which leans toward lo-fi, analog, and manual, but we put on a very large event which requires an online presence to interact effectively with a lot of people. Our website had been built patchwork style rather than with full functionality and design in mind. We added things as we needed them and relied on some beautiful photos for any aesthetic value. Vidya's redesign reflects the values and aesthetics of the organization while taking advantage of what a website can do for an arts organization.</div>
-    <div class="from">Sangeeta Prasad - Co-Founder, In the Streets</div>
+    <div class="from">Arwen Wilder - Board Co-Chair, BareBones Productions</div>
   </div>
 </div>
 
@@ -65,7 +65,7 @@ Below is an outline of the redesign's main elements, followed by a more in-depth
 <li>Added newsletter signup prompts and CTAs throughout the site (in areas targeted for that engagement)</li>
 <li>Designed mobile and tablet size layouts for all pages</li>
 <li>Designed mobile menu</li>
-<li>Restyled/customized The Events Calendar</li>
+<li>Restyled/customized <a href="https://barebonespuppets.org/community-calendar/" target="_blank">The Events Calendar</a></li>
 <li>Enhanced/corrected event images in Photoshop</li>
 <li>Updated the header logo in Photoshop (tagline text only) to match site font and color palette</li>
 </ul>
@@ -78,8 +78,8 @@ The BareBones site was already on WordPress, and I stayed with the existing CMS 
 <ul>
 <li>Technologies used: WordPress, WP Builder Beaver Builder, HTML/CSS, Photoshop</li>
 <li>Built new pages and sections</li>
-<li>Implemented custom styles for The Events Calendar (overriding CSS files)</li>
-<li>Responsive testing of entire site (including testing pages in non-device specific screen sizes)</li>
+<li>Implemented custom styles for <a href="https://barebonespuppets.org/community-calendar/" target="_blank">The Events Calendar (overriding CSS files)</li>
+<li>Responsive testing of entire site (including testing pages in non-device specific screen sizes)</a></li>
 <li>Cross browser testing of entire site</li>
 <li>Set up mailing lists in Mailchimp and Google reCAPTCHA for subscription form</li>
 <li>Set default Open Graph image (for social sharing image previews)</li>
