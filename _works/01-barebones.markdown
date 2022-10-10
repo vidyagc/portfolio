@@ -14,6 +14,14 @@ client: BareBones Productions
 category: Web Development
 description: redesign of the BareBones website
 ---
+<div class="center-q" style="font-family: 'Montserrat',sans-serif;">
+  <div class="quote1" style="background-color:#f8f8f8">
+    <div class="txt">Vidya Neni transformed our website into an easy to navigate, aesthetically consistent site which functions for fundraising, recruiting and giving the public access to a lot of very detailed information about upcoming events, while also storing some organizational history in an easy to find/read format. Barebones is a collective of artists which leans toward lo-fi, analog, and manual, but we put on a very large event which requires an online presence to interact effectively with a lot of people. Our website had been built patchwork style rather than with full functionality and design in mind. We added things as we needed them and relied on some beautiful photos for any aesthetic value. Vidya's redesign reflects the values and aesthetics of the organization while taking advantage of what a website can do for an arts organization.</div>
+    <div class="from">Sangeeta Prasad - Co-Founder, In the Streets</div>
+  </div>
+</div>
+
+
 <h4>Client</h4>
 <div class="page-content-text">
 <a href="https://barebonespuppets.org/" target="_blank">BareBones Productions</a> (AKA BareBones Puppet Theatre) is a Minneapolis-based 501(c)(3) performing arts nonprofit. It operates as a collective of visual and performing artists that produce outdoor installations and spectacle performances. Its mission is, in part, "[t]o bring art into community and community into art." Correspondingly, BareBones relies largely on volunteers for its yearly operations and to produce its premiere event, the Annual Halloween Extravaganza. Its website and social media are imperative to building and sustaining this community support.
