@@ -78,7 +78,7 @@ The BareBones site was already on WordPress, and I stayed with the existing CMS 
 <ul>
 <li>Technologies used: WordPress, WP Builder Beaver Builder, HTML/CSS, Photoshop</li>
 <li>Built new pages and sections</li>
-<li>Implemented custom styles for <a href="https://barebonespuppets.org/community-calendar/" target="_blank">The Events Calendar (overriding CSS files)</li>
+<li>Implemented custom styles for <a href="https://barebonespuppets.org/community-calendar/" target="_blank">The Events Calendar</a> (overriding CSS files)</li>
 <li>Responsive testing of entire site (including testing pages in non-device specific screen sizes)</a></li>
 <li>Cross browser testing of entire site</li>
 <li>Set up mailing lists in Mailchimp and Google reCAPTCHA for subscription form</li>
