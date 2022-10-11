@@ -60,7 +60,7 @@ Below is an outline of the redesign's main elements, followed by a more in-depth
 <ul>
 <li>Created a color palette. The colors were based around the logo and rooted in the theme of BareBones premiere event - an autumn ritual honoring the cycle of life</li>
 <li>Restructured main navigation for clearer navigating experience and consistency</li>
-<li>Designed new landing pages (e.g. dedicated pages for donation, community, jobs, newsletter signup, and press)</li>
+<li>Designed new landing pages (e.g. dedicated pages for <a href="https://barebonespuppets.org/donate/" target="_blank">donation</a>, <a href="https://barebonespuppets.org/join-us/" target="_blank">community</a>, <a href="https://barebonespuppets.org/jobs/" target="_blank">jobs</a>, <a href="https://barebonespuppets.org/newsletter-signup/" target="_blank">newsletter signup</a>, and <a href="https://barebonespuppets.org/press/" target="_blank">press</a>)</li>
 <li>Incorporated CTA (call to action) prompts throughout the site, in areas targeted for various goals (e.g. donation and volunteering)</li>
 <li>Added newsletter signup prompts and CTAs throughout the site (in areas targeted for that engagement)</li>
 <li>Designed mobile and tablet size layouts for all pages</li>
@@ -110,7 +110,7 @@ Pinpointing the factors contributing to changes in web and social media engageme
 </div>
 
 <div class="page-content-text">
-There were a handful of volunteer inquiries (interest in participating in 2022) after the 2021 show. These came in during Nov-Dec 2021 and Jan 2022. In the spring and summer lead-up to the 2022 production, however, volunteer inquiries spiked significantly (many more inquiries than previous years), and they were coming into the email address listed on the new Volunteer landing page. In fall of 2022, I'll be adding Google Analytics tracking to the site, so we can begin tracking this and other conversations.  
+There were a handful of volunteer inquiries (interest in participating in 2022) after the 2021 show. These came in during Nov-Dec 2021 and Jan 2022. In the spring and summer lead-up to the 2022 production, however, volunteer inquiries spiked significantly (many more inquiries than previous years), and they were coming into the email address listed on the new <a href="https://barebonespuppets.org/volunteer/" target="_blank">Volunteer</a> landing page. In fall of 2022, I'll be adding Google Analytics tracking to the site, so we can begin tracking this and other conversations.  
 </div>
 
 <h4><i class="fa fa-heart-o" aria-hidden="true" style="color:#dd6060; font-weight:bold;"></i> It Takes a Village</h4>
