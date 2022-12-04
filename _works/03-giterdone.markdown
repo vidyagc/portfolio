@@ -27,7 +27,7 @@ Working with AngularFire was great experience, but the design of the task displa
 
 <h4>LINKS</h4>
 <div class="page-content-text">
-<a href="https://vn-giterdone.herokuapp.com/" target="_blank">Live App</a>&nbsp;&nbsp;<span style="font-variant:small-caps">please read <span style="color:#ec8013"><b>testing</b></span> below before trying app</span><br>
+<a href="https://vn-giterdone.herokuapp.com/" target="_blank">Live App</a>&nbsp;&nbsp;<span style="font-variant:small-caps">(temporarily not available)</span><br>
 <a href="https://github.com/vidyagc/giterdone" target="_blank">GitHub Repo</a>
 </div>
 
