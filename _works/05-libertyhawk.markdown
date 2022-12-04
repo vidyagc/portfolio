@@ -35,7 +35,7 @@ Creating a Ruby on Rails app with a RESTful API was interesting. Constructing re
 
 <h4>LINK</h4>
 <div class="page-content-text">
-<a href="https://libertyhawk.herokuapp.com/" target="_blank">Live App</a>&nbsp;&nbsp;<span style="font-variant:small-caps">please read <span style="color:#ec8013"><b>testing</b></span> below before trying app</span><br>
+<a href="https://libertyhawk.herokuapp.com/" target="_blank">Live App</a>&nbsp;&nbsp;<span style="font-variant:small-caps"> (temporarily not available)
 <a href="https://github.com/vidyagc/libertyhawk" target="_blank">GitHub Repo</a>
 </div>
 
