@@ -27,7 +27,7 @@ Collaborative and educational software is of particular interest to me. It goes 
 
 <h4>LINKS</h4>
 <div class="page-content-text">
-<a href="https://vn-wikit.herokuapp.com/" target="_blank">Live App</a>&nbsp;&nbsp;<span style="font-variant:small-caps"> (temporarily not available)
+<a href="https://vn-wikit.herokuapp.com/" target="_blank">Live App</a>&nbsp;&nbsp;<span style="font-variant:small-caps"> (temporarily not available)</span>
 <a href="https://github.com/vidyagc/wikit" target="_blank">GitHub Repo</a>
 </div>
 
