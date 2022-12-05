@@ -27,7 +27,7 @@ Working with AngularFire was great experience, but the design of the task displa
 
 <h4>LINKS</h4>
 <div class="page-content-text">
-<a href="https://vn-giterdone.herokuapp.com/" target="_blank">Live App</a>:&nbsp;&nbsp;<span > the live app is no longer available. It was an academic assignment from 2017, and no longer being maintained for security updates. Please refer, however, to this case study for an understanding of the work performed.</span><br>
+<a href="https://vn-giterdone.herokuapp.com/" target="_blank">Live App</a> - the live app is no longer available. It was an academic assignment from 2017, and no longer being maintained for security updates. Please refer, however, to this case study for an understanding of the work performed.<br>
 <a href="https://github.com/vidyagc/giterdone" target="_blank">GitHub Repo</a>
 </div>
 

@@ -27,7 +27,7 @@ Collaborative and educational software is of particular interest to me. It goes 
 
 <h4>LINKS</h4>
 <div class="page-content-text">
-<a href="https://vn-wikit.herokuapp.com/" target="_blank">Live App</a>:&nbsp;&nbsp;<span> the live app is no longer available. It was an academic assignment from 2017, and no longer being maintained for security updates. Please refer, however, to this case study for an understanding of the work performed.</span><br>
+<a href="https://vn-wikit.herokuapp.com/" target="_blank">Live App</a> - the live app is no longer available. It was an academic assignment from 2017, and no longer being maintained for security updates. Please refer, however, to this case study for an understanding of the work performed.<br>
 <a href="https://github.com/vidyagc/wikit" target="_blank">GitHub Repo</a>
 </div>
 
