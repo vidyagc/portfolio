@@ -234,6 +234,7 @@ It was preferable to have something more engaging than just text, and I decided 
 
 <div class="page-content-text">
 After showing the site (pre-launch) to an associate who is a professional web designer, however, she had some great suggestions for this section. She, Erika, mocked up the three box layout with the button and icons inside the boxes. Additionally, she said to make it via code vs an image, so that it would be responsive and accessible (readable by assistive technology). Her rough mockup included the other site colors (blue, brown, and yellow) for the boxes. This was a great touch to tie together the overall look of the homepage. I made a couple changes as far as the order of the colors, and updating the icons to "pop" more on the new backgrounds. Then, I created the infographic with custom code.
+</div>
 
 <div class="row">
     <div class="col-md-12">
@@ -243,6 +244,7 @@ After showing the site (pre-launch) to an associate who is a professional web de
     </div>
 </div>
 
+<div class="page-content-text">
 Erika and I had a related (brief) discussion about the need to adapt the diagram images on the <a href="https://www.inthestreets.org/theory-of-change" target="_blank">Theory page</a> to also be more web-friendly, but due to time constraints, I have not yet been able to consider updates for those.    
 </div>  
 
