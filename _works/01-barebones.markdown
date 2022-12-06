@@ -48,7 +48,7 @@ Below is an outline of the redesign's main elements, followed by a more in-depth
 <li>Generated a sitemap (a list of all the pages on the site and how they relate to each other)</li>
 <li>Defined site goals: what are the business objectives we want to achieve with the site?</li>
 <li>Identified target audiences, based on audience values and interests</li>
-<li>Wrote content for new sections, sourced new images for the entire site, and curated videos content</li>
+<li>Wrote content for new sections, sourced new images for the entire site, and curated video content</li>
 <li>Identified content cycle - off show and during show season messaging, and when each needed to be applied</li>
 <li>Created mailing lists for volunteer interest and general newsletter</li>
 <li>Created content for individual Page SEO settings (meta, Open Graph, and Twitter title and description and images for each page)</li>
