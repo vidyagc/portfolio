@@ -110,7 +110,7 @@ Pinpointing the factors contributing to changes in web and social media engageme
 </div>
 
 <div class="page-content-text">
-There were a handful of volunteer inquiries (interest in participating in 2022) after the 2021 show. These came in during Nov-Dec 2021 and Jan 2022. In the spring and summer lead-up to the 2022 production, however, volunteer inquiries spiked significantly (many more inquiries than previous years), and they were coming into the email address listed on the new <a href="https://barebonespuppets.org/volunteer/" target="_blank">Volunteer</a> landing page. In fall of 2022, I'll be adding Google Analytics tracking to the site, so we can begin tracking this and other conversations.  
+There were a handful of volunteer inquiries (interest in participating in 2022) after the 2021 show. These came in during Nov-Dec 2021 and Jan 2022. In the spring and summer lead-up to the 2022 production, however, volunteer inquiries spiked significantly (many more inquiries than previous years), and they were coming into the email address listed on the new <a href="https://barebonespuppets.org/volunteer/" target="_blank">Volunteer</a> landing page. In fall of 2022, I'll be adding Google Analytics tracking to the site, so we can begin tracking this and other conversions.  
 </div>
 
 <h4><i class="fa fa-heart-o" aria-hidden="true" style="color:#dd6060; font-weight:bold;"></i> It Takes a Village</h4>
