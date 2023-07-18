@@ -73,7 +73,7 @@ address:
   - line:
 
 # Copyright content
-copyright: '2022 Vidya Neni'
+copyright: '2023 Vidya Neni'
 
 # Build settings
 markdown: kramdown
