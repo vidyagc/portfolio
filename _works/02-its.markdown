@@ -29,7 +29,7 @@ description: new website launch for In the Streets
 
 <h4>Services Provided</h4>
 <div class="page-content-text">
-<em style="color:red">NOTE:</em> In the Streets has undergone organizational change, and as such, the website is being redeveloped (by a party other than myself). All the links in this post no longer point to the website as I had created it. These links will be removed when this article is updated in early 2024. Screenshots of the site as I had made it may be added in their place.  
+<strong style="color:red">NOTE:</strong> In the Streets has undergone organizational change, and as such, the website is being redeveloped (by a party other than myself). All the links in this post no longer point to the website as I had created it. These links will be removed when this article is updated in early 2024. Screenshots of the site as I had made it may be added in their place.  
 </div>
 
 <div class="page-content-text">
