@@ -29,7 +29,11 @@ description: new website launch for In the Streets
 
 <h4>Services Provided</h4>
 <div class="page-content-text">
-I became Web Administrator for In the Streets (<a href="https://www.inthestreets.org/" target="_blank">inthestreets.org/</a>) in June, 2021. I provided content strategy, web design, and web development services to launch a new site. In the summer of 2021, In the Streets was just getting off the ground and preparing for its first fundraising push in the fall (grants applications and private donations). This push was timed with a Washington Post Local Perspectives article on the organization. They wanted to have the new site ready to show their work and call for donations by the time the article came out. This proved to be the right approach as traffic to the site, and consequently donations, saw a huge spike after the Post article was published.  
+<em style="color:red">NOTE:</em> In the Streets has undergone organizational change, and as such, the website is being redeveloped (by a party other than myself). All the links in this post no longer point to the website as I had created it. These links will be removed when this article is updated in early 2024. Screenshots of the site as I had made it may be added in their place.  
+</div>
+
+<div class="page-content-text">
+I became Web Administrator for In the Streets (<a href="https://www.inthestreets.org/" target="_blank">inthestreets.org/</a>) in June, 2021. I provided content strategy, web design, and web development services to launch a new site. In the summer of 2021, In the Streets was just getting off the ground and preparing for its first fundraising push in the fall (grants applications and private donations). This push was timed with a Washington Post Local Perspectives article on the organization. They wanted to have the new site ready to show their work and call for donations by the time the article came out. This proved to be the right approach as traffic to the site, and consequently donations, saw a huge spike after the Post article was published.
 </div>   
 
 <h4>Services Outline</h4>
